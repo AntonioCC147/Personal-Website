@@ -6,6 +6,12 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import './header.css';
 
 export default function NavbarHeader() {
+    const currentPath = window.location.pathname;
+
+    const isCurrentPage = (path) => {
+        return currentPath === path ? 'bold-text' : 'nav-text';
+    };
+
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="header-text">
             <Container>
@@ -13,26 +19,30 @@ export default function NavbarHeader() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
-                    <Nav.Link href="/despremine">Despre mine</Nav.Link>
+                    <Nav.Link href="/" className={isCurrentPage('/')}>Acasă</Nav.Link>
 
-                    <NavDropdown title="Algoritmi" id="collasible-nav-dropdown">
-                        <NavDropdown.Item href="/clasaix">Clasa a IX-a</NavDropdown.Item>
-                        <NavDropdown.Item href="/clasax">Clasa a X-a</NavDropdown.Item>
-                        <NavDropdown.Item href="/clasaxi">Clasa a XI-a</NavDropdown.Item>
+                    <Nav.Link href="/despremine" className={isCurrentPage('/despremine')}>Despre mine</Nav.Link>
+
+                    <Nav.Link href="/portofoliu" className={isCurrentPage('/portofoliu')}>Portofoliu</Nav.Link>
+
+                    <Nav.Link href="/meditatii" className={isCurrentPage('/meditatii')}>Meditații</Nav.Link>
+
+                    <Nav.Link href="/atestat" className={isCurrentPage('/atestat')}>Atestate</Nav.Link>
+
+                    <NavDropdown className="colorForDropdown" title="Informatică" id="collasible-nav-dropdown">
+                        <NavDropdown.Item href="/clasaix" className={isCurrentPage('/clasaix')}>Clasa a IX-a</NavDropdown.Item>
+                        <NavDropdown.Item href="/clasax" className={isCurrentPage('/clasax')}>Clasa a X-a</NavDropdown.Item>
+                        <NavDropdown.Item href="/clasaxi" className={isCurrentPage('/clasaxi')}>Clasa a XI-a</NavDropdown.Item>
 
                         <NavDropdown.Divider />
 
-                        <NavDropdown.Item href="/atestat">Atestat</NavDropdown.Item>
+                        <NavDropdown.Item href="/atestat" className={isCurrentPage('/atestat')}>Atestat</NavDropdown.Item>
                     </NavDropdown>
 
-                    <Nav.Link href="/meditatii">Meditații</Nav.Link>
-
-                    <Nav.Link href="/portofoliu">Portofoliu</Nav.Link>
-
-                    <Nav.Link href="/compileaza">Compilează</Nav.Link>
+                    <Nav.Link href="/compileaza" className={isCurrentPage('/compileaza')}>Compilează</Nav.Link>
                 </Nav>
                 <Nav>
-                    <Nav.Link href="/contact">Contactează-mă</Nav.Link>
+                    <Nav.Link href="/contact" className={isCurrentPage('/contact')}>Contactează-mă</Nav.Link>
                     <Nav.Link eventKey={2} href="/admin">Admin</Nav.Link>
                 </Nav>
                 </Navbar.Collapse>

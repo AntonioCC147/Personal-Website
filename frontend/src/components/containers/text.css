@@ -1,0 +1,15 @@
+.principalTitle {
+    padding: 30px;
+
+    text-align: justify;
+
+    font-family: 'Consolas';
+    font-size: 32px;
+    font-weight: bold;
+
+    color: white;
+}
+
+.justText {
+    background-color: red;
+}

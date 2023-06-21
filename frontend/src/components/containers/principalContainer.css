@@ -1,0 +1,19 @@
+.principalContainer {
+    margin: 30px;
+    padding: 10px;
+
+    text-align: justify;
+
+    font-family: 'Consolas';
+    font-size: 16px;
+    font-weight: 500;
+
+    border-radius: 20px 0px 20px 0px;
+
+    background-color: #292a2ce6;
+}
+
+.hr {
+    border-top: 3px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}

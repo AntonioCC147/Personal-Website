@@ -1,3 +1,7 @@
+.colorForDropdown > .dropdown-toggle {
+    color: white;
+}
+
 .header-img {
     position: relative; /*absolute daca as vr sa stea sus nav-ul*/
     text-align: center;
@@ -18,4 +22,14 @@
     margin-bottom: 1%;
 
     color: #ffffff8c;
+}
+
+.bold-text {
+    font-weight: bold !important;
+    color: #ffffff !important;
+}
+
+.nav-text {
+    font-weight: 400 !important;
+    color: #ffffff !important;
 }

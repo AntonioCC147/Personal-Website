@@ -1,4 +1,4 @@
-import './codeBox.css';
+import '../Boxes/codeBox.css';
 
 export default function CodeBox(props) {
     const code = props.code;

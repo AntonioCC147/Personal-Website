@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import InfoBox from '../../components/infoBox/infoBox';
+import InfoBox from '../../components/Boxes/infoBox';
 
 import './home.css';
 
