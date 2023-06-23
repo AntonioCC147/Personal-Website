@@ -2,25 +2,27 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import './despreMine.css';
 import '../../components/containers/text.css';
 import '../../components/containers/principalContainer.css';
+
+import MePhoto from '../../assets/photos/MePhoto.jpg';
 
 export default function DespreMine() {
     return (
         <Container className="principalContainer text-center">
             <div className="principalTitle">
                 Despre mine
-                
             </div>
             <hr className="hr"/>
             <Row>
-                <Col sm="6">
-                    a
+                <Col sm="4">
+                    <img src={MePhoto} className="img-setUp" alt="MePhoto"/>
                 </Col>
-                <Col sm="6">
+                <Col sm="8">
                     <Row>
                         <Col>
-                            POZA
+                            
                         </Col>
                     </Row>
                     <Row >

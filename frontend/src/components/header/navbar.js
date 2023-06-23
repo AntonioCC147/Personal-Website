@@ -15,7 +15,7 @@ export default function NavbarHeader() {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="header-text">
             <Container>
-                <Navbar.Brand href="/">LOGO</Navbar.Brand>
+                <Navbar.Brand>LOGO</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">

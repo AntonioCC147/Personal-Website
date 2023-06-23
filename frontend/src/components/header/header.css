@@ -3,7 +3,6 @@
 }
 
 .header-img {
-    position: relative; /*absolute daca as vr sa stea sus nav-ul*/
     text-align: center;
 
     width: 100%;
@@ -18,7 +17,6 @@
 
 .header-text {
     position: absolute;
-
     margin-bottom: 1%;
 
     color: #ffffff8c;

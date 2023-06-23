@@ -1,19 +1,20 @@
 import React from "react";
-
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from "mdb-react-ui-kit";
 import { SocialIcon } from "react-social-icons";
 
+import './footer.css';
+
 export default function App() {
     return (
-        <MDBFooter bgColor="dark" className="text-center text-lg-start text-muted">
-            <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-                <div className="me-5 d-none d-lg-block">
-                    <span>Get connected with us on social networks:</span>
+        <MDBFooter bgColor="dark" className="text-center text-lg-start text-muted" style={{marginTop: "20px"}}>
+            <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom" style={{alignItems: "center", verticalAlign: "center"}}>
+                <div>
+                    Get connected with us on social networks:
                 </div>
                 <div>
-                    <SocialIcon url="https://jaketrent.com" network="github" bgColor="#ffffff" style={{width: "40px", height: "40px"}}/>{" "}
-                    <SocialIcon url="https://jaketrent.com" network="instagram" style={{width: "40px", height: "40px"}}/>{" "}
-                    <SocialIcon url="https://jaketrent.com" network="facebook" style={{width: "40px", height: "40px"}}/>
+                    <SocialIcon url="https://github.com/AntonioCC147" target="_blank" network="github" bgColor="#ffffff" style={{width: "40px", height: "40px"}}/>{" "}
+                    <SocialIcon url="https://www.instagram.com/antoniocc147" target="_blank" network="instagram" style={{width: "40px", height: "40px"}}/>{" "}
+                    <SocialIcon url="https://www.facebook.com/antoniocc147" target="_blank" network="facebook" style={{width: "40px", height: "40px"}}/>
                 </div>
             </section>
 
@@ -62,23 +63,20 @@ export default function App() {
                         <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
                             <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
                             <p>
-                                <MDBIcon icon="home" className="me-2" />
-                                New York, NY 10012, US
+                                <MDBIcon icon="home" className="mb-4" />
+                                <span className="fw-bold">Discord:</span> thetommy
                             </p>
                             <p>
-                                <MDBIcon icon="envelope" className="me-3" />
-                                info@example.com
+                                <MDBIcon icon="envelope" className="mb-4" />
+                                <span className="fw-bold">Mail:</span> thet0mmy1407@gmail.com
                             </p>
                         </MDBCol>
                     </MDBRow>
                 </MDBContainer>
             </section>
 
-            <div className="text-center p-4" style={{ backgroundColor: "#0000000d" }}>
-                {new Date().getFullYear()} Copyright:
-                <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
-                    MDBootstrap.com
-                </a>
+            <div className="text-center p-4 fw-bold" style={{ backgroundColor: "#0000000d" }}>
+                © {new Date().getFullYear()} Copyright | Crantea Antonio-Cristian, student la "Facultatea de Automatică și Calculatoare"
             </div>
         </MDBFooter>
     );
