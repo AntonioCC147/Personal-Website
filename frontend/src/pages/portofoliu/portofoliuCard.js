@@ -1,8 +1,7 @@
-import React from 'react';
-
 import { useState } from 'react';
-import Modal from 'react-bootstrap/Modal';
 
+import Modal from 'react-bootstrap/Modal';
+import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
@@ -12,7 +11,7 @@ function verifyLinkToProject(linkToProject) {
 }
 
 export default function PortofoliuCard(props) {
-    const { linkToProject, img, title, description, technology, git, adress } = props;
+    const { linkToProject, img, img1, img2, img3, title, description, technology, git, adress } = props;
 
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
@@ -22,16 +21,25 @@ export default function PortofoliuCard(props) {
         <>
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
-                <Modal.Title>Modal heading</Modal.Title>
+                    <Modal.Title>Imagini</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>Woohoo, you are reading this text in a modal!</Modal.Body>
+                <Modal.Body>
+                    <Carousel slide={false}>
+                        <Carousel.Item>
+                            <img className="d-block w-100" src={img1} alt="First slide"/>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img className="d-block w-100" src={img2} alt="Second slide"/>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img className="d-block w-100" src={img3} alt="Third slide"/>
+                        </Carousel.Item>
+                    </Carousel>
+                </Modal.Body>
                 <Modal.Footer>
-                <Button variant="secondary" onClick={handleClose}>
-                    Close
-                </Button>
-                <Button variant="primary" onClick={handleClose}>
-                    Save Changes
-                </Button>
+                    <Button variant="secondary" onClick={handleClose}>
+                        Închide
+                    </Button>
                 </Modal.Footer>
             </Modal>
 

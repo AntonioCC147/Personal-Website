@@ -8,7 +8,9 @@ export default function Home() {
     return (
         <Container>
             <Row>
-                
+                <Col>
+                    Va urma...
+                </Col>
             </Row>
         </Container>
     )

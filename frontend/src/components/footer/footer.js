@@ -2,8 +2,6 @@ import React from "react";
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from "mdb-react-ui-kit";
 import { SocialIcon } from "react-social-icons";
 
-import './footer.css';
-
 export default function App() {
     return (
         <MDBFooter bgColor="dark" className="text-center text-lg-start text-muted" style={{marginTop: "20px"}}>
@@ -26,11 +24,10 @@ export default function App() {
                         <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
                             <h6 className="text-uppercase fw-bold mb-4">
                                 <MDBIcon icon="gem"/>
-                                Company name
+                                Despre site
                             </h6>
                             <p>
-                                Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit.
+                                Site-ul își propune prezentarea a cât mai multor detalii referitoare la munca mea în domeniul IT.
                             </p>
                         </MDBCol>
 
