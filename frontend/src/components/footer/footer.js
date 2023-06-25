@@ -9,10 +9,12 @@ export default function App() {
         <MDBFooter bgColor="dark" className="text-center text-lg-start text-muted" style={{marginTop: "20px"}}>
             <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom" style={{alignItems: "center", verticalAlign: "center"}}>
                 <div>
-                    Get connected with us on social networks:
+                    Conectează-mă prin rețelele de socializare disponibile:
                 </div>
                 <div>
                     <SocialIcon url="https://github.com/AntonioCC147" target="_blank" network="github" bgColor="#ffffff" style={{width: "40px", height: "40px"}}/>{" "}
+                    <SocialIcon url="https://discord.com/users/265854349362724864" target="_blank" network="discord" style={{width: "40px", height: "40px"}}/>{" "}
+                    <SocialIcon url="https://www.linkedin.com/in/antonio-crantea/" target="_blank" network="linkedin" style={{width: "40px", height: "40px"}}/>{" "}
                     <SocialIcon url="https://www.instagram.com/antoniocc147" target="_blank" network="instagram" style={{width: "40px", height: "40px"}}/>{" "}
                     <SocialIcon url="https://www.facebook.com/antoniocc147" target="_blank" network="facebook" style={{width: "40px", height: "40px"}}/>
                 </div>
@@ -23,7 +25,7 @@ export default function App() {
                     <MDBRow className="mt-3">
                         <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
                             <h6 className="text-uppercase fw-bold mb-4">
-                                <MDBIcon icon="gem" className="me-3" />
+                                <MDBIcon icon="gem"/>
                                 Company name
                             </h6>
                             <p>
