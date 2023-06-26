@@ -2,16 +2,35 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import Button from 'react-bootstrap/esm/Button';
+
 import './home.css';
 
 export default function Home() {
     return (
-        <Container>
-            <Row>
-                <Col>
-                    Va urma...
-                </Col>
-            </Row>
-        </Container>
+        <>
+            <div className="principalImg text-center">
+                <Container className="homeContainer">
+                    <Row>
+                        <Col>
+                                <p className="name">Antonio-Cristian Crantea</p>
+                                <p className="studied">Automatic Control & Computer Science</p>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <Button variant="secondary" href="/despremine">Află mai multe</Button>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
+            <Container>
+                <Row>
+                    <Col>
+                        Text
+                    </Col>
+                </Row>
+            </Container>
+        </>
     )
 }

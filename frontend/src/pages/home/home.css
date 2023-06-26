@@ -1,3 +1,33 @@
-.paragraph {
-    color: red;
+.principalImg {
+    height: 100vh;
+
+    background-image: url("../../assets/photos/PrincipalImg.jpg");
+    background-repeat: no-repeat;
+    background-position: 60% 30%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.homeContainer {
+    height: 80vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+
+    color: black;
+}
+
+.studied {
+    font-size: 40px;
+    font-weight: 300;
+
+    color: black;
 }
