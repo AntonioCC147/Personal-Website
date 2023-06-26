@@ -18,7 +18,7 @@ export default function Skills() {
                 <Col sm={4}>
                     <div className="skillsContainer">
                         <img src={ReactIcon} style={{marginTop: "10px", width: "25%"}} alt="React"/>
-                        <p className="skillsTitle">React</p>
+                        <p className="skillsTitle">React & JavaScript</p>
                         <p className="skillsDescription">
                             Aceasta este o descriere ampla a reactului. Nu stiu ce ar trebui sa scriu, dar voi scrie ceva aici
                             si dupa asta va fi foarte bine ca am scris.
@@ -38,7 +38,7 @@ export default function Skills() {
                 <Col sm={4}>
                     <div className="skillsContainer">
                         <img src={CppIcon} style={{marginTop: "10px", width: "22%"}} alt="React"/>
-                        <p className="skillsTitle">C / C++</p>
+                        <p className="skillsTitle">C & C++</p>
                         <p className="skillsDescription">
                             Aceasta este o descriere ampla a reactului. Nu stiu ce ar trebui sa scriu, dar voi scrie ceva aici
                             si dupa asta va fi foarte bine ca am scris.

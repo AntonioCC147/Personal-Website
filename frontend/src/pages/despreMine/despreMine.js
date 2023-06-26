@@ -12,7 +12,7 @@ import '../../components/containers/principalContainer.css';
 export default function DespreMine() {
     return (
         <>
-            <Container className="principalContainer text-center">
+            <Container className="bg-dark principalContainer text-center">
                 <div className="principalTitle">
                     Despre mine
                 </div>

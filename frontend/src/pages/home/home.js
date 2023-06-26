@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/esm/Button';
 
 import Skills from '../../components/home/skills';
+import Parcurs from '../../components/home/parcurs';
 
 import './home.css';
 import '../../components/containers/text.css';
@@ -27,25 +28,15 @@ export default function Home() {
                 </Container>
             </div>
 
-            <Container>
-                <Row>
-                    <Col>
-                        <Skills/>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        <p className="title">Parcursul meu</p>
-                        <p className="subTitle">Subtitlu</p>
-                    </Col>
-                </Row>
+            <Skills/>
+            <Parcurs/>
+            
                 <Row>
                     <Col>
                         <p className="title">CV Insta Salvate</p>
                         <p className="subTitle">Subtitlu</p>
                     </Col>
                 </Row>
-            </Container>
         </>
     )
 }

@@ -40,7 +40,7 @@ export default function Portofoliu() {
                         title={<>Chemistry App - Web App</>}
                         description={<>Proiect a fost realizat la "Sesiunea de Comunicări Științifice" și reprezintă o
                         aplicație pentru laboratoarele de chimie.</>}
-                        technology={<>React, JavaScript, HTML, CSS</>}
+                        technology={<>React, JavaScript, HTML, Bootstrap, CSS</>}
                         git="https://github.com/AntonioCC147/Chemistry-App" adress="https://acs-chemistry-app.netlify.app/"
                     />
                 </Col>
@@ -51,7 +51,7 @@ export default function Portofoliu() {
                         title={<>Proba Tehnică IT - Web App</>}
                         description={<>Proiectul pe care a trebuit să-l realizez drept probă de intrare în cadrul
                         "Departamentului de IT - LSAC".</>}
-                        technology={<>React, JavaScript, HTML, CSS</>}
+                        technology={<>React, JavaScript, HTML, Bootstrap, CSS</>}
                         git="https://github.com/AntonioCC147/Proba-Tehnica-IT" adress="https://proba-meme-it.netlify.app/"
                     />
                 </Col>
@@ -62,7 +62,7 @@ export default function Portofoliu() {
                         title={<>Website Configuration - Web App</>}
                         description={<>Proiect realizat pentru a oferi o configurație promptă celor care doresc să realizeze
                         propriul website, cu câteva exemple și componente ajutătoare.</>}
-                        technology={<>React, JavaScript, HTML, CSS</>}
+                        technology={<>React, JavaScript, HTML, Bootstrap, CSS</>}
                         git="https://github.com/AntonioCC147/Website-Setup-Configuration" adress="https://website-setup-configuration.netlify.app/"
                     />
                 </Col>
@@ -75,7 +75,7 @@ export default function Portofoliu() {
                         title={<>Mental Health - Web App</>}
                         description={<>Proiect realizat în cadrul primei ediții a Hackathon-ului organizat de către
                         "Departamentul de IT - LSAC".</>}
-                        technology={<>Next.JS, JavaScript, HTML, CSS</>}
+                        technology={<>Next.JS, JavaScript, HTML, Bootstrap, CSS</>}
                         git="/" adress="/despremine"
                     />
                 </Col>
