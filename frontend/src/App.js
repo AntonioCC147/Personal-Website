@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import 'typeface-roboto';
 
 import Header from './components/header/header';
 
@@ -13,14 +14,13 @@ import Meditatii from "./pages/meditatii/meditatii";
 import Portofoliu from "./pages/portofoliu/portofoliu";
 import Compileaza from "./pages/compileaza/compileaza";
 import Contact from "./pages/contact/contact";
-
 import Footer from './components/footer/footer';
 
 import './App.css';
 
 function App() {
     return (
-        <div className="background">
+        <div className="background" style={{fontFamily: "Sans-Serif"}}>
             <Header/>
             <Router>
                 <Routes>

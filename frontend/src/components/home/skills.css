@@ -1,0 +1,21 @@
+.skillsContainer {
+    border-style: groove;
+    border-width: 2px;
+    border-color: rgb(31, 30, 30);
+
+    height: auto;
+}
+
+.skillsTitle {
+    padding-top: 10px;
+
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.skillsDescription{
+    margin: 0% 5% 5% 5%;
+
+    text-align: justify;
+    font-size: 18px;
+}

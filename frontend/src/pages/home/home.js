@@ -1,10 +1,12 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
 import Button from 'react-bootstrap/esm/Button';
 
+import Skills from '../../components/home/skills';
+
 import './home.css';
+import '../../components/containers/text.css';
 
 export default function Home() {
     return (
@@ -13,8 +15,8 @@ export default function Home() {
                 <Container className="homeContainer">
                     <Row>
                         <Col>
-                                <p className="name">{`<`}Antonio-Cristian Crantea{`/>`}</p>
-                                <p className="studied">Automatic Control & Computer Science</p>
+                            <p className="name">{`<`}Antonio-Cristian Crantea{`/>`}</p>
+                            <p className="studied">Automatic Control & Computer Science</p>
                         </Col>
                     </Row>
                     <Row>
@@ -24,15 +26,23 @@ export default function Home() {
                     </Row>
                 </Container>
             </div>
+
             <Container>
                 <Row>
                     <Col>
-                        FAQ - Sa mut la Despre mine?
+                        <Skills/>
                     </Col>
                 </Row>
                 <Row>
                     <Col>
-                        CV Insta Salvate
+                        <p className="title">Parcursul meu</p>
+                        <p className="subTitle">Subtitlu</p>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <p className="title">CV Insta Salvate</p>
+                        <p className="subTitle">Subtitlu</p>
                     </Col>
                 </Row>
             </Container>

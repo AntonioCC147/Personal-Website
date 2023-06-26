@@ -6,6 +6,7 @@ import plus from '../../assets/faq/Plus.png';
 import minus from '../../assets/faq/Minus.png';
 
 import FAQS from './faqData.json';
+import '../../components/containers/text.css';
 import './faq.css';
 
 function ContextAwareToggle({ children, eventKey, callback }) {
@@ -35,7 +36,7 @@ function ContextAwareToggle({ children, eventKey, callback }) {
 export default function FAQ() {
     return (
         <div className='m-auto faq-container'>
-            TITLU
+            <p className="title">FAQ</p>
             <Accordion flush>
                 {FAQS.map((faq, index) => {
                     return (

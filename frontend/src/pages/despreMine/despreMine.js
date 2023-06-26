@@ -2,13 +2,12 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import MePhoto from '../../assets/photos/MePhoto.jpg';
+import FAQ from '../../components/faq/faq';
+
 import './despreMine.css';
 import '../../components/containers/text.css';
 import '../../components/containers/principalContainer.css';
-
-import MePhoto from '../../assets/photos/MePhoto.jpg';
-
-import FAQ from '../../components/faq/faq';
 
 export default function DespreMine() {
     return (
@@ -30,7 +29,7 @@ export default function DespreMine() {
                         </Row>
                         <Row >
                             <Col>
-                                TEXT
+                                A
                             </Col>
                         </Row>
                         <Row >
