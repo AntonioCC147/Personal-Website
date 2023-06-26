@@ -31,7 +31,7 @@ import ProiectLitere from '../../assets/projects/ProiectLitere.jpg';
 
 export default function Portofoliu() {
     return (
-        <Container>
+        <Container style={{marginTop: "30px"}}>
             <Row>
                 <Col>
                     <PortofoliuCard

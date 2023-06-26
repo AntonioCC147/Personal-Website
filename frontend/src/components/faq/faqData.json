@@ -1,0 +1,30 @@
+[
+    {
+      "question": "Când vor fi preliminariile și unde se vor ține acestea?",
+      "response": "Preliminariile vor avea loc în perioada 12 - 16 aprilie și se vor ține online pe acest site."
+    },
+    {
+      "question": "Cum se desfășoară preliminariile?",
+      "response": "Participanții vor avea la dispoziție 3 minute pentru a răspunde unui număr de 3 întrebări."
+    },
+    {
+      "question": "Cum se face departajarea la preliminarii?",
+      "response": "Fiecare răspuns va avea asociat un punctaj în funcție de popularitatea pe care acesta a avut-o în momentul realizării sondajelor. Clasamentul se va face pe baza punctelor însumate obținute. În cazul în care vor exista echipe cu punctaje egale, se va lua în considerare și timpul de răspuns."
+    },
+    {
+      "question": "Mă pot înscrie singur sau doar cu o echipă?",
+      "response": "Aveți posibilitatea de a vă înscrie atât în echipe de câte trei participanți, cât și individual, caz în care veți fi repartizați ulterior într-o echipă formată de către organizatori."
+    },
+    {
+      "question": "Pot participa dacă nu sunt de la Facultatea de Automatică și Calculatoare?",
+      "response": "Din păcate, nu. Pot participa doar studenții de la Facultatea de Automatică și Calculatoare."
+    },
+    {
+      "question": "La cine pot apela în cazul în care apar probleme?",
+      "response": "Participanții pot apela la membrii echipei de organizare, cât și la voluntarii prezenți în timpul competiției."
+    },
+    {
+      "question": "Când începe evenimentul și cât durează? Unde va avea loc?",
+      "response": "Evenimentul se va desfășura în corp EC al Facultății de Automatică și Calculatoare, în data de 23 aprilie, începând cu ora 11:00. Durata sa ulterioară va fi influențată de evoluția în concurs pe care o va avea fiecare echipă."
+    }
+]

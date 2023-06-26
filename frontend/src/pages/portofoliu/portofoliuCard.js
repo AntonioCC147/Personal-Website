@@ -56,7 +56,7 @@ export default function PortofoliuCard(props) {
                             <Button variant="secondary" href={git} target="_blank">GitHub</Button>
                             {verifyLinkToProject(linkToProject) ? (
                                 <Button className="btn btn-danger" href={adress} target="_blank">
-                                Link to Project
+                                    Link to Project
                                 </Button>
                             ) : (
                                 null

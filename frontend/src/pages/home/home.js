@@ -13,7 +13,7 @@ export default function Home() {
                 <Container className="homeContainer">
                     <Row>
                         <Col>
-                                <p className="name">Antonio-Cristian Crantea</p>
+                                <p className="name">{`<`}Antonio-Cristian Crantea{`/>`}</p>
                                 <p className="studied">Automatic Control & Computer Science</p>
                         </Col>
                     </Row>
@@ -27,7 +27,12 @@ export default function Home() {
             <Container>
                 <Row>
                     <Col>
-                        Text
+                        FAQ - Sa mut la Despre mine?
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        CV Insta Salvate
                     </Col>
                 </Row>
             </Container>
