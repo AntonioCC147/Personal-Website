@@ -20,7 +20,7 @@ export default function ParcursText(props) {
                     </div>
                 </Col>
                 <Col sm={4} >
-                    <Image src={MePhoto} style={{width: "150px", height: "150px"}} roundedCircle/>
+                    <Image src={MePhoto} style={{width: "150px", height: "150px"}} className="imgParcurs" roundedCircle/>
                 </Col>
                 <Col sm={4}/>
             </Row>
@@ -30,7 +30,7 @@ export default function ParcursText(props) {
             <Row>
                 <Col sm={4}/>
                 <Col sm={4} >
-                    <Image src={MePhoto} style={{width: "150px", height: "150px"}} roundedCircle/>
+                    <Image src={MePhoto} style={{width: "150px", height: "150px"}} className="imgParcurs" roundedCircle/>
                 </Col>
                 <Col sm={4}>
                     <div className="rightText">

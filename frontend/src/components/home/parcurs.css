@@ -1,9 +1,15 @@
+.imgParcurs {
+    border: 5px solid gray !important;
+}
+
 .rightText {
     text-align: left;
+    margin-right: 30px;
 }
 
 .leftText {
     text-align: right;
+    margin-left: 30px;
 }
 
 .titleParcurs {

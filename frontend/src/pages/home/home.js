@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/esm/Button';
 
 import Skills from '../../components/home/skills';
 import ParcursMain from '../../components/home/parcursMain';
+import CV from '../../components/home/cv';
 
 import './home.css';
 import '../../components/containers/text.css';
@@ -12,7 +13,7 @@ import '../../components/containers/text.css';
 export default function Home() {
     return (
         <>
-            <div className="principalImg text-center">
+            <Container className="principalImg text-center">
                 <div className="homeContainer">
                     <Row>
                         <Col>
@@ -26,17 +27,12 @@ export default function Home() {
                         </Col>
                     </Row>
                 </div>
-            </div>
+            </Container>
 
             <Skills/>
             <ParcursMain/>
-            
-                <Row>
-                    <Col>
-                        <p className="title">CV Insta Salvate</p>
-                        <p className="subTitle">Subtitlu</p>
-                    </Col>
-                </Row>
+            <CV/>
+                
         </>
     )
 }
