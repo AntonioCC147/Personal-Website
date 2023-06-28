@@ -1,7 +1,38 @@
 .rightText {
-    text-align: right;
+    text-align: left;
 }
 
 .leftText {
-    text-align: left;
+    text-align: right;
+}
+
+.titleParcurs {
+    padding: 0px 0px 10px 10px;
+
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.periodParcurs {
+    padding: 0px 0px 10px 10px;
+
+    font-size: 16px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.descriptionParcurs {
+    padding: 0px 0px 10px 10px;
+
+    font-size: 14px;
+}
+
+.verticalLine {
+    position: relative;
+    left: 50%;
+
+    height: 100px;
+    width: 10px;
+
+    border-left: 6px solid gray;
 }

@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/esm/Button';
 
 import Skills from '../../components/home/skills';
-import Parcurs from '../../components/home/parcurs';
+import ParcursMain from '../../components/home/parcursMain';
 
 import './home.css';
 import '../../components/containers/text.css';
@@ -13,7 +13,7 @@ export default function Home() {
     return (
         <>
             <div className="principalImg text-center">
-                <Container className="homeContainer">
+                <div className="homeContainer">
                     <Row>
                         <Col>
                             <p className="name">{`<`}Antonio-Cristian Crantea{`/>`}</p>
@@ -25,11 +25,11 @@ export default function Home() {
                             <Button variant="secondary" href="/despremine">Află mai multe</Button>
                         </Col>
                     </Row>
-                </Container>
+                </div>
             </div>
 
             <Skills/>
-            <Parcurs/>
+            <ParcursMain/>
             
                 <Row>
                     <Col>
