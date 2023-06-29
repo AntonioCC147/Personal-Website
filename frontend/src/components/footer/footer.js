@@ -32,15 +32,15 @@ export default function App() {
                         </MDBCol>
 
                         <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
-                            <h6 className="text-uppercase fw-bold mb-4">Products</h6>
+                            <h6 className="text-uppercase fw-bold mb-4">Produse</h6>
                             <p>
-                                <a href="#!" className="text-reset">
-                                Angular
+                                <a href="https://edeea.ro/" target="_blank" className="text-reset">
+                                Agendă Informatică
                                 </a>
                             </p>
                             <p>
-                                <a href="#!" className="text-reset">
-                                React
+                                <a href="https://edeea.ro/" target="_blank" className="text-reset">
+                                Set Agendă Informatică
                                 </a>
                             </p>
                         </MDBCol>
@@ -48,12 +48,12 @@ export default function App() {
                         <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
                             <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
                             <p>
-                                <a href="#!" className="text-reset">
+                                <a href="#!" target="_blank" className="text-reset">
                                 Pricing
                                 </a>
                             </p>
                             <p>
-                                <a href="#!" className="text-reset">
+                                <a href="#!" target="_blank" className="text-reset">
                                 Settings
                                 </a>
                             </p>

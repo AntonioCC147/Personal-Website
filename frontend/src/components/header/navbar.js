@@ -30,13 +30,13 @@ export default function NavbarHeader() {
                     <Nav.Link href="/atestat" className={isCurrentPage('/atestat')}>Atestate</Nav.Link>
 
                     <NavDropdown className="colorForDropdown" title="Informatică" id="collasible-nav-dropdown">
-                        <NavDropdown.Item href="/clasaix" className={isCurrentPage('/clasaix')}>Clasa a IX-a</NavDropdown.Item>
-                        <NavDropdown.Item href="/clasax" className={isCurrentPage('/clasax')}>Clasa a X-a</NavDropdown.Item>
-                        <NavDropdown.Item href="/clasaxi" className={isCurrentPage('/clasaxi')}>Clasa a XI-a</NavDropdown.Item>
+                        <NavDropdown.Item href="/clasaix" className={isCurrentPage('/clasaix')}><span style={{color: "black"}}>Clasa a IX-a</span></NavDropdown.Item>
+                        <NavDropdown.Item href="/clasax" className={isCurrentPage('/clasax')}><span style={{color: "black"}}>Clasa a X-a</span></NavDropdown.Item>
+                        <NavDropdown.Item href="/clasaxi" className={isCurrentPage('/clasaxi')}><span style={{color: "black"}}>Clasa a XI-a</span></NavDropdown.Item>
 
                         <NavDropdown.Divider />
 
-                        <NavDropdown.Item href="/atestat" className={isCurrentPage('/atestat')}>Atestat</NavDropdown.Item>
+                        <NavDropdown.Item href="/atestat" className={isCurrentPage('/atestat')}><span style={{color: "black"}}>Atestat</span></NavDropdown.Item>
                     </NavDropdown>
 
                     <Nav.Link href="/compileaza" className={isCurrentPage('/compileaza')}>Compilează</Nav.Link>
