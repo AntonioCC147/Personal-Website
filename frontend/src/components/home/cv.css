@@ -12,8 +12,8 @@
 }
 
 .titleCV {
-    margin-top: 20px !important;
-    margin-bottom: 0;
+    margin-top: 10px !important;
+    margin-bottom: 0px;
 
     font-size: 26px;
     font-weight: 500;
@@ -31,14 +31,13 @@
 
 .descriptionListCV {
     margin-left: 30px;
+    margin-bottom: 10px;
 
     font-style: italic;
 }
 
 .descriptionList2CV {
-    margin-left: 60px;
-    margin-top: 0px;
-    margin-bottom: 0px;;
+    margin: 0px 0px 10px 60px;
 
     text-align: justify;
 }

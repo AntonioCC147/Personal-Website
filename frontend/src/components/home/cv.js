@@ -19,7 +19,7 @@ export default function CV() {
             <Row>
                 <Col>
                     <p className="title">Curriculum Vitae</p>
-                    <p className="subTitle">Subtitlu</p>
+                    <p className="subTitle">O mică parte din munca pe care am depus-o în ultima perioadă</p>
                 </Col>
             </Row>
             <Row>

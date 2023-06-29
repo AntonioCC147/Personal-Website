@@ -55,6 +55,15 @@ const Certifications = () => {
             <Row>
                 <p className="titleCV">Certificate</p><hr/>
                 <Col sm={8} >
+                    <li className="listCV">Școala de Vară 3DPUB</li>
+                    <span className="descriptionListCV">Școală de vară organziată de UPB în parteneriat cu Gameloft</span>
+                </Col>
+                <Col sm={4} style={{textAlign: "right"}}>
+                    Iunie 2023 - Prezent
+                </Col>
+            </Row>
+            <Row>
+                <Col sm={8} >
                     <li className="listCV">Embedded Programming for Beginners</li>
                     <span className="descriptionListCV">Digital Programming Workshop, Google</span>
                 </Col>
@@ -83,32 +92,34 @@ const Projects = () => {
                 <Col sm={10} >
                     <li className="listCV">Ce spun automatiștii?</li>
                     <span className="descriptionListCV">React.js, MongoDB, Git</span>
-                    <p className="descriptionList2CV">
-                        Am lucrat cu o echipă de 5 persoane pentru a crea o aplicație care se dorește a fi un site web folosit
-                        ca interfață pentru echipele participante la eveniment pentru a avea cea mai plăcută experiență posibilă.
-                    </p>
-                    <p className="descriptionList2CV">
-                        În principal m-am ocupat de partea de FrontEnd a proiectului, lucrând la secțiuni precum "Despre noi",
-                        "FAQ" sau chiar "Footer". 
-                    </p>
+                    
                 </Col>
                 <Col sm={2} style={{textAlign: "right"}}>
-                    Data
+                    Aprilie 2023
                 </Col>
             </Row>
+            <Row style={{marginRight: "60px"}}>
+                <p className="descriptionList2CV">
+                    Am lucrat cu o echipă de 5 persoane pentru a crea o aplicație care se dorește a fi un site web folosit
+                    ca interfață pentru echipele participante la eveniment pentru a avea cea mai plăcută experiență posibilă.
+                    M-am ocupat de partea de frontend, lucrând la secțiuni precum "Despre noi", "FAQ" sau chiar "Footer". 
+                </p>
+            </Row>
             <Row>
-                <Col sm={10} >
+                <Col sm={9} >
                     <li className="listCV">Generic Admin Panel</li>
                     <span className="descriptionListCV">React.js, TypeScript, Git</span>
-                    <p className="descriptionList2CV">
-                        Având responsabilitatea de "Team Lead" în cadrul acestui proiect, a trebuit să creem un  admin panel
-                        cât mai general pentru o introducere mai rapidă a informațiilor, echipelor, chestionarelor sau a altor
-                        lucruri specifice pe celelalte platforme pe care le deține liga.
-                    </p>
                 </Col>
-                <Col sm={2} style={{textAlign: "right"}}>
-                    Data
+                <Col sm={3} style={{textAlign: "right"}}>
+                    Martie 2022 - Prezent
                 </Col>
+            </Row>
+            <Row style={{marginRight: "60px"}}>
+                <p className="descriptionList2CV" >
+                    Având responsabilitatea de "Team Lead" în cadrul acestui proiect, a trebuit să creem un  admin panel
+                    cât mai general pentru o introducere mai rapidă a informațiilor, echipelor, chestionarelor sau a altor
+                    lucruri specifice pe celelalte platforme pe care le deține liga.
+                </p>
             </Row>
         </>
     )
@@ -120,7 +131,7 @@ const Volunteering = () => {
             <Row>
                 <p className="titleCV">Experiențe de Voluntariat</p><hr/>
                 <Col sm={8} >
-                    <li className="listCV">IT Department </li>
+                    <li className="listCV">Departamentul de IT</li>
                     <span className="descriptionListCV">Membru în "Liga Studenților din Facultatea de
                     Automatică și Calculatoare"</span>
                 </Col>
