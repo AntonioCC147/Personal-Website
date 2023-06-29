@@ -1,15 +1,21 @@
 .imgParcurs {
     border: 5px solid gray !important;
+    position: relative;
+
+    width: 150px;
+    height: 150px;
 }
 
 .rightText {
-    text-align: left;
-    margin-right: 30px;
+    text-align: justify;
 }
 
 .leftText {
-    text-align: right;
-    margin-left: 30px;
+    text-align: justify;
+}
+
+.textParcuers {
+    margin-left: 10px;
 }
 
 .titleParcurs {
@@ -34,7 +40,7 @@
 }
 
 .verticalLine {
-    position: relative;
+    position: absolute;
     left: 50%;
 
     height: 100px;
@@ -43,16 +49,7 @@
     border-left: 5px solid gray;
 }
 
-.verticalMobileLine {
-    height: 100px;
-    width: 10px;
-
-    border-left: 5px solid gray;
-
-    margin-left: 25%;
-}
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 850px) {
     .titleParcurs{
         font-size: 20px;
     }
@@ -64,22 +61,9 @@
     .descriptionParcurs{
         font-size: 14px;
     }
-}
 
-.container2 {
-    display: flex;
-    justify-content: center;
-}
-  
-.content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-  
-@media (min-width: 768px) {
-    .container2 {
-      justify-content: flex-start;
+    .imgParcurs{
+        width: 100px;
+        height: 100px;
     }
 }
-  

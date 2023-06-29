@@ -32,7 +32,6 @@ export default function Home() {
             <Skills/>
             <ParcursMain/>
             <CV/>
-                
         </>
     )
 }
