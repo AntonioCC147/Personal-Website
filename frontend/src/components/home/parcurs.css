@@ -40,5 +40,46 @@
     height: 100px;
     width: 10px;
 
-    border-left: 6px solid gray;
+    border-left: 5px solid gray;
 }
+
+.verticalMobileLine {
+    height: 100px;
+    width: 10px;
+
+    border-left: 5px solid gray;
+
+    margin-left: 25%;
+}
+
+@media only screen and (max-width: 600px) {
+    .titleParcurs{
+        font-size: 20px;
+    }
+
+    .periodParcurs{
+        font-size: 16px;
+    }
+
+    .descriptionParcurs{
+        font-size: 14px;
+    }
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+}
+  
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+  
+@media (min-width: 768px) {
+    .container2 {
+      justify-content: flex-start;
+    }
+}
+  

@@ -13,7 +13,7 @@ import '../../components/containers/text.css';
 export default function Home() {
     return (
         <>
-            <Container className="principalImg text-center">
+            <Container fluid className="principalImg text-center">
                 <div className="homeContainer">
                     <Row>
                         <Col>

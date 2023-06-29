@@ -14,19 +14,19 @@ export default function ParcursMain() {
                 <ParcursText direction="right" title="Ceva" period="2022-2023"
                             description={<>Ana are mere si merele o au pe ana</>}
                 />
-                <div className="verticalLine"/>
+                
                 <ParcursText direction="left" title="Ceva" period="2022-2023"
                             description={<>Ana are mere si merele o au pe ana</>}
                 />
-                <div className="verticalLine"/>
+                
                 <ParcursText direction="right" title="Ceva" period="2022-2023"
                             description={<>Ana are mere si merele o au pe ana</>}
                 />
-                <div className="verticalLine"/>
+                
                 <ParcursText direction="left" title="Ceva" period="2022-2023"
                             description={<>Ana are mere si merele o au pe ana</>}
                 />
-                <div className="verticalLine"/>
+                
                 <ParcursText direction="right" title="Ceva" period="2022-2023"
                             description={<>Ana are mere si merele o au pe ana</>}
                 />
