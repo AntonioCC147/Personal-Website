@@ -21,22 +21,42 @@ export default function DespreMine() {
                     <Col sm="4">
                         <img src={MePhoto} className="img-setUp" alt="MePhoto"/>
                     </Col>
-                    <Col sm="8">
-                        <Row>
-                            <Col>
-                                
-                            </Col>
-                        </Row>
-                        <Row >
-                            <Col>
-                                A
-                            </Col>
-                        </Row>
-                        <Row >
-                            <Col>
-                                SOCIAL
-                            </Col>
-                        </Row>
+                    <Col sm="8" className="simpleText">
+                        <div>
+                            <span class="tab"/>
+                                Numele meu este Toni, am 20 de ani, sunt student la "Facultatea de Automatică și
+                                Calculatoare" din București și membru în "Liga Studenților".
+                        </div>
+                        <div>
+                            <span class="tab"/>
+                                Pasiunea mea principală din clasa a XI-a a reprezentat-o Informatica și absolut tot ce
+                                ține de domeniul IT. Încă de atunci m-am hotărât că doresc să urmez acest domeniu și
+                                că vreau să intru la o facultate de domeniu, așa cum am și făcut.
+                        </div>
+                        <div>
+                            <span class="tab"/>
+                                În timpul liber mă ocup cu oferirea de meditații / pregătiri suplimentare atât la
+                                Informatică, cât și la matematică elevilor ce solicită ajutorul. Până în momentul de
+                                față, am avut "pe mână" nici mai mult și nici mai puțin de 10 elevi pe care i-am ajutat
+                                să obțină rezultatele dorite pe toate planurile pe care și le-au propus.
+                        </div>
+                        <div>
+                            <span class="tab"/>
+                                Pe lângă aceste aspecte, sunt membru în cadrul "Departamentului de IT" din ligă. Avem o
+                                comunitate extrem de unită și facem absolut totul din pasiune. Învățăm unii de la alții, iar
+                                eu mă opot mândri cu faptul că fac parte din această comunitate.
+                        </div>
+                        <div>
+                            <span class="tab"/>
+                                De asemenea, până în momentul de față reușesc cât de cât să stăpânesc tehnologii precum React,
+                                HTML, CSS, dar chiar și JavaScript. Acestea reprezintă câteva dintre lucrurile cu care am lucrat
+                                pe parcursul primului an de facultate, în special toate în cadrul departamentului.
+                        </div>
+                        <div>
+                            <span class="tab"/>
+                                Pe final, doresc să precizez că sunt o persoană foarte deschisă noilor oportunități, căruia îi
+                                plac provocările și aventurile, dar și o persoană calculată și cu capul pe umeri.
+                        </div>
                     </Col>
                 </Row>
             </Container>

@@ -5,3 +5,40 @@
 
     margin: 10px;
 }
+
+.simpleText {
+    margin-top: 20px;
+
+    text-align: left;
+
+    color: white;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 4em;
+}
+
+@media only screen and (max-width: 1200px) {
+    .img-setUp{
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .img-setUp{
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .img-setUp{
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .img-setUp{
+        width: 350px;
+    }
+}

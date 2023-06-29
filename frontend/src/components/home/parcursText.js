@@ -1,7 +1,5 @@
 import Image from 'react-bootstrap/Image';
 
-import MePhoto from '../../assets/photos/MePhoto.jpg';
-
 import './parcurs.css';
 
 export default function ParcursText(props) {

@@ -1,11 +1,12 @@
-import {Accordion, Card, AccordionContext} from "react-bootstrap";
-import {useAccordionButton} from 'react-bootstrap/AccordionButton';
+import { Accordion, Card, AccordionContext } from "react-bootstrap";
+import { useAccordionButton } from 'react-bootstrap/AccordionButton';
 import { useContext } from 'react';
+
+import FAQS from './faqData.json';
 
 import plus from '../../assets/faq/Plus.png';
 import minus from '../../assets/faq/Minus.png';
 
-import FAQS from './faqData.json';
 import '../../components/containers/text.css';
 import './faq.css';
 
@@ -20,23 +21,23 @@ function ContextAwareToggle({ children, eventKey, callback }) {
     const isCurrentEventKey = activeEventKey === eventKey;
   
     return (
-      <button
-        type="button"
-        className="my-accordion-button d-flex w-100"
-        onClick={decoratedOnClick}
-      >
-        <img src={ isCurrentEventKey ? minus : plus } className="accordion-icon m-auto" alt="#"/>
-        <div className='flex-grow-1 d-flex flex-row ps-3 text-start'>
-            {children}
-        </div>
-      </button>
+        <button
+            type="button"
+            className="my-accordion-button d-flex w-100"
+            onClick={decoratedOnClick}
+        >
+            <img src={ isCurrentEventKey ? minus : plus } className="accordion-icon m-auto" alt="#"/>
+            <div className='flex-grow-1 d-flex flex-row ps-3 text-start'>
+                {children}
+            </div>
+        </button>
     );
   }
 
 export default function FAQ() {
     return (
         <div className='m-auto faq-container'>
-            <p className="title">FAQ</p>
+            <p className="faq-title">FAQ</p>
             <Accordion flush>
                 {FAQS.map((faq, index) => {
                     return (

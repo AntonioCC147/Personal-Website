@@ -42,7 +42,7 @@ export default function NavbarHeader() {
                     <Nav.Link href="/compileaza" className={isCurrentPage('/compileaza')}>Compilează</Nav.Link>
                 </Nav>
                 <Nav>
-                    <Nav.Link href="/contact" className={isCurrentPage('/contact')}>Contactează-mă</Nav.Link>
+                    <Nav.Link href="/contact" className={isCurrentPage('/contact')}>Contact</Nav.Link>
                     <Nav.Link eventKey={2} href="/admin">Admin</Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
