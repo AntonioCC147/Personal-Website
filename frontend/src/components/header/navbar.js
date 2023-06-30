@@ -14,7 +14,7 @@ export default function NavbarHeader() {
 
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="header-text">
-            <Container fluid>
+            <Container>
                 <Navbar.Brand style={{fontWeight: "bold"}}>Antonio Crantea</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
