@@ -4,11 +4,11 @@ import Row from 'react-bootstrap/Row';
 
 import '../../components/containers/text.css';
 
-export default function Atestat() {
+export default function Atestate() {
     return (
         <Container>
             <Row>
-                <p className="title">Atestat</p>
+                <p className="title">Atestate</p>
             </Row>
             <Row>
                 <p className="title">Va urma...</p>

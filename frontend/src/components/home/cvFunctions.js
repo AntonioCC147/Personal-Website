@@ -43,7 +43,7 @@ const Education = () => {
                 domeniul "Ingineria Sistemelor"</span>
             </Col>
             <Col sm={2} style={{textAlign: "right"}}>
-                2022 - 2026
+                2022 - Prezent
             </Col>
         </Row>
     )

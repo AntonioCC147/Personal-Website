@@ -7,7 +7,7 @@ import Home from "./pages/home/home";
 import DespreMine from "./pages/despreMine/despreMine";
 import Portofoliu from "./pages/portofoliu/portofoliu";
 import Meditatii from "./pages/meditatii/meditatii";
-import Atestat from "./pages/atestate/atestat";
+import Atestate from "./pages/atestate/atestate";
 
 import Contact from "./pages/contact/contact";
 
@@ -33,7 +33,7 @@ function App() {
                     <Route path="/despremine" element={<DespreMine/>}></Route>
                     <Route path="/portofoliu" element={<Portofoliu/>}></Route>
                     <Route path="/meditatii" element={<Meditatii/>}></Route>
-                    <Route path="/atestat" element={<Atestat/>}></Route>
+                    <Route path="/atestate" element={<Atestate/>}></Route>
 
                     <Route path="/contact" element={<Contact/>}></Route>
 

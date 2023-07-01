@@ -23,3 +23,11 @@
     width: 250px;
     height: 40px;
 }
+
+.CAPTCHA {
+    margin-top: 20px !important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

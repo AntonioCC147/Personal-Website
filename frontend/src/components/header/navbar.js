@@ -27,7 +27,7 @@ export default function NavbarHeader() {
 
                     <Nav.Link href="/meditatii" className={isCurrentPage('/meditatii')}>Meditații</Nav.Link>
 
-                    <Nav.Link href="/atestat" className={isCurrentPage('/atestat')}>Atestate</Nav.Link>
+                    <Nav.Link href="/atestate" className={isCurrentPage('/atestate')}>Atestate</Nav.Link>
 
                     <NavDropdown className="colorForDropdown" title="Informatică" id="collasible-nav-dropdown">
                         <NavDropdown.Item href="/clasaix" className={isCurrentPage('/clasaix')}><span style={{color: "black"}}>Clasa a IX-a</span></NavDropdown.Item>
