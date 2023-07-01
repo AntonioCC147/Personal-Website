@@ -1,0 +1,25 @@
+.contactContainer {
+    padding: 20px;
+    margin-bottom: 20px;
+
+    border-style: groove;
+    border-width: 2px;
+    border-color: rgb(31, 30, 30);
+
+    height: auto;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactButton {
+    margin-top: 20px;
+
+    text-align: center;
+
+    width: 250px;
+    height: 40px;
+}
