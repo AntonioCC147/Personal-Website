@@ -1,19 +1,14 @@
 import React, { useState } from 'react';
-
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
-
 import { Modal } from 'react-bootstrap';
 import ReCAPTCHA from "react-google-recaptcha";
 import emailjs from '@emailjs/browser';
-
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/esm/Button';
-
 import ContactImg from '../../assets/icons/Contact.png';
-
 import '../../components/containers/text.css';
 import './contact.css';
 
@@ -25,23 +20,24 @@ const validationSchema = Yup.object().shape({
 
 export default function Contact() {
     const [isVerify, setIsVerify] = React.useState(false);
+    const [showModal, setShowModal] = useState(false);
+    const [isFormSubmitted, setIsFormSubmitted] = useState(false);
 
     const sendEmail = (values) => {
         emailjs.send('service_8ikvw41', 'template_2o06wrp', values, 'wgJFpA_4E1G_XA6V-')
-        .then((result) => {
-            console.log(result.text);
-        })
-        .catch((error) => {
-            console.log(error.text);
-        });
+            .then((result) => {
+                console.log(result.text);
+                // Set form submitted to true after successfully sending the email
+                setIsFormSubmitted(true);
+            })
+            .catch((error) => {
+                console.log(error.text);
+            });
     };
 
     function onChange(value) {
         setIsVerify(true);
     }
-
-    const [showModal, setShowModal] = useState(false);
-    const [isFormSubmitted, setIsFormSubmitted] = useState(false);
 
     const handleModalShow = () => {
         setShowModal(true);
@@ -64,12 +60,10 @@ export default function Contact() {
                 validationSchema={validationSchema}
                 onSubmit={(values, { setSubmitting, resetForm }) => {
                     if (!isVerify || !values.user_name || !values.user_email || !values.message) {
-                      setSubmitting(false);
-                      return;
+                        setSubmitting(false);
+                        return;
                     }
                     sendEmail(values);
-                    setSubmitting(false);
-                    setIsFormSubmitted(true);
                     resetForm();
                     handleModalShow();
                 }}
@@ -103,14 +97,14 @@ export default function Contact() {
                         </Row>
                         <Row className="text-center">
                             <div className="buttonContainer">
-                            <Button
-                                variant="dark"
-                                type="submit"
-                                className="d-flex align-items-center justify-content-center contactButton"
-                                disabled={isSubmitting}
-                            >
-                                Trimite
-                            </Button>
+                                <Button
+                                    variant="dark"
+                                    type="submit"
+                                    className="d-flex align-items-center justify-content-center contactButton"
+                                    disabled={isSubmitting || isFormSubmitted}
+                                >
+                                    {isFormSubmitted ? 'Trimite' : 'Trimite'}
+                                </Button>
                             </div>
                         </Row>
                         <Modal show={showModal} onHide={handleModalClose}>
