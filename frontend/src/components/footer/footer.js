@@ -6,7 +6,7 @@ export default function App() {
     return (
         <MDBFooter bgColor="dark" className="text-center text-lg-start text-muted" style={{marginTop: "20px"}}>
             <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom" style={{alignItems: "center", verticalAlign: "center"}}>
-                <div>
+                <div style={{color: "gray"}}>
                     Conectează-mă prin rețelele de socializare disponibile:
                 </div>
                 <div>
@@ -19,7 +19,7 @@ export default function App() {
             </section>
 
             <section>
-                <MDBContainer className="text-center text-md-start mt-5">
+                <MDBContainer className="text-center text-md-start mt-5" style={{color: "gray"}}>
                     <MDBRow className="mt-3">
                         <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
                             <h6 className="text-uppercase fw-bold mb-4">
@@ -74,7 +74,7 @@ export default function App() {
                 </MDBContainer>
             </section>
 
-            <div className="text-center p-4 fw-bold" style={{ backgroundColor: "#0000000d" }}>
+            <div className="text-center p-4 fw-bold" style={{ backgroundColor: "#0000000d", color: "gray" }}>
                 © {new Date().getFullYear()} Copyright | Crantea Antonio-Cristian, student la "Facultatea de Automatică și Calculatoare"
             </div>
         </MDBFooter>
