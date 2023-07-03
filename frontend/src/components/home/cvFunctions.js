@@ -141,7 +141,7 @@ const Volunteering = () => {
             </Row>
             <Row>
                 <Col sm={8} >
-                    <li className="listCV">Mediatator</li>
+                    <li className="listCV">Meditator</li>
                     <span className="descriptionListCV">Suport educațional pentru elevi la materiile Informatică și Matematică</span>
                 </Col>
                 <Col sm={4} style={{textAlign: "right"}}>

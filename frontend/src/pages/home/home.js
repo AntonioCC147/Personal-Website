@@ -28,7 +28,6 @@ export default function Home() {
                     </Row>
                 </div>
             </Container>
-
             <Skills/>
             <ParcursMain/>
             <CV/>

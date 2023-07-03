@@ -13,9 +13,7 @@ export default function DespreMine() {
     return (
         <>
             <Container className="bg-dark principalContainer text-center">
-                <div className="principalTitle">
-                    Despre mine
-                </div>
+                <div className="principalTitle">Despre mine</div>
                 <hr className="hr"/>
                 <Row>
                     <Col sm="4">

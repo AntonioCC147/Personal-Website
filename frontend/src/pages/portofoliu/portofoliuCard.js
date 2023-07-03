@@ -45,7 +45,9 @@ export default function PortofoliuCard(props) {
 
             <div className="d-flex justify-content-around" bgColor="dark">
                 <Card style={{ margin: '10px', width: '20rem', height: 'auto', background: '' }}>
-                    <Card.Img variant="top" src={img} onClick={handleShow}/>
+                    <Button style={{border: "none", color: "transparent", background: "none"}}>
+                        <Card.Img variant="top" src={img} onClick={handleShow} />
+                    </Button>
                     <Card.Body>
                         <Card.Title style={{fontWeight: "bold"}}>{title}</Card.Title>
                         <Card.Text>{description}</Card.Text>

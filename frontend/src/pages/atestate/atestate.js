@@ -9,6 +9,7 @@ export default function Atestate() {
         <Container>
             <Row>
                 <p className="title">Atestate</p>
+                <p className="subTitle">Aici urmează să prezint câteva proiecte de atestat pentru liceu</p>
             </Row>
             <Row>
                 <p className="title">Va urma...</p>

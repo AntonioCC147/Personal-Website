@@ -14,6 +14,7 @@ export default function Meditatii() {
     return (
         <Container className="text-center">
             <p className="title">Meditații</p>
+            <p className="subTitle">Dorești să devii o persoană mai bună și să-ți întreci limitele?</p>
             <Row>
                 <Col sm={4}>
                     <div className="meditatiiContainer">

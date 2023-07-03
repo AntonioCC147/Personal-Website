@@ -29,10 +29,14 @@ import ProiectLitere from '../../assets/projects/ProiectLitere.jpg';
     import Joc2 from '../../assets/projects/Joc2.jpg';
     import Joc3 from '../../assets/projects/Joc3.jpg';
 
+import '../../components/containers/text.css';
+
 export default function Portofoliu() {
     return (
-        <Container style={{marginTop: "30px"}}>
+        <Container>
             <Row>
+                <p className="title">Portofoliu</p>
+                <p className="subTitle">Mai jos prezint câteva creații personale. Acestea nu reprezintă și munca din cadrul Departamentului de IT</p>
                 <Col>
                     <PortofoliuCard
                         linkToProject="yes"

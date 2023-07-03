@@ -38,6 +38,7 @@ export default function FAQ() {
     return (
         <div className='m-auto faq-container'>
             <p className="faq-title">FAQ</p>
+            <p className="subTitle">Câteva întrebări și răspunsuri dintre cele mai întâlnite de către mine până acum</p>
             <Accordion flush>
                 {FAQS.map((faq, index) => {
                     return (

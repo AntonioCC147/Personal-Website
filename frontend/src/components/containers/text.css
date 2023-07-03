@@ -12,7 +12,7 @@
 
 .title {
     margin: 0px;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 0px 0px 0px;
 
     text-align: center;
     font-size: 35px;
@@ -20,7 +20,8 @@
 }
 
 .subTitle {
-    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 20px;
 
     text-align: center;
     font-style: italic;
