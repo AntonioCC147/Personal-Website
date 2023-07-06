@@ -1,5 +1,5 @@
 .meditatiiContainer {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 
     border-style: groove;
     border-width: 2px;
@@ -42,8 +42,10 @@
 }
   
 .meditatiiButton {
-    text-align: center;
+    margin-top: 30px;
 
     width: 250px;
     height: 40px;
+
+    text-align: center;
 }

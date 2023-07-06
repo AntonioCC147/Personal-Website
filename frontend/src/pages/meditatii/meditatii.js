@@ -3,6 +3,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/esm/Button';
 
+import Feedback from './feedback';
+
 import Info from '../../assets/meditatii/Info.png';
 import Mate from '../../assets/meditatii/Mate.png';
 import Tehn from '../../assets/meditatii/Tehn.png';
@@ -89,6 +91,8 @@ export default function Meditatii() {
                     </div>
                 </Col>
             </Row>
+            
+            <Feedback/>
             <Row className="text-center">
                 <div class="buttonContainer">
                     <Button variant="secondary" className="d-flex align-items-center justify-content-center meditatiiButton" href="/contact">Contactează-mă aici</Button>
