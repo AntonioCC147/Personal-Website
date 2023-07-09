@@ -24,7 +24,8 @@ export default function Meditatii() {
                         <p className="meditatiiTitle">Informatică</p>
                         <p className="meditatiiPrice">100 lei / 2 ore | 75 de lei / 1.30 ore</p>
                         <p className="meditatiiDescription">
-                            <span className="bold">Ce vom învăța: </span>Limbajele de programare C/C++.
+                            <span className="bold">Ce vom învăța: </span>Limbajele de programare C / C++ și informatica pentru
+                            nivel de bacalaureat.
                         </p>
                         <p className="meditatiiDescription">
                             <span className="bold">Pentru ce ne vom pregăti? </span>Începători, Nivel de școală sau Examenul.
@@ -72,7 +73,7 @@ export default function Meditatii() {
                         <p className="meditatiiTitle">Tehnologii Web</p>
                         <p className="meditatiiPrice">100 lei / 2 ore | 75 de lei / 1.30 ore</p>
                         <p className="meditatiiDescription">
-                            <span className="bold">Ce vom învăța: </span>Bazele limbajelor React, HTML și CSS.
+                            <span className="bold">Ce vom învăța: </span>Bazele React, BootStrap, HTML și CSS.
                         </p>
                         <p className="meditatiiDescription">
                             <span className="bold">Pentru ce ne vom pregăti? </span>Începători, Nivel de școală sau diverse teme

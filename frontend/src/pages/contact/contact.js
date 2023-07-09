@@ -12,10 +12,18 @@ import ContactImg from '../../assets/icons/Contact.png';
 import '../../components/containers/text.css';
 import './contact.css';
 
+const styles = {
+    error: {
+        color: "red",
+        fontStyle: "italic",
+        fontWeight: "bold",
+    },
+};
+  
 const validationSchema = Yup.object().shape({
-    user_name: Yup.string().required('Numele este obligatoriu'),
-    user_email: Yup.string().email('Adresa de email este invalidă').required('Adresa de email este obligatorie'),
-    message: Yup.string().required('Mesajul este obligatoriu'),
+    user_name: Yup.string().required(<span style={styles.error}>Numele este obligatoriu</span>),
+    user_email: Yup.string().email(<span style={styles.error}>Adresa de email este invalidă</span>).required(<span style={styles.error}>Adresa de email este obligatorie</span>),
+    message: Yup.string().required(<span style={styles.error}>Mesajul este obligatoriu</span>),
 });
 
 export default function Contact() {
@@ -76,10 +84,10 @@ export default function Contact() {
                         <Row>
                             <Col sm={6}>
                                 <Row>
-                                    <label htmlFor="user_name">Nume:</label>
+                                    <b><label htmlFor="user_name">Nume:</label></b>
                                     <Field type="text" name="user_name" className="form-control" />
                                     <ErrorMessage name="user_name" component="div" className="error-message" />
-                                    <label htmlFor="user_email">Email:</label>
+                                    <b><label htmlFor="user_email">Email:</label></b>
                                     <Field type="email" name="user_email" className="form-control" />
                                     <ErrorMessage name="user_email" component="div" className="error-message" />
                                 </Row>
@@ -90,7 +98,7 @@ export default function Contact() {
                                 </Row>
                             </Col>
                             <Col sm={6}>
-                                <label htmlFor="message">Mesaj:</label>
+                                <b><label htmlFor="message">Mesaj:</label></b>
                                 <Field as="textarea" name="message" className="form-control" rows="8" cols="50" />
                                 <ErrorMessage name="message" component="div" className="error-message" />
                             </Col>
