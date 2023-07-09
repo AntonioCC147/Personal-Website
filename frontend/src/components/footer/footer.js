@@ -48,12 +48,12 @@ export default function App() {
                         <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
                             <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
                             <p>
-                                <MDBIcon icon="home" className="mb-4" />
-                                <span className="fw-bold">Discord:</span> thetommy
+                                <MDBIcon icon="envelope" className="mb-4" />
+                                <span className="fw-bold">Gmail:</span> antoniocrantea@gmail.com
                             </p>
                             <p>
                                 <MDBIcon icon="envelope" className="mb-4" />
-                                <span className="fw-bold">Mail:</span> thet0mmy1407@gmail.com
+                                <span className="fw-bold">Yahoo:</span> thet0mmy@yhaoo.com
                             </p>
                         </MDBCol>
                     </MDBRow>

@@ -30,10 +30,11 @@
 }
 
 .descriptionListCV {
-    margin-left: 30px;
-    margin-bottom: 10px;
+   
 
-    font-style: italic;
+    font-style: italic;margin: 0px 0px 10px 60px;
+
+    text-align: justify;
 }
 
 .descriptionList2CV {

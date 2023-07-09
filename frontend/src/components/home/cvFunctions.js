@@ -21,12 +21,12 @@ const SkillsCourses = () => {
                 <span className="simpleTextCV">HTML</span>
                 <span className="simpleTextCV">BootStrap</span>
                 <span className="simpleTextCV">CSS</span>
-                <span className="simpleTextCV">C/C++</span>
+                <span className="simpleTextCV">C / C++</span>
             </Row>
             <Row>
                 <p className="titleCV">Dev Tools</p>
                 <span className="simpleTextCV">Visual Studio Code</span>
-                <span className="simpleTextCV">Git</span>
+                <span className="simpleTextCV">GitHub / GitHub Desktop</span>
                 <span className="simpleTextCV">CodeBlocks</span>
             </Row>
         </>
@@ -74,7 +74,7 @@ const Certifications = () => {
             <Row>
                 <Col sm={10} >
                     <li className="listCV">Diplomă de Bacalaureat</li>
-                    <span className="descriptionListCV">Informatică - 10, Matematică - 9.90, Media finală - 9.70</span>
+                    <span className="descriptionListCV">Informatică - 10, Matematică - 9.90, Media Finală - 9.70</span>
                 </Col>
                 <Col sm={2} style={{textAlign: "right"}}>
                     Iulie 2022
@@ -88,9 +88,9 @@ const Projects = () => {
     return (
         <>
             <Row>
-                <p className="titleCV">Alte Proiecte</p><hr/>
+                <p className="titleCV">Proiecte Interne</p><hr/>
                 <Col sm={10} >
-                    <li className="listCV">Ce spun automatiștii?</li>
+                    <li className="listCV">Ce spun Automatiștii?</li>
                     <span className="descriptionListCV">React.js, MongoDB, Git</span>
                     
                 </Col>
@@ -130,22 +130,22 @@ const Volunteering = () => {
         <>
             <Row>
                 <p className="titleCV">Experiențe de Voluntariat</p><hr/>
-                <Col sm={8} >
+                <Col sm={9} >
                     <li className="listCV">Departamentul de IT</li>
                     <span className="descriptionListCV">Membru în "Liga Studenților din Facultatea de
                     Automatică și Calculatoare"</span>
                 </Col>
-                <Col sm={4} style={{textAlign: "right"}}>
+                <Col sm={3} style={{textAlign: "right"}}>
                     Decembrie 2022 - Prezent
                 </Col>
             </Row>
             <Row>
-                <Col sm={8} >
+                <Col sm={9} >
                     <li className="listCV">Meditator</li>
                     <span className="descriptionListCV">Suport educațional pentru elevi la materiile Informatică și Matematică</span>
                 </Col>
-                <Col sm={4} style={{textAlign: "right"}}>
-                    Septembrie 2021 - Prezent
+                <Col sm={3} style={{textAlign: "right"}}>
+                    August 2021 - Prezent
                 </Col>
             </Row>
         </>

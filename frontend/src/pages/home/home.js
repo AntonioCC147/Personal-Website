@@ -12,7 +12,7 @@ import '../../components/containers/text.css';
 
 export default function Home() {
     return (
-        <>
+        <div>
             <Container fluid className="principalImg text-center">
                 <div className="homeContainer">
                     <Row>
@@ -31,6 +31,6 @@ export default function Home() {
             <Skills/>
             <ParcursMain/>
             <CV/>
-        </>
+        </div>
     )
 }
