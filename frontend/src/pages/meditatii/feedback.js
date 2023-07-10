@@ -20,7 +20,18 @@ export default function Feedback() {
                             notă din bac din clasă.
                         </p>
                     </Carousel.Item>
-
+                    <Carousel.Item>
+                        <p className="feedbackNameText">Andrada - Clasa a XII-a, Informatică</p>
+                        <img src={StarsIcon} className="stars" alt="Stars"/>
+                        <p className="feedbackDescriptionText">După un an de munca, alături de susținerea, explicațiile și
+                            dedicarea ta, pot spune că nu cred că aș fi găsit un interes mai mare sau o voința mai puternica în
+                            a ajuta elevii sa-și perpetueze drumul fie oricât de tumultuos. Experienta mea a fost excelenta,
+                            având mereu înțelegerea și răbdarea ta, dând dovadă de seriozitate și implicare chiar și în momentele
+                            limită ce-ți puneau răbdarea, timpul, la încercare. Ajutorul tău a fost de mare folos și-ți mulțumesc
+                            că te oferi să dai mai departe informația pe care o deții, pentru că explici mai bine decat mulți
+                            profesori cu calificare pentru acest lucru. Mulțumesc pt colaborarea frumoasă!
+                        </p>
+                    </Carousel.Item>
                     <Carousel.Item>
                         <p className="feedbackNameText">Cristiana - Clasa a XI-a, Informatică</p>
                         <img src={StarsIcon} className="stars" alt="Stars"/>
