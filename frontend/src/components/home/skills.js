@@ -58,7 +58,7 @@ export default function Skills() {
                         <img src={MatlabIcon} style={{marginTop: "10px", width: "25%"}} alt="React"/>
                         <p className="skillsTitle">Matlab</p>
                         <p className="skillsDescription">
-                            Matlab reprezintă un limbaj pe care l-am utulizat în prima parte a anului universitar 2020-2023.
+                            Matlab reprezintă un limbaj pe care l-am utilizat în prima parte a anului universitar 2020-2023.
                             Urmează să îl mai întâlnesc pe parcursul facultății, iar eu nu îl consider un limbaj greu de învățat.
                         </p>
                     </div>
