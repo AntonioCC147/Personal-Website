@@ -5,6 +5,8 @@ import Col from 'react-bootstrap/Col';
 import ReactIcon from '../../assets/icons/ReactIcon.png';
 import HTMLCSSIcon from '../../assets/icons/HTMLCSSIcon.png';
 import CppIcon from '../../assets/icons/CppIcon.png';
+import MatlabIcon from '../../assets/icons/MatlabIcon.png';
+import ManagementIcon from '../../assets/icons/ManagementIcon.png';
 
 import '../../components/containers/text.css';
 import './skills.css';
@@ -48,6 +50,31 @@ export default function Skills() {
                         </p>
                     </div>
                 </Col>
+            </Row>
+            <Row>
+                <Col sm={2}/>
+                <Col sm={4}>
+                    <div className="skillsContainer">
+                        <img src={MatlabIcon} style={{marginTop: "10px", width: "25%"}} alt="React"/>
+                        <p className="skillsTitle">Matlab</p>
+                        <p className="skillsDescription">
+                            Matlab reprezintă un limbaj pe care l-am utulizat în prima parte a anului universitar 2020-2023.
+                            Urmează să îl mai întâlnesc pe parcursul facultății, iar eu nu îl consider un limbaj greu de învățat.
+                        </p>
+                    </div>
+                </Col>
+                <Col>
+                    <div className="skillsContainer">
+                        <img src={ManagementIcon} style={{marginTop: "10px", width: "22%"}} alt="React"/>
+                        <p className="skillsTitle">Management & Leadership</p>
+                        <p className="skillsDescription">
+                            Pe parcursul primului an universitar am avut șansa de a fi "Șef de Grupă", "Șef de Serie" și "Team
+                            Lead" în cadrul unui proiect intern din "Departamentul de IT", deci am avut ocazia să lucrez și îndrum
+                            oamenii.
+                        </p>
+                    </div>
+                </Col>
+                <Col sm={2}/>
             </Row>
         </Container>
     )
