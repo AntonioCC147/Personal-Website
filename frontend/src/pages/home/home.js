@@ -8,7 +8,7 @@ import ParcursMain from '../../components/home/parcursMain';
 import CV from '../../components/home/cv';
 
 import './home.css';
-import '../../components/containers/text.css';
+import '../../components/containers/text.css'
 
 export default function Home() {
     return (

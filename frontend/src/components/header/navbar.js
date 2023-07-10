@@ -2,8 +2,9 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-import './header.css';
+import Icon from '../../assets/Icon.png';
 
+import './header.css';
 
 export default function NavbarHeader() {
     const currentPath = window.location.pathname;
@@ -16,6 +17,7 @@ export default function NavbarHeader() {
         <div>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top" style={{marginBottom: '50px'}}>
                 <Container>
+                    <Navbar.Brand><a href="/"><img src={Icon} alt="Icon" style={{width: "35px"}}/></a></Navbar.Brand>
                     <Navbar.Brand style={{fontWeight: "bold"}}>Antonio Crantea</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
