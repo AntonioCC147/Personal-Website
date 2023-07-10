@@ -85,10 +85,10 @@ export default function Contact() {
                             <Col sm={6}>
                                 <Row>
                                     <b><label htmlFor="user_name">Nume:</label></b>
-                                    <Field type="text" name="user_name" className="form-control" />
+                                    <Field type="text" name="user_name" className="form-control formAppearance" />
                                     <ErrorMessage name="user_name" component="div" className="error-message" />
                                     <b><label htmlFor="user_email">Email:</label></b>
-                                    <Field type="email" name="user_email" className="form-control" />
+                                    <Field type="email" name="user_email" className="form-control formAppearance" />
                                     <ErrorMessage name="user_email" component="div" className="error-message" />
                                 </Row>
                                 <Row>
@@ -99,7 +99,7 @@ export default function Contact() {
                             </Col>
                             <Col sm={6}>
                                 <b><label htmlFor="message">Mesaj:</label></b>
-                                <Field as="textarea" name="message" className="form-control" rows="8" cols="50" />
+                                <Field as="textarea" name="message" className="form-control formAppearance" rows="8" cols="50" />
                                 <ErrorMessage name="message" component="div" className="error-message" />
                             </Col>
                         </Row>
