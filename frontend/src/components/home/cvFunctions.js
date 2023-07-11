@@ -121,6 +121,21 @@ const Projects = () => {
                     lucruri specifice pe celelalte platforme pe care le deține liga.
                 </p>
             </Row>
+            <Row>
+                <Col sm={9} >
+                    <li className="listCV">Agendă Educațională de Bacalaureat la Informatică</li>
+                </Col>
+                <Col sm={3} style={{textAlign: "right"}}>
+                    Decembrie 2021 - Prezent
+                </Col>
+            </Row>
+            <Row style={{marginRight: "60px"}}>
+                <p className="descriptionList2CV" >
+                    Agenda reprezintă un produs educațional care are drept public țintă elevii claselor a XII-a care urmează să
+                    susțină Examenul de Bacalaureat la Informatică. Aceasta este structurată pe capitole și conține atât materia
+                    necesară examenului, dar și teste de antrenament special concepute după modelele oficiale.
+                </p>
+            </Row>
         </>
     )
 }

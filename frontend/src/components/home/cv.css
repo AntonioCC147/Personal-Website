@@ -1,6 +1,6 @@
 .imgCV {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
 }
 
 .nameCV {
@@ -30,8 +30,6 @@
 }
 
 .descriptionListCV {
-   
-
     font-style: italic;margin: 0px 0px 10px 60px;
 
     text-align: justify;
