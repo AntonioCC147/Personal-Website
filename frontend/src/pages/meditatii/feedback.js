@@ -13,14 +13,14 @@ export default function Feedback() {
             <p className="subTitle">Câteva gânduri de-ale elevilor mei la finalul pregătirilor</p>
             <Row>
                 <Carousel>
-                    <Carousel.Item>
+                    <Carousel.Item interval={2500}>
                         <p className="feedbackNameText">Ștefan - Clasa a XII-a, Informatică</p>
                         <img src={StarsIcon} className="stars" alt="Stars"/>
                         <p className="feedbackDescriptionText">Îți multumesc mult pentru ajutor, Toni. Am luat cea mai mare
                             notă din bac din clasă.
                         </p>
                     </Carousel.Item>
-                    <Carousel.Item>
+                    <Carousel.Item interval={4000}>
                         <p className="feedbackNameText">Andrada - Clasa a XII-a, Informatică</p>
                         <img src={StarsIcon} className="stars" alt="Stars"/>
                         <p className="feedbackDescriptionText">După un an de munca, alături de susținerea, explicațiile și
@@ -32,10 +32,10 @@ export default function Feedback() {
                             profesori cu calificare pentru acest lucru. Mulțumesc pt colaborarea frumoasă!
                         </p>
                     </Carousel.Item>
-                    <Carousel.Item>
+                    <Carousel.Item interval={2500}>
                         <p className="feedbackNameText">Cristiana - Clasa a XI-a, Informatică</p>
                         <img src={StarsIcon} className="stars" alt="Stars"/>
-                        <p className="feedbackDescriptionText">Am vrut să îți zic că îți mulțumesc mult mult pentru orele
+                        <p className="feedbackDescriptionText">Am vrut să îți zic că îți mulțumesc mult, mult pentru orele
                             făcute de pregătire, m-au ajutat foarte mult și mă bucur foarte mult că am găsit o astfel de
                             persoană, care a reușit să mă ajute să înțeleg informatica, în acest fel!
                         </p>
