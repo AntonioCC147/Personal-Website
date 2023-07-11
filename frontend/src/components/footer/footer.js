@@ -34,12 +34,12 @@ export default function App() {
                         <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
                             <h6 className="text-uppercase fw-bold mb-4">Produse</h6>
                             <p>
-                                <a href="https://edeea.ro/" target="blank" className="text-reset">
+                                <a href="https://edeea.ro/produs/agenda-bacalaureat-informatica-matematica-informatica/" target="blank" className="text-reset">
                                 Agendă Informatică
                                 </a>
                             </p>
                             <p>
-                                <a href="https://edeea.ro/" target="blank" className="text-reset">
+                                <a href="https://edeea.ro/produs/pachet-agenda-informatica-set-memoratoare-caiet-informatica/" target="blank" className="text-reset">
                                 Set Agendă Informatică
                                 </a>
                             </p>
