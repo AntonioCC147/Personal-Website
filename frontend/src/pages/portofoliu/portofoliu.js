@@ -30,6 +30,7 @@ import ProiectLitere from '../../assets/projects/ProiectLitere.jpg';
     import Joc3 from '../../assets/projects/Joc3.jpg';
 
 import '../../components/containers/text.css';
+import './portofoliu.css';
 
 export default function Portofoliu() {
     return (
@@ -63,8 +64,8 @@ export default function Portofoliu() {
                     <PortofoliuCard
                         linkToProject="yes"
                         img={ProiectConfiguration} img1={Config1} img2={Config2} img3={Config3}
-                        title={<>Website Configuration - Web App</>}
-                        description={<>Proiect realizat pentru a oferi o configurație promptă celor care doresc să realizeze
+                        title={<>Website Config - Web App</>}
+                        description={<>Proiect realizat pentru a oferi o configurație celor care doresc să realizeze
                         propriul website, cu câteva exemple și componente ajutătoare.</>}
                         technology={<>React, JavaScript, HTML, Bootstrap, CSS</>}
                         git="https://github.com/AntonioCC147/Website-Setup-Configuration" adress="https://website-setup-configuration.netlify.app/"

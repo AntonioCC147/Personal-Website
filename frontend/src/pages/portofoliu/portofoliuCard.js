@@ -5,6 +5,8 @@ import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
+import './portofoliu.css';
+
 function verifyLinkToProject(linkToProject) {
     if(linkToProject === "yes") return 1;
     return null;
@@ -43,29 +45,31 @@ export default function PortofoliuCard(props) {
                 </Modal.Footer>
             </Modal>
 
-            <div className="d-flex justify-content-around" bgColor="dark">
-                <Card style={{ margin: '10px', width: '20rem', height: 'auto', background: '' }}>
-                    <Button style={{border: "none", color: "transparent", background: "none"}}>
-                        <Card.Img variant="top" src={img} onClick={handleShow} />
-                    </Button>
-                    <Card.Body>
-                        <Card.Title style={{fontWeight: "bold"}}>{title}</Card.Title>
-                        <Card.Text>{description}</Card.Text>
+            <div className="containerPortofoliu">
+                <div className="cardPortofoliu" style={{color: "black"}}>
+                    <div className="imgBx">
+                        <Button style={{border: "none", color: "transparent", background: "none"}}>
+                            <img src={img} alt="Img" onClick={handleShow}/>
+                        </Button>
+                    </div>
+                    <div className="contentPortofoliu">
+                        <h1>{title}</h1>
+                        <p>{description}</p>
                         <Card.Text>
                             <span style={{fontWeight: "600"}}>Tehnologii: </span>{technology}
                         </Card.Text>
                         <div className="d-flex justify-content-between">
-                            <Button variant="secondary" href={git} target="_blank">GitHub</Button>
-                            {verifyLinkToProject(linkToProject) ? (
-                                <Button className="btn btn-danger" href={adress} target="_blank">
-                                    Link to Project
-                                </Button>
-                            ) : (
-                                null
-                            )}
+                            <Button variant="secondary" href={git} target="_blank" style={{marginTop: "15px"}}>GitHub</Button>
+                                {verifyLinkToProject(linkToProject) ? (
+                                    <Button className="btn btn-danger" href={adress} target="_blank" style={{marginTop: "15px"}}>
+                                        Link to Project
+                                    </Button>
+                                ) : (
+                                    null
+                                )}
                         </div>
-                    </Card.Body>
-                </Card>
+                    </div>
+                </div>
             </div>
         </>
     );
