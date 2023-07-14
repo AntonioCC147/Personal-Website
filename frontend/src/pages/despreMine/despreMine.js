@@ -34,21 +34,21 @@ export default function DespreMine() {
                         <div>
                             <span class="tab"/>
                                 În timpul liber mă ocup cu oferirea de meditații / pregătiri suplimentare atât la
-                                Informatică, cât și la matematică elevilor ce solicită ajutorul. Până în momentul de
-                                față, am avut "pe mână" nici mai mult și nici mai puțin de 10 elevi pe care i-am ajutat
+                                Informatică, cât și la Matematică elevilor ce solicită ajutorul. Până în momentul de
+                                față am avut "pe mână" nici mai mult și nici mai puțin de 10 elevi pe care i-am ajutat
                                 să obțină rezultatele dorite pe toate planurile pe care și le-au propus.
                         </div>
                         <div>
                             <span class="tab"/>
-                                Pe lângă aceste aspecte, sunt membru în cadrul "Departamentului de IT" din ligă. Avem o
+                                Pe lângă aceste aspecte, sunt membru în cadrul "Departamentului de IT" din cadrul ligii. Avem o
                                 comunitate extrem de unită și facem absolut totul din pasiune. Învățăm unii de la alții, iar
                                 eu mă opot mândri cu faptul că fac parte din această comunitate.
                         </div>
                         <div>
                             <span class="tab"/>
                                 De asemenea, până în momentul de față reușesc cât de cât să stăpânesc tehnologii precum React,
-                                HTML, CSS, dar chiar și JavaScript. Acestea reprezintă câteva dintre lucrurile cu care am lucrat
-                                pe parcursul primului an de facultate, în special toate în cadrul departamentului.
+                                HTML, Bootstrap, CSS, dar chiar și JavaScript. Acestea reprezintă câteva dintre lucrurile cu
+                                care am lucrat pe parcursul primului an de facultate, în special toate în cadrul departamentului.
                         </div>
                         <div>
                             <span class="tab"/>

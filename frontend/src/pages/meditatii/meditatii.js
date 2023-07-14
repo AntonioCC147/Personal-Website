@@ -24,12 +24,12 @@ export default function Meditatii() {
                         <p className="meditatiiTitle">Informatică</p>
                         <p className="meditatiiPrice">100 lei / 2 ore | 75 de lei / 1.30 ore</p>
                         <p className="meditatiiDescription">
-                            <span className="bold">Ce vom învăța: </span>Limbajele de programare C / C++ și informatica pentru
-                            nivel de bacalaureat.
+                            <span className="bold">Ce vom învăța: </span>Limbajele de programare C / C++ și Informatica pentru
+                            nivel de Bacalaureat.
                         </p>
                         <p className="meditatiiDescription">
-                            <span className="bold">Pentru ce ne vom pregăti? </span>Începători, Nivel de școală sau Examenul.
-                            de Bacalaureat
+                            <span className="bold">Pentru ce ne vom pregăti? </span>Începători, Nivel de școală sau Examenul
+                            de Bacalaureat.
                         </p>
                         <p className="meditatiiDescription">
                             <span className="bold">Unde se vor desfășura sesiunile de pregătire? </span>Pregătirile se vor
@@ -37,7 +37,7 @@ export default function Meditatii() {
                         </p>
                         <p className="meditatiiDescription">
                             <span className="bold">Descriere: </span>Dacă dorești să-ți dezvolți și mai mult cunoștințele la
-                            informatică, să iei Examenul de Bacalaureat sau pur și simplu să te descurci mai bine la școală,
+                            Informatică, să iei Examenul de Bacalaureat sau pur și simplu să te descurci mai bine la școală,
                             acesta este momentul perfect pentru a începe o colaborare.
                         </p>
                         <br/>
@@ -49,7 +49,7 @@ export default function Meditatii() {
                         <p className="meditatiiTitle">Matematică</p>
                         <p className="meditatiiPrice">100 lei / 2 ore | 75 de lei / 1.30 ore</p>
                         <p className="meditatiiDescription">
-                            <span className="bold">Ce vom învăța: </span>Matematica pentru nivel de bacalaureat.
+                            <span className="bold">Ce vom învăța: </span>Matematica pentru nivel de Bacalaureat.
                         </p>
                         <p className="meditatiiDescription">
                             <span className="bold">Pentru ce ne vom pregăti? </span>Nivel de școală sau Examenul de Bacalaureat.
@@ -59,7 +59,7 @@ export default function Meditatii() {
                             desfășura fizic (București) sau în mediul online (Google Meet / Discord).
                         </p>
                         <p className="meditatiiDescription">
-                            <span className="bold">Descriere: </span>Pregătirile la matematică se susțin în cea mai mare parte
+                            <span className="bold">Descriere: </span>Pregătirile la Matematică se susțin în cea mai mare parte
                             pentru Examenul de Bacalaureat, în special pentru profilurile "Științele-Naturii" și "Tehnologic".
                             Dacă ești la unul dintre ele (sau chiar la "Matematică-Informatică") și dorești să iei o notă cât mai
                             mare în examen, acesta este momentul.
@@ -73,7 +73,7 @@ export default function Meditatii() {
                         <p className="meditatiiTitle">Tehnologii Web</p>
                         <p className="meditatiiPrice">100 lei / 2 ore | 75 de lei / 1.30 ore</p>
                         <p className="meditatiiDescription">
-                            <span className="bold">Ce vom învăța: </span>Bazele React, BootStrap, HTML și CSS.
+                            <span className="bold">Ce vom învăța: </span>Bazele React, Bootstrap, HTML și CSS.
                         </p>
                         <p className="meditatiiDescription">
                             <span className="bold">Pentru ce ne vom pregăti? </span>Începători, Nivel de școală sau diverse teme
@@ -85,7 +85,7 @@ export default function Meditatii() {
                         </p>
                         <p className="meditatiiDescription">
                             <span className="bold">Descriere: </span>Dacă dorești să înveți cât mai multe despre cele mai utilizate
-                            tehnologii din domeniul web, ai o temă la școală / facultate sau pur și simplu este pasionat de domeniu
+                            Tehnologii din domeniul Web, ai o temă la școală / facultate sau pur și simplu este pasionat de domeniu
                             și nu știi de unde să începi, acesta este momentul pentru ca tu să mă contactezi.
                         </p>
                         <br/>

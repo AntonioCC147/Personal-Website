@@ -23,7 +23,7 @@ export default function Home() {
                     </Row>
                     <Row>
                         <Col>
-                            <Button variant="secondary" href="/despremine">Află mai multe</Button>
+                            <Button variant="secondary" href="/despremine" className="d-flex align-items-center justify-content-center homeButton">Află mai multe</Button>
                         </Col>
                     </Row>
                 </div>

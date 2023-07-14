@@ -100,9 +100,9 @@ const Projects = () => {
             </Row>
             <Row style={{marginRight: "60px"}}>
                 <p className="descriptionList2CV">
-                    Am lucrat cu o echipă de 5 persoane pentru a crea o aplicație care se dorește a fi un site web folosit
+                    Am lucrat cu o echipă de 5 persoane pentru a crea o aplicație care se dorește a fi un Website folosit
                     ca interfață pentru echipele participante la eveniment pentru a avea cea mai plăcută experiență posibilă.
-                    M-am ocupat de partea de frontend, lucrând la secțiuni precum "Despre noi", "FAQ" sau chiar "Footer". 
+                    M-am ocupat de partea de Frontend, lucrând la secțiuni precum "Despre noi", "FAQ" sau chiar "Footer". 
                 </p>
             </Row>
             <Row>
@@ -116,7 +116,7 @@ const Projects = () => {
             </Row>
             <Row style={{marginRight: "60px"}}>
                 <p className="descriptionList2CV" >
-                    Având responsabilitatea de "Team Lead" în cadrul acestui proiect, a trebuit să creem un  admin panel
+                    Având responsabilitatea de "Team Lead" în cadrul acestui proiect, a trebuit să creem un Admin Panel
                     cât mai general pentru o introducere mai rapidă a informațiilor, echipelor, chestionarelor sau a altor
                     lucruri specifice pe celelalte platforme pe care le deține liga.
                 </p>

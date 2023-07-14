@@ -18,7 +18,7 @@ export default function NavbarHeader() {
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top" style={{marginBottom: '50px'}}>
                 <Container>
                     <Navbar.Brand><a href="/"><img src={Icon} alt="Icon" style={{width: "35px"}}/></a></Navbar.Brand>
-                    <Navbar.Brand style={{fontWeight: "bold"}}>Antonio Crantea</Navbar.Brand>
+                    <Navbar.Brand style={{fontWeight: "bold"}} href="/">Antonio Crantea</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
