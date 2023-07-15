@@ -1,4 +1,5 @@
 import React from "react";
+
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from "mdb-react-ui-kit";
 import { SocialIcon } from "react-social-icons";
 
@@ -17,7 +18,6 @@ export default function App() {
                     <SocialIcon url="https://www.facebook.com/antoniocc147" target="_blank" network="facebook" style={{width: "40px", height: "40px"}}/>
                 </div>
             </section>
-
             <section>
                 <MDBContainer className="text-center text-md-start mt-5" style={{color: "gray"}}>
                     <MDBRow className="mt-3">
@@ -59,9 +59,8 @@ export default function App() {
                     </MDBRow>
                 </MDBContainer>
             </section>
-
             <div className="text-center p-4 fw-bold" style={{ backgroundColor: "#0000000d", color: "gray" }}>
-                © {new Date().getFullYear()} Copyright | Crantea Antonio-Cristian, student la "Facultatea de Automatică și Calculatoare"
+                © {new Date().getFullYear()} Copyright | Crantea Antonio-Cristian, student la Facultatea de "Automatică și Calculatoare"
             </div>
         </MDBFooter>
     );

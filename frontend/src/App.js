@@ -3,7 +3,7 @@ import 'typeface-roboto';
 import "@fontsource/open-sans";
 import "@fontsource/roboto";
 
-import Header from './components/header/header';
+import NavbarHeader from "./components/navbar/navbar";
 
 import Home from "./pages/home/home";
 import DespreMine from "./pages/despreMine/despreMine";
@@ -20,7 +20,7 @@ import './App.css';
 function App() {
     return (
         <div className="background" style={{fontFamily: "Open Sans"}}>
-            <Header/>
+            <NavbarHeader/>
             <Router>
                 <Routes>
                     <Route exact path="/" element={<Home/>}></Route>

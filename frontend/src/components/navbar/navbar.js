@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 import Icon from '../../assets/Icon.png';
 
-import './header.css';
+import './navbar.css';
 
 export default function NavbarHeader() {
     const currentPath = window.location.pathname;
