@@ -53,3 +53,17 @@
 
     color: #ffffff !important;
 }
+
+.nav-dropdown-text > a.nav-link {
+    color: white !important;
+}
+
+.navbarDropdopownText {
+    font-weight: 500 !important;
+
+    color: black !important;
+}
+
+.navbarDropdopownText:hover {
+    color: red;
+}

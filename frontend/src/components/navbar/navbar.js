@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import Icon from '../../assets/Icon.png';
 
@@ -10,7 +11,7 @@ export default function NavbarHeader() {
     const currentPath = window.location.pathname;
 
     const isCurrentPage = (path) => {
-        return currentPath === path ? 'bold-text' : 'nav-text';
+        return currentPath === path ? "bold-text" : "nav-text";
     }
 
     return (
@@ -26,6 +27,11 @@ export default function NavbarHeader() {
                         <Nav.Link href="/despremine" className={isCurrentPage('/despremine')}>Despre mine</Nav.Link>
                         <Nav.Link href="/portofoliu" className={isCurrentPage('/portofoliu')}>Portofoliu</Nav.Link>
                         <Nav.Link href="/meditatii" className={isCurrentPage('/meditatii')}>Meditații</Nav.Link>
+                        <NavDropdown title="Algoritmi" id="basic-nav-dropdown" className="nav-dropdown-text">
+                            <NavDropdown.Item href="/pseudocod" className={`${isCurrentPage('/pseudocod')} navbarDropdopownText`}>Pseudocod</NavDropdown.Item>
+                                <NavDropdown.Divider/>
+                            <NavDropdown.Item href="/cpp" className={`${isCurrentPage('/cpp')} navbarDropdopownText`}>C++</NavDropdown.Item>
+                        </NavDropdown>
                         <Nav.Link href="/atestate" className={isCurrentPage('/atestate')}>Atestate</Nav.Link>
                     </Nav>
                     <Nav>
@@ -38,5 +44,3 @@ export default function NavbarHeader() {
       </div>
     )
 }
-
-//<Nav.Link href="/algoritmi" className={isCurrentPage('/algoritmi')}>Algoritmi</Nav.Link>

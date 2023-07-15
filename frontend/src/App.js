@@ -10,7 +10,8 @@ import DespreMine from "./pages/despreMine/despreMine";
 import Portofoliu from "./pages/portofoliu/portofoliu";
 import Meditatii from "./pages/meditatii/meditatii";
 import Atestate from "./pages/atestate/atestate";
-import Algoritmi from "./pages/algoritmi/algoritmi";
+import Pseudocod from "./pages/algoritmi/pseudocod";
+import CPP from "./pages/algoritmi/cpp";
 import Contact from "./pages/contact/contact";
 
 import Footer from './components/footer/footer';
@@ -28,7 +29,8 @@ function App() {
                     <Route path="/portofoliu" element={<Portofoliu/>}></Route>
                     <Route path="/meditatii" element={<Meditatii/>}></Route>
                     <Route path="/atestate" element={<Atestate/>}></Route>
-                    <Route path="/algoritmi" element={<Algoritmi/>}></Route>
+                    <Route path="/pseudocod" element={<Pseudocod/>}></Route>
+                    <Route path="/cpp" element={<CPP/>}></Route>
                     <Route path="/contact" element={<Contact/>}></Route>
                 </Routes>
             </Router>
