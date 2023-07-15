@@ -19,9 +19,10 @@ const SkillsCourses = () => {
                 <span className="simpleTextCV">React</span>
                 <span className="simpleTextCV">JavaScript</span>
                 <span className="simpleTextCV">HTML</span>
-                <span className="simpleTextCV">BootStrap</span>
+                <span className="simpleTextCV">Bootstrap</span>
                 <span className="simpleTextCV">CSS</span>
                 <span className="simpleTextCV">C / C++</span>
+                <span className="simpleTextCV">Matlab</span>
             </Row>
             <Row>
                 <p className="titleCV">Dev Tools</p>
