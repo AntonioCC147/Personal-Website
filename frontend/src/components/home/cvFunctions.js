@@ -91,7 +91,7 @@ const Projects = () => {
                 <p className="titleCV">Proiecte Interne</p><hr/>
                 <Col sm={10} >
                     <li className="listCV">Ce spun Automatiștii?</li>
-                    <span className="descriptionListCV">React.js, MongoDB, Git</span>
+                    <span className="descriptionListCV">React, MongoDB, Git</span>
                     
                 </Col>
                 <Col sm={2} style={{textAlign: "right"}}>
@@ -102,13 +102,14 @@ const Projects = () => {
                 <p className="descriptionList2CV">
                     Am lucrat cu o echipă de 5 persoane pentru a crea o aplicație care se dorește a fi un Website folosit
                     ca interfață pentru echipele participante la eveniment pentru a avea cea mai plăcută experiență posibilă.
-                    M-am ocupat de partea de Frontend, lucrând la secțiuni precum "Despre noi", "FAQ" sau chiar "Footer". 
+                    M-am ocupat de partea de Frontend, lucrând la secțiuni precum <i>"Despre noi"</i>, <i>"FAQ"</i> sau chiar
+                    <i>"Footer"</i>. 
                 </p>
             </Row>
             <Row>
                 <Col sm={9} >
                     <li className="listCV">Generic Admin Panel</li>
-                    <span className="descriptionListCV">React.js, TypeScript, Git</span>
+                    <span className="descriptionListCV">React, TypeScript, Git</span>
                 </Col>
                 <Col sm={3} style={{textAlign: "right"}}>
                     Martie 2022 - Prezent
@@ -116,7 +117,7 @@ const Projects = () => {
             </Row>
             <Row style={{marginRight: "60px"}}>
                 <p className="descriptionList2CV" >
-                    Având responsabilitatea de "Team Lead" în cadrul acestui proiect, a trebuit să creem un Admin Panel
+                    Având responsabilitatea de <i>"Team Lead"</i> în cadrul acestui proiect, a trebuit să creem un Admin Panel
                     cât mai general pentru o introducere mai rapidă a informațiilor, echipelor, chestionarelor sau a altor
                     lucruri specifice pe celelalte platforme pe care le deține liga.
                 </p>

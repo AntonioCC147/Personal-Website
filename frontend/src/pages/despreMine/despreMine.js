@@ -22,8 +22,8 @@ export default function DespreMine() {
                     <Col sm="8" className="simpleText">
                         <div>
                             <span class="tab"/>
-                                Numele meu este Toni, am 20 de ani, sunt student la "Facultatea de Automatică și
-                                Calculatoare" din București și membru în "Liga Studenților".
+                                Numele meu este Toni, am 20 de ani, sunt student la <i>"Facultatea de Automatică și
+                                Calculatoare"</i> din București și membru în <i>"Liga Studenților"</i>.
                         </div>
                         <div>
                             <span class="tab"/>
@@ -35,14 +35,14 @@ export default function DespreMine() {
                             <span class="tab"/>
                                 În timpul liber mă ocup cu oferirea de meditații / pregătiri suplimentare atât la
                                 Informatică, cât și la Matematică elevilor ce solicită ajutorul. Până în momentul de
-                                față am avut "pe mână" nici mai mult și nici mai puțin de 10 elevi pe care i-am ajutat
+                                față am avut <i>"pe mână"</i> nici mai mult și nici mai puțin de 10 elevi pe care i-am ajutat
                                 să obțină rezultatele dorite pe toate planurile pe care și le-au propus.
                         </div>
                         <div>
                             <span class="tab"/>
-                                Pe lângă aceste aspecte, sunt membru în cadrul "Departamentului de IT" din cadrul ligii. Avem o
-                                comunitate extrem de unită și facem absolut totul din pasiune. Învățăm unii de la alții, iar
-                                eu mă opot mândri cu faptul că fac parte din această comunitate.
+                                Pe lângă aceste aspecte, sunt membru în cadrul <i>"Departamentului de IT"</i> din cadrul ligii.
+                                Avem o comunitate extrem de unită și facem absolut totul din pasiune. Învățăm unii de la alții,
+                                iar eu mă opot mândri cu faptul că fac parte din această comunitate.
                         </div>
                         <div>
                             <span class="tab"/>
