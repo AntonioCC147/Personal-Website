@@ -37,10 +37,13 @@ export default function NavbarHeader() {
                                 <NavDropdown.Item href="/cpp" className={`${isCurrentPage('/cpp')} navbarDropdopownText`}>C++</NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Link href="/atestate" className={isCurrentPage('/atestate')}>Atestate</Nav.Link>
+                           
                         </Nav>
-                        <Nav>
-                            <Nav.Link href="/contact" className={isCurrentPage('/contact')}>Contact</Nav.Link>
-                        </Nav>
+                        <Col sm={1}>
+                            <Nav>
+                                <Nav.Link href="/contact" className={isCurrentPage('/contact')}>Contact</Nav.Link>
+                            </Nav>
+                        </Col>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
