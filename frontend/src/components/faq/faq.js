@@ -43,7 +43,7 @@ export default function FAQ() {
                 {FAQS.map((faq, index) => {
                     return (
                         <Card key={index}
-                            className={"p-0 m-3 border-white " + (index === 0 ? "border-top-0" : "")}>
+                            className={"p-0 m-3 border-white card-hover" + (index === 0 ? "border-top-0 card-hover" : "")}>
                             <Card.Header>
                                 <div className='d-flex flex-row p-1 pb-2'>
                                     <ContextAwareToggle eventKey={index + 1}>{faq.question}</ContextAwareToggle>

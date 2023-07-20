@@ -37,3 +37,7 @@
 .accordion-icon {
     width: 1.5em;
 }
+
+.card-hover:hover{
+    transform: scale(1.1);
+}
