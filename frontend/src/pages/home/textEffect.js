@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
+
 import './home.css';
 
 const TextEffect = () => {
@@ -6,7 +7,7 @@ const TextEffect = () => {
         "Student la Automatică și Calculatoare",
         "Îmi place Informatica și Programarea",
         "Mentor la Informatică și Matematică"
-    ], []); // The second argument, the dependency array, is an empty array since 'texts' doesn't depend on any other variables.
+    ], []);
 
     const [currentTextIndex, setCurrentTextIndex] = useState(0);
     const [currentText, setCurrentText] = useState(texts[0]);
@@ -23,7 +24,7 @@ const TextEffect = () => {
 
     useEffect(() => {
         setCurrentText(texts[currentTextIndex]);
-    }, [texts, currentTextIndex]); // Add 'texts' as a dependency since it's used inside this effect.
+    }, [texts, currentTextIndex]);
 
     return (
         <div className="textEffect">
