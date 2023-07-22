@@ -8,6 +8,10 @@ import ProiectChimie from '../../assets/projects/ProiectChimie.jpg';
     import Chimie1 from '../../assets/projects/Chimie1.jpg';
     import Chimie2 from '../../assets/projects/Chimie2.jpg';
     import Chimie3 from '../../assets/projects/Chimie3.jpg';
+import ProiectACS from '../../assets/projects/ProiectACS.jpg';
+    import ACS1 from '../../assets/projects/ACS1.jpg';
+    import ACS2 from '../../assets/projects/ACS2.jpg';
+    import ACS3 from '../../assets/projects/ACS3.jpg';
 import ProiectProba from '../../assets/projects/ProiectProba.jpg';
     import Proba1 from '../../assets/projects/Proba1.jpg';
     import Proba2 from '../../assets/projects/Proba2.jpg';
@@ -43,8 +47,19 @@ export default function Portofoliu() {
                         linkToProject="yes"
                         img={ProiectChimie} img1={Chimie1} img2={Chimie2} img3={Chimie3}
                         title={<>Chemistry App - Web App</>}
-                        description={<>Proiect a fost realizat la "Sesiunea de Comunicări Științifice" și reprezintă o
+                        description={<>Proiectul a fost realizat la "Sesiunea de Comunicări Științifice" și reprezintă o
                         aplicație pentru laboratoarele de chimie.</>}
+                        technology={<>React, JavaScript, HTML, Bootstrap, CSS</>}
+                        git="https://github.com/AntonioCC147/Chemistry-App" adress="https://acs-chemistry-app.netlify.app/"
+                    />
+                </Col>
+                <Col>
+                    <PortofoliuCard
+                        linkToProject="yes"
+                        img={ProiectACS} img1={ACS1} img2={ACS2} img3={ACS3}
+                        title={<>ACS IS AA - Web App</>}
+                        description={<>Acest proiect a fost realizat pentru a oferi un ajutor bobocilor de la Automatică. Conține
+                        mai multe informații esențiale, inclusiv feedback la materii.</>}
                         technology={<>React, JavaScript, HTML, Bootstrap, CSS</>}
                         git="https://github.com/AntonioCC147/Chemistry-App" adress="https://acs-chemistry-app.netlify.app/"
                     />
@@ -60,6 +75,9 @@ export default function Portofoliu() {
                         git="https://github.com/AntonioCC147/Proba-Tehnica-IT" adress="https://proba-meme-it.netlify.app/"
                     />
                 </Col>
+                
+            </Row>
+            <Row>
                 <Col>
                     <PortofoliuCard
                         linkToProject="yes"
@@ -71,8 +89,6 @@ export default function Portofoliu() {
                         git="https://github.com/AntonioCC147/Website-Setup-Configuration" adress="https://website-setup-configuration.netlify.app/"
                     />
                 </Col>
-            </Row>
-            <Row>
                 <Col>
                     <PortofoliuCard
                         linkToProject="no"
@@ -95,6 +111,9 @@ export default function Portofoliu() {
                         git="https://github.com/AntonioCC147/PA-Project-LanParty" adress="/"
                     />
                 </Col>
+                
+            </Row>
+            <Row>
                 <Col>
                     <PortofoliuCard
                         linkToProject="no" img1={Joc1} img2={Joc2} img3={Joc3}
