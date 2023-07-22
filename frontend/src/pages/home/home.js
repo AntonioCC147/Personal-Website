@@ -3,6 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/esm/Button';
 
+import TextEffect from './textEffect';
 import Skills from '../../components/home/skills';
 import ParcursMain from '../../components/home/parcursMain';
 import CV from '../../components/home/cv';
@@ -18,7 +19,7 @@ export default function Home() {
                     <Row>
                         <Col>
                             <p className="name">{`<`}Antonio-Cristian Crantea{`/>`}</p>
-                            <p className="studied">Automatic Control & Computer Science</p>
+                            <TextEffect/>
                         </Col>
                     </Row>
                     <Row>
