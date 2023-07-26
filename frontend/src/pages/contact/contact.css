@@ -13,8 +13,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    
 }
 
 .contactButton {
@@ -38,4 +36,15 @@
 
 .formAppearance {
     border: 1px solid #4b4b4b !important;
+
+    background-color: gainsboro;
+    font-weight: 700 !important;
+
+    color: black !important;
+}
+
+.field {
+    border-radius: 0px;
+    border-color: none;
+    
 }

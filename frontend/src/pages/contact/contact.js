@@ -1,14 +1,19 @@
 import React, { useState } from 'react';
+
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import { Modal } from 'react-bootstrap';
+
 import ReCAPTCHA from "react-google-recaptcha";
 import emailjs from '@emailjs/browser';
+
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/esm/Button';
+
 import ContactImg from '../../assets/icons/Contact.png';
+
 import '../../components/containers/text.css';
 import './contact.css';
 
@@ -35,7 +40,6 @@ export default function Contact() {
         emailjs.send('service_8ikvw41', 'template_2o06wrp', values, 'wgJFpA_4E1G_XA6V-')
             .then((result) => {
                 console.log(result.text);
-                // Set form submitted to true after successfully sending the email
                 setIsFormSubmitted(true);
             })
             .catch((error) => {
@@ -84,11 +88,12 @@ export default function Contact() {
                         <Row>
                             <Col sm={6}>
                                 <Row>
-                                    <b><label htmlFor="user_name">Nume:</label></b>
-                                    <Field type="text" name="user_name" className="form-control formAppearance" />
+                                    <b><label htmlFor="message">Nume:</label></b>
+                                    <Field type="text" name="user_name" className="form-control formAppearance field" placeholder="Popescu Ion" />
                                     <ErrorMessage name="user_name" component="div" className="error-message" />
-                                    <b><label htmlFor="user_email">Email:</label></b>
-                                    <Field type="email" name="user_email" className="form-control formAppearance" />
+                                    
+                                    <b><label htmlFor="message">Email:</label></b>
+                                    <Field type="email" name="user_email" className="form-control formAppearance" placeholder="popescu.ion@gmail.com"/>
                                     <ErrorMessage name="user_email" component="div" className="error-message" />
                                 </Row>
                                 <Row>
@@ -99,7 +104,7 @@ export default function Contact() {
                             </Col>
                             <Col sm={6}>
                                 <b><label htmlFor="message">Mesaj:</label></b>
-                                <Field as="textarea" name="message" className="form-control formAppearance" rows="8" cols="50" />
+                                <Field as="textarea" name="message" className="form-control formAppearance" rows="8" cols="50" placeholder="Scrie aici mesajul..."/>
                                 <ErrorMessage name="message" component="div" className="error-message" />
                             </Col>
                         </Row>
