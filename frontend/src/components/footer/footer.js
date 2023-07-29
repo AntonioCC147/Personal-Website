@@ -4,8 +4,6 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from "mdb-react-ui-k
 import { SocialIcon } from "react-social-icons";
 
 import Arrow from '../../assets/icons/Arrow.png';
-import Row from "react-bootstrap/esm/Row";
-import Col from "react-bootstrap/esm/Col";
 
 export default function App() {
     const scrollToTop = () => {
