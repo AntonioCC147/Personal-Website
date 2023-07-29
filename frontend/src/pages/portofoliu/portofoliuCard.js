@@ -48,7 +48,9 @@ export default function PortofoliuCard(props) {
             <div className="containerPortofoliu">
                 <div className="cardPortofoliu" style={{color: "black"}}>
                     <div className="imgBx">
-                        <a href="#"><img src={img} alt="Img" onClick={handleShow}/></a>
+                        <button onClick={handleShow} style={{ background: 'none', border: 'none', cursor: 'pointer' }}>
+                            <img src={img} alt="Img" />
+                        </button>
                     </div>
                     <div className="contentPortofoliu">
                         <h1>{title}</h1>
