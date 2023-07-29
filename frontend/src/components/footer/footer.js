@@ -3,7 +3,18 @@ import React from "react";
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from "mdb-react-ui-kit";
 import { SocialIcon } from "react-social-icons";
 
+import Arrow from '../../assets/icons/Arrow.png';
+import Row from "react-bootstrap/esm/Row";
+import Col from "react-bootstrap/esm/Col";
+
 export default function App() {
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    };
+
     return (
         <MDBFooter bgColor="dark" className="text-center text-lg-start text-muted" style={{marginTop: "20px"}}>
             <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom" style={{alignItems: "center", verticalAlign: "center"}}>
@@ -59,9 +70,13 @@ export default function App() {
                     </MDBRow>
                 </MDBContainer>
             </section>
-            <div className="text-center p-4 fw-bold" style={{ backgroundColor: "#0000000d", color: "gray" }}>
+            
+            <div className="text-center p-4 fw-bold" style={{ backgroundColor: "#0000000d", color: "gray", position: "relative" }}>
                 © {new Date().getFullYear()} Copyright | Crantea Antonio-Cristian, student la Facultatea de "Automatică și Calculatoare"
-            </div>
+                <button style={{ background: "transparent", border: "none", position: "absolute", right: "1rem", top: "50%", transform: "translateY(-50%)" }}>
+                    <img src={Arrow} onClick={scrollToTop} style={{ width: "50px" }} alt="Arrow" />
+                </button>
+            </div>   
         </MDBFooter>
     );
 }

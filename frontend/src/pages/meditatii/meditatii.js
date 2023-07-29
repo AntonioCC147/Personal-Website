@@ -18,6 +18,29 @@ export default function Meditatii() {
             <p className="title">Meditații</p>
             <p className="subTitle">Dorești să devii o persoană mai bună și să-ți întreci limitele?</p>
             <Row>
+            <Col sm={4}>
+                    <div className="meditatiiContainer">
+                        <img src={Mate} style={{marginTop: "10px", width: "25%"}} alt="React"/>
+                        <p className="meditatiiTitle">Matematică</p>
+                        <p className="meditatiiPrice">100 lei / 2 ore | 75 de lei / 1.30 ore</p>
+                        <p className="meditatiiDescription">
+                            <span className="bold">Ce vom învăța: </span>Matematica pentru nivel de Bacalaureat.
+                        </p>
+                        <p className="meditatiiDescription">
+                            <span className="bold">Pentru ce ne vom pregăti? </span>Nivel de școală sau Examenul de Bacalaureat.
+                        </p>
+                        <p className="meditatiiDescription">
+                            <span className="bold">Unde se vor desfășura sesiunile de pregătire? </span>Pregătirile se vor
+                            desfășura fizic (București) sau în mediul online (Google Meet / Discord).
+                        </p>
+                        <p className="meditatiiDescription">
+                            <span className="bold">Descriere: </span>Pregătirile la Matematică se susțin în cea mai mare parte
+                            pentru Examenul de Bacalaureat, dar nu nuami. Dacă îți dorești să iei o notă cât mai mare în examen,
+                            sau să îți îmbunătățești cunoștințele matematice, acesta este momentul.
+                        </p>
+                        <br/>
+                    </div>
+                </Col>
                 <Col sm={4}>
                     <div className="meditatiiContainer">
                         <img src={Info} style={{marginTop: "10px", width: "25%"}} alt="React"/>
@@ -39,30 +62,6 @@ export default function Meditatii() {
                             <span className="bold">Descriere: </span>Dacă dorești să-ți dezvolți și mai mult cunoștințele la
                             Informatică, să iei Examenul de Bacalaureat sau pur și simplu să te descurci mai bine la școală,
                             acesta este momentul perfect pentru a începe o colaborare.
-                        </p>
-                        <br/>
-                    </div>
-                </Col>
-                <Col sm={4}>
-                    <div className="meditatiiContainer">
-                        <img src={Mate} style={{marginTop: "10px", width: "25%"}} alt="React"/>
-                        <p className="meditatiiTitle">Matematică</p>
-                        <p className="meditatiiPrice">100 lei / 2 ore | 75 de lei / 1.30 ore</p>
-                        <p className="meditatiiDescription">
-                            <span className="bold">Ce vom învăța: </span>Matematica pentru nivel de Bacalaureat.
-                        </p>
-                        <p className="meditatiiDescription">
-                            <span className="bold">Pentru ce ne vom pregăti? </span>Nivel de școală sau Examenul de Bacalaureat.
-                        </p>
-                        <p className="meditatiiDescription">
-                            <span className="bold">Unde se vor desfășura sesiunile de pregătire? </span>Pregătirile se vor
-                            desfășura fizic (București) sau în mediul online (Google Meet / Discord).
-                        </p>
-                        <p className="meditatiiDescription">
-                            <span className="bold">Descriere: </span>Pregătirile la Matematică se susțin în cea mai mare parte
-                            pentru Examenul de Bacalaureat, în special pentru profilurile "Științele-Naturii" și "Tehnologic".
-                            Dacă ești la unul dintre ele (sau chiar la "Matematică-Informatică") și dorești să iei o notă cât mai
-                            mare în examen, acesta este momentul.
                         </p>
                         <br/>
                     </div>

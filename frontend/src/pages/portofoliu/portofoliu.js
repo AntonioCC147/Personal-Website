@@ -41,7 +41,7 @@ export default function Portofoliu() {
         <Container>
             <Row>
                 <p className="title">Portofoliu</p>
-                <p className="subTitle">Mai jos prezint câteva creații personale. Acestea nu reprezintă și munca din cadrul Departamentului de IT</p>
+                <p className="subTitle" style={{marginBottom: "40px"}}>Mai jos prezint câteva creații personale. Acestea nu reprezintă și munca din cadrul Departamentului de IT</p>
                 <Col>
                     <PortofoliuCard
                         linkToProject="yes"
@@ -75,7 +75,6 @@ export default function Portofoliu() {
                         git="https://github.com/AntonioCC147/Proba-Tehnica-IT" adress="https://proba-meme-it.netlify.app/"
                     />
                 </Col>
-                
             </Row>
             <Row>
                 <Col>
@@ -111,7 +110,6 @@ export default function Portofoliu() {
                         git="https://github.com/AntonioCC147/PA-Project-LanParty" adress="/"
                     />
                 </Col>
-                
             </Row>
             <Row>
                 <Col>

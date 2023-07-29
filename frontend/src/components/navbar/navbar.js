@@ -20,7 +20,9 @@ export default function NavbarHeader() {
             <Navbar collapseOnSelect expand="xl" bg="dark" variant="dark" fixed="top" style={{marginBottom: '50px', height: "75px"}}>
                 <Container>
                     <Navbar.Brand><a href="/"><img src={Icon} alt="Icon" style={{width: "35px"}}/></a></Navbar.Brand>
-                    <Navbar.Brand style={{fontWeight: "bold"}} href="/">Antonio Crantea</Navbar.Brand>
+                    <Navbar.Brand style={{fontWeight: "bold"}} href="/">
+                        <span style={{fontSize: "25px"}}>A</span>ntonio <span style={{fontSize: "25px"}}>C</span>rantea
+                    </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto navbarCenter">
