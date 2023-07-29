@@ -58,10 +58,10 @@ export default function Portofoliu() {
                         linkToProject="yes"
                         img={ProiectACS} img1={ACS1} img2={ACS2} img3={ACS3}
                         title={<>ACS IS AA - Web App</>}
-                        description={<>Acest proiect a fost realizat pentru a oferi un ajutor bobocilor de la Automatică. Conține
+                        description={<>Proiectul a fost realizat pentru a oferi un ajutor bobocilor de la Automatică. Conține
                         mai multe informații esențiale, inclusiv feedback la materii.</>}
                         technology={<>React, JavaScript, HTML, Bootstrap, CSS</>}
-                        git="https://github.com/AntonioCC147/Chemistry-App" adress="https://acs-chemistry-app.netlify.app/"
+                        git="https://github.com/AntonioCC147/ACS-IS-AA-Website" adress="https://acs-is-aa.software/"
                     />
                 </Col>
                 <Col>

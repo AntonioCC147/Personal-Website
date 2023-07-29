@@ -1,3 +1,15 @@
+.navbarCenter {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+
+    font-size: 18px;
+}
+
+.navbarCenter .nav-link {
+    margin-right: 30px;
+}
+
 .colorForDropdown > .dropdown-toggle {
     color: white;
 }

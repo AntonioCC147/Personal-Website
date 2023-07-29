@@ -20,7 +20,7 @@ export default function PortofoliuCard(props) {
     const handleShow = () => setShow(true);
 
     return (
-        <>
+        <div>
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
                     <Modal.Title>Imagini</Modal.Title>
@@ -48,9 +48,7 @@ export default function PortofoliuCard(props) {
             <div className="containerPortofoliu">
                 <div className="cardPortofoliu" style={{color: "black"}}>
                     <div className="imgBx">
-                        <Button style={{border: "none", color: "transparent", background: "none"}}>
-                            <img src={img} alt="Img" onClick={handleShow}/>
-                        </Button>
+                        <a href="#"><img src={img} alt="Img" onClick={handleShow}/></a>
                     </div>
                     <div className="contentPortofoliu">
                         <h1>{title}</h1>
@@ -71,6 +69,6 @@ export default function PortofoliuCard(props) {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 }

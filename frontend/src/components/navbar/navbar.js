@@ -1,5 +1,4 @@
 import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col';
 
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -18,15 +17,13 @@ export default function NavbarHeader() {
 
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top" style={{marginBottom: '50px'}}>
+            <Navbar collapseOnSelect expand="xl" bg="dark" variant="dark" fixed="top" style={{marginBottom: '50px', height: "75px"}}>
                 <Container>
-                    <Col sm={4}>
-                        <Navbar.Brand><a href="/"><img src={Icon} alt="Icon" style={{width: "35px"}}/></a></Navbar.Brand>
-                        <Navbar.Brand style={{fontWeight: "bold"}} href="/">Antonio Crantea</Navbar.Brand>
-                    </Col>
+                    <Navbar.Brand><a href="/"><img src={Icon} alt="Icon" style={{width: "35px"}}/></a></Navbar.Brand>
+                    <Navbar.Brand style={{fontWeight: "bold"}} href="/">Antonio Crantea</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="me-auto text-center">
+                        <Nav className="me-auto navbarCenter">
                             <Nav.Link href="/" className={isCurrentPage('/')}>Acasă</Nav.Link>
                             <Nav.Link href="/despremine" className={isCurrentPage('/despremine')}>Despre mine</Nav.Link>
                             <Nav.Link href="/portofoliu" className={isCurrentPage('/portofoliu')}>Portofoliu</Nav.Link>
@@ -37,13 +34,10 @@ export default function NavbarHeader() {
                                 <NavDropdown.Item href="/cpp" className={`${isCurrentPage('/cpp')} navbarDropdopownText`}>C++</NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Link href="/atestate" className={isCurrentPage('/atestate')}>Atestate</Nav.Link>
-                           
                         </Nav>
-                        <Col sm={1}>
-                            <Nav>
-                                <Nav.Link href="/contact" className={isCurrentPage('/contact')}>Contact</Nav.Link>
-                            </Nav>
-                        </Col>
+                        <Nav>
+                            <Nav.Link href="/contact" className={isCurrentPage('/contact')} style={{fontSize: "18px"}}>Contact</Nav.Link>
+                        </Nav>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
