@@ -17,7 +17,7 @@ export default function NavbarHeader() {
 
     return (
         <div>
-            <Navbar collapseOnSelect expand="xl" bg="dark" variant="dark" fixed="top" style={{marginBottom: '50px', height: "75px"}}>
+            <Navbar collapseOnSelect expand="xl" variant="dark" fixed="top" style={{background: "linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%)", marginBottom: '50px', height: "75px"}}>
                 <Container>
                     <Navbar.Brand><a href="/"><img src={Icon} alt="Icon" style={{width: "35px"}}/></a></Navbar.Brand>
                     <Navbar.Brand style={{fontWeight: "bold"}} href="/">
@@ -35,10 +35,11 @@ export default function NavbarHeader() {
                                     <NavDropdown.Divider/>
                                 <NavDropdown.Item href="/cpp" className={`${isCurrentPage('/cpp')} navbarDropdopownText`}>C++</NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link href="/atestate" className={isCurrentPage('/atestate')}>Atestate</Nav.Link>
+                            <Nav.Link href="/contact" className={isCurrentPage('/atestate')}>Contact</Nav.Link>
                         </Nav>
                         <Nav>
-                            <Nav.Link href="/contact" className={isCurrentPage('/contact')} style={{fontSize: "18px"}}>Contact</Nav.Link>
+                            <Nav.Link href="/login" className={isCurrentPage('/login')} style={{fontSize: "18px"}} disabled>Login</Nav.Link>
+                            <Nav.Link href="/register" className={isCurrentPage('/register')} style={{fontSize: "18px"}} disabled>Register</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
