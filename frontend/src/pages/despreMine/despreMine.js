@@ -22,8 +22,8 @@ export default function DespreMine() {
                     <Col sm="8" className="simpleText">
                         <div>
                             <span class="tab"/>
-                                Numele meu este Toni, am 20 de ani, sunt student la <i>"Facultatea de Automatică și
-                                Calculatoare"</i> din București și membru în <i>"Liga Studenților"</i>.
+                                Numele meu este Toni, am 20 de ani, sunt student la <b><i>"Facultatea de Automatică și
+                                Calculatoare"</i></b> din București și membru în <b><i>"Liga Studenților"</i></b>.
                         </div>
                         <div>
                             <span class="tab"/>
@@ -40,7 +40,7 @@ export default function DespreMine() {
                         </div>
                         <div>
                             <span class="tab"/>
-                                Pe lângă aceste aspecte, sunt membru în cadrul <i>"Departamentului de IT"</i> din cadrul ligii.
+                                Pe lângă aceste aspecte, sunt membru în cadrul <b><i>"Departamentului de IT"</i></b> din cadrul ligii.
                                 Avem o comunitate extrem de unită și facem absolut totul din pasiune. Învățăm unii de la alții,
                                 iar eu mă opot mândri cu faptul că fac parte din această comunitate.
                         </div>

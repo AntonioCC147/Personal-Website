@@ -38,7 +38,7 @@ const Education = () => {
     return (
         <Row>
             <p className="titleCV">Educație</p><hr/>
-            <Col sm={10} >
+            <Col sm={10}>
                 <li className="listCV">Universitatea Politehnică din București</li>
                 <span className="descriptionListCV">Facultatea de "Automatică și Calculatoare",
                 domeniul "Ingineria Sistemelor"</span>
@@ -55,7 +55,7 @@ const Certifications = () => {
         <>
             <Row>
                 <p className="titleCV">Certificate</p><hr/>
-                <Col sm={8} >
+                <Col sm={8}>
                     <li className="listCV">Școala de Vară 3DPUB</li>
                     <span className="descriptionListCV">Școală de vară organziată de UPB în parteneriat cu Gameloft</span>
                 </Col>
@@ -64,7 +64,7 @@ const Certifications = () => {
                 </Col>
             </Row>
             <Row>
-                <Col sm={8} >
+                <Col sm={8}>
                     <li className="listCV">Embedded Programming for Beginners</li>
                     <span className="descriptionListCV">Digital Programming Workshop, Google</span>
                 </Col>
@@ -73,7 +73,7 @@ const Certifications = () => {
                 </Col>
             </Row>
             <Row>
-                <Col sm={10} >
+                <Col sm={10}>
                     <li className="listCV">Diplomă de Bacalaureat</li>
                     <span className="descriptionListCV">Informatică - 10, Matematică - 9.90, Media Finală - 9.70</span>
                 </Col>
@@ -85,12 +85,26 @@ const Certifications = () => {
     )
 }
 
+const Work = () => {
+    return (
+        <Row>
+            <p className="titleCV">Job</p><hr/>
+            <Col sm={8}>
+                <li className="listCV">Tricubiq Solutions SRL</li>
+            </Col>
+            <Col sm={4} style={{textAlign: "right"}}>
+                August 2023 - Prezent
+            </Col>
+        </Row>
+    )
+}
+
 const Projects = () => {
     return (
         <>
             <Row>
                 <p className="titleCV">Proiecte Interne</p><hr/>
-                <Col sm={10} >
+                <Col sm={10}>
                     <li className="listCV">Ce spun Automatiștii?</li>
                     <span className="descriptionListCV">React, MongoDB, Git</span>
                     
@@ -108,7 +122,7 @@ const Projects = () => {
                 </p>
             </Row>
             <Row>
-                <Col sm={9} >
+                <Col sm={9}>
                     <li className="listCV">Generic Admin Panel</li>
                     <span className="descriptionListCV">React, TypeScript, Git</span>
                 </Col>
@@ -124,7 +138,7 @@ const Projects = () => {
                 </p>
             </Row>
             <Row>
-                <Col sm={9} >
+                <Col sm={9}>
                     <li className="listCV">Agendă Educațională de Bacalaureat la Informatică</li>
                 </Col>
                 <Col sm={3} style={{textAlign: "right"}}>
@@ -147,7 +161,7 @@ const Volunteering = () => {
         <>
             <Row>
                 <p className="titleCV">Experiențe de Voluntariat</p><hr/>
-                <Col sm={9} >
+                <Col sm={9}>
                     <li className="listCV">Departamentul de IT</li>
                     <span className="descriptionListCV">Membru în "Liga Studenților din Facultatea de
                     Automatică și Calculatoare"</span>
@@ -157,7 +171,7 @@ const Volunteering = () => {
                 </Col>
             </Row>
             <Row>
-                <Col sm={9} >
+                <Col sm={9}>
                     <li className="listCV">Meditator</li>
                     <span className="descriptionListCV">Suport educațional pentru elevi la materiile Informatică și Matematică</span>
                 </Col>
@@ -169,4 +183,4 @@ const Volunteering = () => {
     )
 }
 
-export { SkillsCourses, Education, Certifications, Projects, Volunteering };
+export { SkillsCourses, Education, Certifications, Work, Projects, Volunteering };

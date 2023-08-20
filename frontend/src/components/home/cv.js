@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faMap } from '@fortawesome/free-solid-svg-icons';
 
-import { SkillsCourses, Education, Certifications, Projects, Volunteering } from './cvFunctions';
+import { SkillsCourses, Education, Certifications, Work, Projects, Volunteering } from './cvFunctions';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -27,7 +27,7 @@ export default function CV() {
                     <Image src={MePhoto} className="imgCV" alt="Image" roundedCircle/>
                     <Row>
                         <p className="nameCV">Crantea Antonio-Cristian</p>
-                        <span><FontAwesomeIcon icon={faEnvelope}/>{" "}thet0mmy1407@gmail.com</span>
+                        <span><FontAwesomeIcon icon={faEnvelope}/>{" "}antoniocrantea@gmail.com</span>
                         <span><FontAwesomeIcon icon={faMap}/>{" "}București</span>
                     </Row>
                     <SkillsCourses/>
@@ -35,6 +35,7 @@ export default function CV() {
                 <Col sm={8}>
                     <Education/>
                     <Certifications/>
+                    <Work/>
                     <Projects/>
                     <Volunteering/>
                 </Col>
