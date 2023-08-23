@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faMap } from '@fortawesome/free-solid-svg-icons';
 
-import { SkillsCourses, Education, Certifications, Work, Projects, Volunteering } from './cvFunctions';
+import { SkillsCourses, Education, Certifications, Projects, Volunteering } from './cvFunctions';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';

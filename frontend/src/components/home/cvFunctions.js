@@ -169,4 +169,4 @@ const Volunteering = () => {
     )
 }
 
-export { SkillsCourses, Education, Certifications, Work, Projects, Volunteering };
+export { SkillsCourses, Education, Certifications, Projects, Volunteering };
