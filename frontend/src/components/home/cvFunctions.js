@@ -85,20 +85,6 @@ const Certifications = () => {
     )
 }
 
-const Work = () => {
-    return (
-        <Row>
-            <p className="titleCV">Job</p><hr/>
-            <Col sm={8}>
-                <li className="listCV">Tricubiq Solutions SRL</li>
-            </Col>
-            <Col sm={4} style={{textAlign: "right"}}>
-                August 2023 - Prezent
-            </Col>
-        </Row>
-    )
-}
-
 const Projects = () => {
     return (
         <>

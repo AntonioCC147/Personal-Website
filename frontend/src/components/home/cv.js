@@ -35,7 +35,6 @@ export default function CV() {
                 <Col sm={8}>
                     <Education/>
                     <Certifications/>
-                    <Work/>
                     <Projects/>
                     <Volunteering/>
                 </Col>
