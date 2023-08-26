@@ -24,10 +24,10 @@ export default function ParcursText(props) {
                 <div class="col-3 col-md-2 img text-center">
                     <Image className="imgParcurs" src={img} alt="img" roundedCircle/>
                 </div>
-                <div class="col-9 col-md-5 rightText">
+                <div class="col-9 col-md-5 text-md-start rightText">
                     <h5>{title}</h5>
                     <h6>{period}</h6>
-                    <p style={{marginRight: "30px"}}>{description}</p>
+                    <p>{description}</p>
                 </div>
             </div>
         )

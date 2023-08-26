@@ -13,7 +13,7 @@ import './parcurs.css';
 
 export default function ParcursMain() {
     return (
-        <Container fluid className="bg-dark" style={{ paddingBottom: "25px", color: "white"}}>
+        <Container fluid className="bg-dark" style={{ paddingLeft: "30px", paddingRight: "30px", paddingBottom: "25px", color: "white"}}>
             <p className="title">Parcursul meu</p>
             <p className="subTitle">Mapa mea de prezentare de când am pătruns într-o lume cu totul și cu totul magică</p>
             <div className="text-center">

@@ -20,11 +20,11 @@ export default function App() {
                     Conectează-mă prin rețelele de socializare disponibile:
                 </div>
                 <div>
-                    <SocialIcon url="https://github.com/AntonioCC147" target="_blank" network="github" bgColor="#ffffff" style={{width: "40px", height: "40px"}}/>{" "}
-                    <SocialIcon url="https://discord.com/users/265854349362724864" target="_blank" network="discord" style={{width: "40px", height: "40px"}}/>{" "}
-                    <SocialIcon url="https://www.linkedin.com/in/antonio-crantea/" target="_blank" network="linkedin" style={{width: "40px", height: "40px"}}/>{" "}
-                    <SocialIcon url="https://www.instagram.com/antoniocc147" target="_blank" network="instagram" style={{width: "40px", height: "40px"}}/>{" "}
-                    <SocialIcon url="https://www.facebook.com/antoniocc147" target="_blank" network="facebook" style={{width: "40px", height: "40px"}}/>
+                    <SocialIcon url="https://github.com/AntonioCC147" target="_blank" network="github" bgColor="#ffffff" style={{margin: "2px", width: "40px", height: "40px"}}/>
+                    <SocialIcon url="https://discord.com/users/265854349362724864" target="_blank" network="discord" style={{margin: "2px", width: "40px", height: "40px"}}/>
+                    <SocialIcon url="https://www.linkedin.com/in/antonio-crantea/" target="_blank" network="linkedin" style={{margin: "2px", width: "40px", height: "40px"}}/>
+                    <SocialIcon url="https://www.instagram.com/antoniocc147" target="_blank" network="instagram" style={{margin: "2px", width: "40px", height: "40px"}}/>
+                    <SocialIcon url="https://www.facebook.com/antoniocc147" target="_blank" network="facebook" style={{margin: "2px", width: "40px", height: "40px"}}/>
                 </div>
             </section>
             <section>
@@ -36,7 +36,7 @@ export default function App() {
                                 Despre site
                             </h6>
                             <p>
-                                Site-ul își propune prezentarea a cât mai multor detalii referitoare la munca mea în domeniul IT.
+                                Site-ul își propune prezentarea muncii mele din domeniul IT. Aplicația este creată de la zero.
                             </p>
                         </MDBCol>
 

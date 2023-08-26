@@ -1,5 +1,4 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faMap } from '@fortawesome/free-solid-svg-icons';
 
 import { SkillsCourses, Education, Certifications, Projects, Volunteering } from './cvFunctions';
@@ -27,7 +26,6 @@ export default function CV() {
                     <Image src={MePhoto} className="imgCV" alt="Image" roundedCircle/>
                     <Row>
                         <p className="nameCV">Crantea Antonio-Cristian</p>
-                        <span><FontAwesomeIcon icon={faEnvelope}/>{" "}antoniocrantea@gmail.com</span>
                         <span><FontAwesomeIcon icon={faMap}/>{" "}București</span>
                     </Row>
                     <SkillsCourses/>

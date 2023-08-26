@@ -69,7 +69,7 @@ const Certifications = () => {
                     <span className="descriptionListCV">Digital Programming Workshop, Google</span>
                 </Col>
                 <Col sm={4} style={{textAlign: "right"}}>
-                    Aprilie și Mai 2023
+                    Aprilie 2023 - Mai 2023
                 </Col>
             </Row>
             <Row>
@@ -113,7 +113,7 @@ const Projects = () => {
                     <span className="descriptionListCV">React, TypeScript, Git</span>
                 </Col>
                 <Col sm={3} style={{textAlign: "right"}}>
-                    Martie 2022 - Prezent
+                    Martie 2023 - Prezent
                 </Col>
             </Row>
             <Row style={{marginRight: "60px"}}>
@@ -149,8 +149,7 @@ const Volunteering = () => {
                 <p className="titleCV">Experiențe de Voluntariat</p><hr/>
                 <Col sm={9}>
                     <li className="listCV">Departamentul de IT</li>
-                    <span className="descriptionListCV">Membru în "Liga Studenților din Facultatea de
-                    Automatică și Calculatoare"</span>
+                    <span className="descriptionListCV">Membru în "Liga Studenților din Facultatea de Automatică și Calculatoare"</span>
                 </Col>
                 <Col sm={3} style={{textAlign: "right"}}>
                     Decembrie 2022 - Prezent
@@ -159,7 +158,7 @@ const Volunteering = () => {
             <Row>
                 <Col sm={9}>
                     <li className="listCV">Meditator</li>
-                    <span className="descriptionListCV">Suport educațional pentru elevi la materiile Informatică și Matematică</span>
+                    <span className="descriptionListCV">Suport educațional la materiile Informatică, Tehnologii Web și Matematică</span>
                 </Col>
                 <Col sm={3} style={{textAlign: "right"}}>
                     August 2021 - Prezent
