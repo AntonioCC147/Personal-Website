@@ -1,19 +1,18 @@
 .feedbackNameText {
     margin-top: 10px;
-    margin-bottom: 10px;
 
     font-size: 20px;
     font-weight: bold;
 }
 
 .feedbackDescriptionText {
-    margin: 10px 15% 75px 15%;
+    margin: 20px 15% 75px 15%;
 
     font-size: 16px;
     font-style: italic;
 }
 
 .stars {
-    width: 130px;
+    width: 150px;
     height: auto;
 }
