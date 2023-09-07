@@ -67,6 +67,7 @@ export default function Contact() {
                 initialValues={{
                     user_name: '',
                     user_email: '',
+                    user_phone: '',
                     message: '',
                 }}
                 validationSchema={validationSchema}
@@ -95,6 +96,9 @@ export default function Contact() {
                                     <b><label htmlFor="message">Email:</label></b>
                                     <Field type="email" name="user_email" className="form-control formAppearance" placeholder="popescu.ion@gmail.com"/>
                                     <ErrorMessage name="user_email" component="div" className="error-message" />
+
+                                    <b><label htmlFor="message">Telefon (opțional, dar necesar dacă doriți meditații):</label></b>
+                                    <Field type="text" name="user_phone" className="form-control formAppearance" placeholder="07 . . ."/>
                                 </Row>
                                 <Row>
                                     <div className="CAPTCHA">
@@ -104,7 +108,7 @@ export default function Contact() {
                             </Col>
                             <Col sm={6}>
                                 <b><label htmlFor="message">Mesaj:</label></b>
-                                <Field as="textarea" name="message" className="form-control formAppearance" rows="8" cols="50" placeholder="Scrie aici mesajul..."/>
+                                <Field as="textarea" name="message" className="form-control formAppearance" rows="10" cols="50" placeholder="Scrie aici mesajul..."/>
                                 <ErrorMessage name="message" component="div" className="error-message" />
                             </Col>
                         </Row>
@@ -116,7 +120,7 @@ export default function Contact() {
                                     className="d-flex align-items-center justify-content-center contactButton"
                                     disabled={isSubmitting || isFormSubmitted}
                                 >
-                                    {isFormSubmitted ? 'Trimite' : 'Trimite'}
+                                    {isFormSubmitted ? 'Dellay' : 'Trimite'}
                                 </Button>
                             </div>
                         </Row>
