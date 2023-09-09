@@ -24,6 +24,10 @@ import ProiectHack from '../../assets/projects/ProiectHack.jpg';
     import Mental1 from '../../assets/projects/Mental1.jpg';
     import Mental2 from '../../assets/projects/Mental2.jpg';
     import Mental3 from '../../assets/projects/Mental3.jpg';
+import ProiectWordScramble from '../../assets/projects/ProiectWordScramble.jpg';
+    import WS1 from '../../assets/projects/WS1.jpg';
+    import WS2 from '../../assets/projects/WS2.jpg';
+    import WS3 from '../../assets/projects/WS3.jpg';
 import ProiectPA from '../../assets/projects/ProiectPA.jpg';
     import PA1 from '../../assets/projects/PA1.jpg';
     import PA2 from '../../assets/projects/PA2.jpg';
@@ -101,6 +105,19 @@ export default function Portofoliu() {
                 </Col>
                 <Col>
                     <PortofoliuCard
+                        linkToProject="yes"
+                        img={ProiectWordScramble} img1={WS1} img2={WS2} img3={WS3}
+                        title={<>Word Scramble - Joc</>}
+                        description={<>Jocul este unul destul de simplu din punct de vedere al logicii. Acesta dispune atât
+                        limba română, cât și limba engleză.</>}
+                        technology={<>React, JavaScript, BootStrap</>}
+                        git="https://github.com/AntonioCC147/Word-Scramble-Game" adress="https://game-word-scramble.netlify.app/"
+                    />
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <PortofoliuCard
                         linkToProject="no"
                         img={ProiectPA} img1={PA1} img2={PA2} img3={PA3}
                         title={<>LanParty - Temă</>}
@@ -110,12 +127,10 @@ export default function Portofoliu() {
                         git="https://github.com/AntonioCC147/PA-Project-LanParty" adress="/"
                     />
                 </Col>
-            </Row>
-            <Row>
                 <Col>
                     <PortofoliuCard
-                        linkToProject="no" img1={Joc1} img2={Joc2} img3={Joc3}
-                        img={ProiectLitere}
+                        linkToProject="no"
+                        img={ProiectLitere} img1={Joc1} img2={Joc2} img3={Joc3}
                         title={<>Din Litere în Cifre - Joc</>}
                         description={<>Acest joc presupune scrierea cu litere ale alfabetului a unui număr din intervalul
                         [1, 1.000.000] și ulterior transformarea acestuia în cifre.</>}
