@@ -28,6 +28,10 @@ import ProiectWordScramble from '../../assets/projects/ProiectWordScramble.jpg';
     import WS1 from '../../assets/projects/WS1.jpg';
     import WS2 from '../../assets/projects/WS2.jpg';
     import WS3 from '../../assets/projects/WS3.jpg';
+import ProiectHangMan from '../../assets/projects/ProiectHangMan.jpg';
+    import HM1 from '../../assets/projects/HM1.jpg';
+    import HM2 from '../../assets/projects/HM2.jpg';
+    import HM3 from '../../assets/projects/HM3.jpg';
 import ProiectPA from '../../assets/projects/ProiectPA.jpg';
     import PA1 from '../../assets/projects/PA1.jpg';
     import PA2 from '../../assets/projects/PA2.jpg';
@@ -116,6 +120,17 @@ export default function Portofoliu() {
                 </Col>
             </Row>
             <Row>
+                <Col>
+                    <PortofoliuCard
+                        linkToProject="yes"
+                        img={ProiectHangMan} img1={HM1} img2={HM2} img3={HM3}
+                        title={<>HangMan - Joc</>}
+                        description={<>Acest joc este clasicul Spânzurătoarea pe care îl cunoaștem cu toții de mici. Ai de ales
+                        litere din alfabet până nimerești cuvântul, sau pierzi.</>}
+                        technology={<>React, JavaScript, BootStrap</>}
+                        git="https://github.com/AntonioCC147/HangMan-Game" adress="https://game-hangman-acc.netlify.app/"
+                    />
+                </Col>
                 <Col>
                     <PortofoliuCard
                         linkToProject="no"
