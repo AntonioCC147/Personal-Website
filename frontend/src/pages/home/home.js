@@ -13,7 +13,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import './home.css';
 import '../../components/containers/text.css'
 
-export default function Home() {
+export default function Home({language}) {
     return (
         <div>
             <Container fluid className="principalImg text-center">
@@ -21,19 +21,24 @@ export default function Home() {
                     <Row>
                         <Col>
                             <p className="name">{`<`}Antonio-Cristian Crantea{`/>`}</p>
-                            <TextEffect/>
+                            <TextEffect language={language}/>
                         </Col>
                     </Row>
                     <Row>
                         <Col>
-                            <Button variant="secondary" endIcon={<SearchIcon/>} href="/despremine" className="d-flex align-items-center justify-content-center homeButton">Află mai multe</Button>
+                            {language === "RO" && (
+                                <Button variant="secondary" endIcon={<SearchIcon/>} href="/despremine" className="d-flex align-items-center justify-content-center homeButton">Află mai multe</Button>
+                            )}
+                            {language === "UK" && (
+                                <Button variant="secondary" endIcon={<SearchIcon/>} href="/despremine" className="d-flex align-items-center justify-content-center homeButton">Find out more</Button>
+                            )}
                         </Col>
                     </Row>
                 </div>
             </Container>
-            <Skills/>
-            <ParcursMain/>
-            <CV/>
+            <Skills language={language}/>
+            <ParcursMain language={language}/>
+            <CV language={language}/>
         </div>
     )
 }

@@ -4,11 +4,15 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
+import Button from 'react-bootstrap/Button';
+
 import Icon from '../../assets/Icon.png';
+import uk from '../../assets/icons/uk.png';
+import ro from '../../assets/icons/ro.png';
 
 import './navbar.css';
 
-export default function NavbarHeader() {
+export default function NavbarHeader({language, setLanguage}) {
     const currentPath = window.location.pathname;
 
     const isCurrentPage = (path) => {
@@ -38,8 +42,16 @@ export default function NavbarHeader() {
                             <Nav.Link href="/contact" className={isCurrentPage('/atestate')}>Contact</Nav.Link>
                         </Nav>
                         <Nav>
-                            <Nav.Link href="/login" className={isCurrentPage('/login')} style={{fontSize: "18px"}} disabled>Login</Nav.Link>
-                            <Nav.Link href="/register" className={isCurrentPage('/register')} style={{fontSize: "18px"}} disabled>Register</Nav.Link>
+                            {language === "RO" && (
+                                <Button variant="outline-light" onClick={() => setLanguage("UK")}>
+                                    <img src={uk} style={{width: "20px"}} alt="UK"/>{' '}UK
+                                </Button>
+                            )}
+                            {language ==="UK" && (
+                                <Button variant="outline-light" onClick={() => setLanguage("RO")}>
+                                    <img src={ro} style={{width: "20px"}} alt="RO"/>{' '}RO
+                                </Button>
+                            )}
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

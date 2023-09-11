@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useState } from "react";
 
 import NavbarHeader from "./components/navbar/navbar";
 import Register from "./pages/register/register";
@@ -17,23 +18,31 @@ import "@fontsource/open-sans";
 import './App.css';
 
 function App() {
+    const [language, setLanguage] = useState(localStorage.getItem('language') || 'RO');
+
+    const updateLanguage = (newLanguage) => {
+        setLanguage(newLanguage);
+        localStorage.setItem('language', newLanguage);
+    };
+
     return (
         <div className="background" style={{fontFamily: "Open Sans"}}>
-            <NavbarHeader/>
+            <NavbarHeader language={language} setLanguage={updateLanguage} />
+            <br/>
             <Router>
                 <Routes>
-                    <Route exact path="/" element={<Home/>}></Route>
-                    <Route exact path="/register" element={<Register/>}></Route>
-                    <Route exact path="/login" element={<Login/>}></Route>
-                    <Route path="/despremine" element={<DespreMine/>}></Route>
-                    <Route path="/portofoliu" element={<Portofoliu/>}></Route>
-                    <Route path="/meditatii" element={<Meditatii/>}></Route>
-                    <Route path="/pseudocod" element={<Pseudocod/>}></Route>
-                    <Route path="/cpp" element={<CPP/>}></Route>
-                    <Route path="/contact" element={<Contact/>}></Route>
+                    <Route exact path="/" element={<Home language={language} />} />
+                    <Route exact path="/register" element={<Register />} />
+                    <Route exact path="/login" element={<Login />} />
+                    <Route path="/despremine" element={<DespreMine language={language} />} />
+                    <Route path="/portofoliu" element={<Portofoliu />} />
+                    <Route path="/meditatii" element={<Meditatii />} />
+                    <Route path="/pseudocod" element={<Pseudocod />} />
+                    <Route path="/cpp" element={<CPP />} />
+                    <Route path="/contact" element={<Contact />} />
                 </Routes>
             </Router>
-            <Footer/>
+            <Footer />
         </div>
     );
 }

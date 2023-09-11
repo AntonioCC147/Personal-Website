@@ -9,11 +9,11 @@ import './despreMine.css';
 import '../../components/containers/text.css';
 import '../../components/containers/principalContainer.css';
 
-export default function DespreMine() {
+export default function DespreMine({language}) {
     return (
         <>
             <Container className="bg-dark principalContainer text-center">
-                <div className="principalTitle">Despre mine</div>
+                <div className="principalTitle">Despre mine{language}</div>
                 <hr className="hr"/>
                 <Row>
                     <Col sm="4">
