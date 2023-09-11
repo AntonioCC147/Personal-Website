@@ -12,13 +12,14 @@ import MePhoto from '../../assets/photos/MePhoto.jpg';
 
 import './cv.css';
 
-export default function CV() {
+export default function CV({language}) {
     return (
         <Container>
             <Row>
                 <Col>
                     <p className="title">Curriculum Vitae</p>
-                    <p className="subTitle">O mică parte din munca pe care am depus-o în ultima perioadă</p>
+                    {language === "RO" && ( <p className="subTitle">O mică parte din munca pe care am depus-o în ultima perioadă</p> )}
+                    {language === "UK" && ( <p className="subTitle">A small part of the work I have done recently</p> )}
                 </Col>
             </Row>
             <Row>
@@ -26,15 +27,16 @@ export default function CV() {
                     <Image src={MePhoto} className="imgCV" alt="Image" roundedCircle/>
                     <Row>
                         <p className="nameCV">Crantea Antonio-Cristian</p>
-                        <span><FontAwesomeIcon icon={faMap}/>{" "}București</span>
+                        {language === "RO" && ( <span><FontAwesomeIcon icon={faMap}/>{" "}București</span> )}
+                        {language === "UK" && ( <span><FontAwesomeIcon icon={faMap}/>{" "}Bucharest</span> )}
                     </Row>
-                    <SkillsCourses/>
+                    <SkillsCourses language={language}/>
                 </Col>
                 <Col sm={8}>
-                    <Education/>
-                    <Certifications/>
-                    <Projects/>
-                    <Volunteering/>
+                    <Education language={language}/>
+                    <Certifications language={language}/>
+                    <Projects language={language}/>
+                    <Volunteering language={language}/>
                 </Col>
             </Row>
         </Container>

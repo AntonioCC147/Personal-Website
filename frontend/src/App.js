@@ -2,8 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 
 import NavbarHeader from "./components/navbar/navbar";
-import Register from "./pages/register/register";
-import Login from "./pages/login/login";
+//import Register from "./pages/register/register";
+//import Login from "./pages/login/login";
 
 import Home from "./pages/home/home";
 import DespreMine from "./pages/despreMine/despreMine";
@@ -31,18 +31,16 @@ function App() {
             <br/>
             <Router>
                 <Routes>
-                    <Route exact path="/" element={<Home language={language} />} />
-                    <Route exact path="/register" element={<Register />} />
-                    <Route exact path="/login" element={<Login />} />
-                    <Route path="/despremine" element={<DespreMine language={language} />} />
-                    <Route path="/portofoliu" element={<Portofoliu />} />
-                    <Route path="/meditatii" element={<Meditatii />} />
-                    <Route path="/pseudocod" element={<Pseudocod />} />
-                    <Route path="/cpp" element={<CPP />} />
-                    <Route path="/contact" element={<Contact />} />
+                    <Route exact path="/" element={<Home language={language}/>} />
+                    <Route path="/despremine" element={<DespreMine language={language}/>}/>
+                    <Route path="/portofoliu" element={<Portofoliu language={language}/>}/>
+                    <Route path="/meditatii" element={<Meditatii language={language}/>}/>
+                    <Route path="/pseudocod" element={<Pseudocod language={language}/>}/>
+                    <Route path="/cpp" element={<CPP language={language}/>} />
+                    <Route path="/contact" element={<Contact language={language}/>}/>
                 </Routes>
             </Router>
-            <Footer />
+            <Footer language={language}/>
         </div>
     );
 }

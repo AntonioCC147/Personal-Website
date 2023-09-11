@@ -12,7 +12,7 @@ import Tehn from '../../assets/meditatii/Tehn.png';
 import '../../components/containers/text.css';
 import './meditatii.css';
 
-export default function Meditatii() {
+export default function Meditatii({language}) {
     return (
         <Container className="text-center">
             <p className="title">Meditații</p>
