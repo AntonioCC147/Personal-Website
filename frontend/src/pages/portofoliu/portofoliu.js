@@ -48,8 +48,8 @@ export default function Portofoliu({language}) {
     return (
         <Container>
             <Row>
-                {language === "RO" && ( <p className="title">Portofoliu</p> )}
-                {language === "UK" && ( <p className="title">Portfolio</p> )}
+                {language === "RO" && ( <p className="title">&lt; Portofoliu /&gt;</p> )}
+                {language === "UK" && ( <p className="title">&lt; Portofolio /&gt;</p> )}
                 {language === "RO" && ( <p className="subTitle" style={{ marginBottom: "40px" }}>Mai jos prezint câteva creații personale. Acestea nu reprezintă și munca din cadrul Departamentului de IT</p> )}
                 {language === "UK" && (<p className="subTitle" style={{ marginBottom: "40px" }}>Below I present some personal creations. They also do not represent the work within the IT Department</p> )}
                 <Col>

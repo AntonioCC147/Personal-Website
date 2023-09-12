@@ -17,7 +17,7 @@ export default function CV({language}) {
         <Container>
             <Row>
                 <Col>
-                    <p className="title">Curriculum Vitae</p>
+                    <p className="title">&lt; Curriculum Vitae /&gt;</p>
                     {language === "RO" && ( <p className="subTitle">O mică parte din munca pe care am depus-o în ultima perioadă</p> )}
                     {language === "UK" && ( <p className="subTitle">A small part of the work I have done recently</p> )}
                 </Col>

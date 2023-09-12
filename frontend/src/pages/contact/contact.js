@@ -65,8 +65,8 @@ export default function Contact({language}) {
 
     return (
         <Container>
-            {language === "RO" && ( <p className="title">Contactează-mă</p> )}
-            {language === "UK" && ( <p className="title">Contact me</p> )}
+            {language === "RO" && ( <p className="title">&lt; Contactează-mă /&gt;</p> )}
+            {language === "UK" && ( <p className="title">&lt; Contact me /&gt;</p> )}
             {language === "RO" && ( <p className="subTitle">Dacă dorești să mă contactezi într-un mod cât mai ușor și rapid, poți completa formularul de mai jos</p> )}
             {language === "UK" && ( <p className="subTitle">If you want to contact me in the easiest and fastest way possible, you can fill out the form below</p> )}
             <Formik

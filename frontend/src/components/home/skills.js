@@ -14,7 +14,7 @@ import './skills.css';
 export default function Skills({language}) {
     return (
         <Container className="text-center">
-            <p className="title">Skills</p>
+            <p className="title">&lt; Skills /&gt;</p>
             {language === "RO" && ( <p className="subTitle">Câteva cunoștințe de bază pe care le-am dobândit de-a lungul anilor</p> )}
             {language === "UK" && ( <p className="subTitle">Some basic knowledge I've picked up over the years</p> )}
             <Row>

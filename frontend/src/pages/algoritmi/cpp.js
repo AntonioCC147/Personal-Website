@@ -293,7 +293,7 @@ int main()
 
     return (
         <Container>
-            <div className="title">C++</div>
+            <div className="title">&lt; C++ /&gt;</div>
             {language === "RO" && (
                 <div className="subTitle">Algoritimi Elementari care se predau în clasele IX-X, în mare parte la specializarea Matematică-Informatică</div>
             )}

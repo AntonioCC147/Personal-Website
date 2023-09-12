@@ -9,7 +9,7 @@ import StarsIcon from '../../assets/icons/StarsIcon.png';
 export default function Feedback({language}) {
     return (
         <Container className="bg-dark principalContainer text-center" style={{color: "white"}}>
-            <p className="title">Feedback</p>
+            <p className="title">&lt; Feedback /&gt;</p>
             {language === "RO" && ( <p className="subTitle">Câteva gânduri de-ale elevilor mei la finalul pregătirilor</p> )}
             {language === "UK" && ( <p className="subTitle">Some thoughts from my students at the end of the preparations</p> )}
             <Row>

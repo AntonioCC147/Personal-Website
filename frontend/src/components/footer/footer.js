@@ -34,15 +34,15 @@ export default function Footer({language}) {
                 <MDBContainer className="text-center text-md-start mt-5" style={{color: "gray"}}>
                     <MDBRow className="mt-3">
                         <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
-                            {language === "RO" && ( <h6 className="text-uppercase fw-bold mb-4">Despre site</h6> )}
-                            {language === "UK" && ( <h6 className="text-uppercase fw-bold mb-4">About site</h6> )}
+                            {language === "RO" && ( <h6 className="text-uppercase fw-bold mb-4">&lt; Despre site /&gt;</h6> )}
+                            {language === "UK" && ( <h6 className="text-uppercase fw-bold mb-4">&lt; About site /&gt;</h6> )}
                             {language === "RO" && ( <p>Site-ul își propune prezentarea muncii mele din domeniul IT. Aplicația este creată de la zero.</p> )}
                             {language === "UK" && ( <p>The site aims to present my work in the IT field & area. The app is built from scratch.</p> )}
                         </MDBCol>
 
                         <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
-                            {language === "RO" && ( <h6 className="text-uppercase fw-bold mb-4">Produse</h6> )}
-                            {language === "UK" && ( <h6 className="text-uppercase fw-bold mb-4">Products</h6> )}
+                            {language === "RO" && ( <h6 className="text-uppercase fw-bold mb-4">&lt; Produse /&gt;</h6> )}
+                            {language === "UK" && ( <h6 className="text-uppercase fw-bold mb-4">&lt; Products /&gt;</h6> )}
                             <p>
                                 <a href="https://edeea.ro/produs/agenda-bacalaureat-informatica-matematica-informatica/" target="blank" className="text-reset">
                                     {language === "RO" && ( <>Agendă Informatică</> )}
@@ -58,7 +58,7 @@ export default function Footer({language}) {
                         </MDBCol>
 
                         <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
-                            <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
+                            <h6 className="text-uppercase fw-bold mb-4">&lt; Contact /&gt;</h6>
                             <p><span className="fw-bold">Gmail:</span> antoniocrantea@gmail.com</p>
                             <p><span className="fw-bold">Yahoo:</span> thet0mmy@yhaoo.com</p>
                         </MDBCol>

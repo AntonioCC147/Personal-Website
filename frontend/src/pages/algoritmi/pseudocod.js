@@ -227,7 +227,7 @@ scrie rezultat`
 
     return (
         <Container>
-            <div className="title">Pseudocod</div>
+            <div className="title">&lt; Pseudocod /&gt;</div>
             {language === "RO" && (
                 <div className="subTitle">Algoritmi Elementari care se predau în clasele IX-X, în mare parte la specializarea Științele-Naturii</div>
             )}

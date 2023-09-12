@@ -8,8 +8,6 @@ import Skills from '../../components/home/skills';
 import ParcursMain from '../../components/home/parcursMain';
 import CV from '../../components/home/cv';
 
-import SearchIcon from '@mui/icons-material/Search';
-
 import './home.css';
 import '../../components/containers/text.css'
 
@@ -27,10 +25,10 @@ export default function Home({language}) {
                     <Row>
                         <Col>
                             {language === "RO" && (
-                                <Button variant="secondary" endIcon={<SearchIcon/>} href="/despremine" className="d-flex align-items-center justify-content-center homeButton">Află mai multe</Button>
+                                <Button variant="secondary" href="/despremine" className="d-flex align-items-center justify-content-center homeButton">Află mai multe</Button>
                             )}
                             {language === "UK" && (
-                                <Button variant="secondary" endIcon={<SearchIcon/>} href="/despremine" className="d-flex align-items-center justify-content-center homeButton">Find out more</Button>
+                                <Button variant="secondary" href="/despremine" className="d-flex align-items-center justify-content-center homeButton">Find out more</Button>
                             )}
                         </Col>
                     </Row>

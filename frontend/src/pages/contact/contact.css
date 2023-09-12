@@ -4,10 +4,10 @@
 
     border-style: groove;
     border-width: 2px;
-    border-color: rgb(31, 30, 30);
+    border-color: #1f1e1e;
 
     height: auto;
-    background-color: rgba(238, 238, 238, 0.434);
+    background-color: #eeeeee6f;
 }
 
 .buttonContainer {

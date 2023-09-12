@@ -14,8 +14,8 @@ import './parcurs.css';
 export default function ParcursMain({language}) {
     return (
         <Container fluid className="bg-dark" style={{ paddingLeft: "30px", paddingRight: "30px", paddingBottom: "25px", color: "white"}}>
-            {language ==="RO" && ( <p className="title">Parcursul meu</p> )}
-            {language ==="UK" && ( <p className="title">My Course</p> )}
+            {language ==="RO" && ( <p className="title">&lt; Parcursul meu /&gt;</p> )}
+            {language ==="UK" && ( <p className="title">&lt; My Course /&gt;</p> )}
             {language ==="RO" && ( <p className="subTitle">Mapa mea de prezentare de când am pătruns într-o lume cu totul și cu totul magică</p> )}
             {language ==="UK" && ( <p className="subTitle">My showcase map since entering a world that is completely and utterly magical</p> )}
             <div className="text-center">

@@ -25,7 +25,7 @@ export default function NavbarHeader({language, setLanguage}) {
                 <Container>
                     <Navbar.Brand><a href="/"><img src={Icon} alt="Icon" style={{width: "35px"}}/></a></Navbar.Brand>
                     <Navbar.Brand style={{fontWeight: "bold"}} href="/">
-                        <span style={{fontSize: "25px"}}>A</span>ntonio <span style={{fontSize: "25px"}}>C</span>rantea
+                        <span style={{fontSize: "25px"}}>&lt; A</span>ntonio <span style={{fontSize: "25px"}}>C</span>rantea<span style={{fontSize: "25px"}}> /&gt;</span>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">

@@ -13,8 +13,8 @@ export default function DespreMine({language}) {
     return (
         <div>
             <Container className="bg-dark principalContainer text-center">
-                {language === "RO" && ( <div className="principalTitle">Despre mine</div> )}
-                {language === "UK" && ( <div className="principalTitle">About me</div> )}
+                {language === "RO" && ( <div className="principalTitle">&lt; Despre mine /&gt;</div> )}
+                {language === "UK" && ( <div className="principalTitle">&lt; About me /&gt;</div> )}
                 <hr className="hr"/>
                 <Row>
                     <Col sm="4">
