@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col';
 
 import CodeWorkspace from '../../components/codeStuff/codeWorkspace';
 
-export default function Pseudocod() {
+export default function Pseudocod({language}) {
     const cod1 =
 `întreg nr, cif
 citește nr, cif
@@ -228,7 +228,12 @@ scrie rezultat`
     return (
         <Container>
             <div className="title">Pseudocod</div>
-            <div className="subTitle">Algoritimi Elementari care se predau în clasele IX-X, în mare parte la specializarea Științele-Naturii</div>
+            {language === "RO" && (
+                <div className="subTitle">Algoritmi Elementari care se predau în clasele IX-X, în mare parte la specializarea Științele-Naturii</div>
+            )}
+            {language === "UK" && (
+                <div className="subTitle">Elementary Algorithms that are taught in grades IX-X, mostly in the Natural Sciences specialization</div>
+            )}
             <Row>
                 <Col sm={6}>
                     <p className="text-center" style={{fontFamily: "Consolas"}}>Divizibilitatea unui număr cu o cifră</p>

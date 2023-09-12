@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col';
 
 import CodeWorkspace from '../../components/codeStuff/codeWorkspace';
 
-export default function CPP() {
+export default function CPP({language}) {
     const cod1 =
 `#include <iostream>
 using namespace std;
@@ -294,7 +294,12 @@ int main()
     return (
         <Container>
             <div className="title">C++</div>
-            <div className="subTitle">Algoritimi Elementari care se predau în clasele IX-X, în mare parte la specializarea Matematică-Informatică</div>
+            {language === "RO" && (
+                <div className="subTitle">Algoritimi Elementari care se predau în clasele IX-X, în mare parte la specializarea Matematică-Informatică</div>
+            )}
+            {language === "UK" && (
+                <div className="subTitle">Elementary Algorithms that are taught in grades IX-X, mostly in the Mathematics-Informatics specialization</div>
+            )}
             <Row>
                 <Col sm={6}>
                     <p className="text-center" style={{fontFamily: "Consolas"}}>Divizibilitatea unui număr cu o cifră</p>
