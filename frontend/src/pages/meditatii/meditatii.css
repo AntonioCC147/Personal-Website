@@ -3,9 +3,16 @@
 
     border-style: groove;
     border-width: 2px;
+    border-radius: 20px;
     border-color: rgb(31, 30, 30);
 
     height: auto;
+
+    background-color: #eeeeee6f;
+}
+
+.meditatiiContainer:hover {
+    transform: scale(1.05);
 }
 
 .meditatiiTitle {
