@@ -175,12 +175,12 @@ export default function Meditatii({language}) {
             <Row className="text-center">
                 <div class="buttonContainer">
                     {language === "RO" && (
-                        <Button variant="secondary" className="d-flex align-items-center justify-content-center meditatiiButton" href="/contact">
+                        <Button variant="dark" className="d-flex align-items-center justify-content-center meditatiiButton" href="/contact">
                             Contactează-mă aici
                         </Button>
                     )}
                     {language === "UK" && (
-                        <Button variant="secondary" className="d-flex align-items-center justify-content-center meditatiiButton" href="/contact">
+                        <Button variant="dark" className="d-flex align-items-center justify-content-center meditatiiButton" href="/contact">
                             Contact me here
                         </Button>
                     )}

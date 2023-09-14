@@ -19,16 +19,16 @@ export default function Home({language}) {
                     <Row>
                         <Col>
                             <p className="name">{`<`}Antonio-Cristian Crantea{`/>`}</p>
-                            <TextEffect language={language}/>
+                            <TextEffect language={language} className="textEffect"/>
                         </Col>
                     </Row>
                     <Row>
                         <Col>
                             {language === "RO" && (
-                                <Button variant="secondary" href="/despremine" className="d-flex align-items-center justify-content-center homeButton">Află mai multe</Button>
+                                <Button variant="dark" href="/despremine" className="d-flex align-items-center justify-content-center homeButton">Află mai multe</Button>
                             )}
                             {language === "UK" && (
-                                <Button variant="secondary" href="/despremine" className="d-flex align-items-center justify-content-center homeButton">Find out more</Button>
+                                <Button variant="dark" href="/despremine" className="d-flex align-items-center justify-content-center homeButton">Find out more</Button>
                             )}
                         </Col>
                     </Row>
