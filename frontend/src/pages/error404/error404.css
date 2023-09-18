@@ -1,0 +1,10 @@
+.errorPhoto {
+    width: 500x;
+    height: auto;
+}
+
+.errorText {
+    font-size: 36px;
+    font-weight: bolder;
+    font-style: italic;
+}
