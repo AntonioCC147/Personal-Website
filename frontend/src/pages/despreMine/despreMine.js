@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import MePhoto from '../../assets/photos/MePhoto.jpg';
+import MePhoto2 from '../../assets/photos/MePhoto2.jpg';
 import FAQ from '../../components/faq/faq';
 
 import './despreMine.css';
@@ -18,7 +18,7 @@ export default function DespreMine({language}) {
                 <hr className="hr"/>
                 <Row>
                     <Col sm="4">
-                        <img src={MePhoto} className="img-setUp" alt="MePhoto"/>
+                        <img src={MePhoto2} className="img-setUp" alt="MePhoto"/>
                     </Col>
                     {language === "RO" && (
                         <Col sm="8" className="simpleText">
