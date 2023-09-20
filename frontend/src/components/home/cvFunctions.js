@@ -67,30 +67,32 @@ const Education = ({language}) => {
         <div>
             {language === "RO" && (
                 <div>
-                    <p className="titleCV">Educație</p><hr/>
-                    <Col sm={10}>
-                        <li className="listCV">Universitatea Politehnică din București</li>
-                        <span className="descriptionListCV">Facultatea de "Automatică și Calculatoare",
-                        domeniul "Ingineria Sistemelor"</span>
-                    </Col>
-                    <Col sm={2} style={{textAlign: "right"}}>
-                        2022 - Prezent
-                    </Col>
-                    
+                    <Row>
+                        <p className="titleCV">Educație</p><hr/>
+                        <Col sm={10}>
+                            <li className="listCV">Universitatea Politehnică din București</li>
+                            <span className="descriptionListCV">Facultatea de "Automatică și Calculatoare",
+                            domeniul "Ingineria Sistemelor"</span>
+                        </Col>
+                        <Col sm={2} style={{textAlign: "right"}}>
+                            2022 - Prezent
+                        </Col>
+                    </Row>
                 </div>
             )}
             {language === "UK" && (
                 <div>
-                    <p className="titleCV">Education</p>
-                    <hr/>
-                    <Col sm={10}>
-                        <li className="listCV">Politehnica University of Bucharest</li>
-                        <span className="descriptionListCV">Faculty of "Automation and Computers",
-                        field of study: "Systems Engineering"</span>
-                    </Col>
-                    <Col sm={2} style={{textAlign: "right"}}>
-                        2022 - Present
-                    </Col>
+                    <Row>
+                        <p className="titleCV">Education</p><hr/>
+                        <Col sm={10}>
+                            <li className="listCV">Politehnica University of Bucharest</li>
+                            <span className="descriptionListCV">Faculty of "Automation and Computers",
+                            field of study: "Systems Engineering"</span>
+                        </Col>
+                        <Col sm={2} style={{textAlign: "right"}}>
+                            2022 - Present
+                        </Col>
+                    </Row>
                 </div>
             )}
         </div>
@@ -104,15 +106,6 @@ const Certifications = ({language}) => {
                 <div>
                     <Row>
                         <p className="titleCV">Certificate</p><hr/>
-                        <Col sm={8}>
-                            <li className="listCV">Școala de Vară 3DPUB</li>
-                            <span className="descriptionListCV">Școală de vară organziată de UPB în parteneriat cu Gameloft</span>
-                        </Col>
-                        <Col sm={4} style={{textAlign: "right"}}>
-                            Iunie 2023 - Prezent
-                        </Col>
-                    </Row>
-                    <Row>
                         <Col sm={8}>
                             <li className="listCV">Embedded Programming for Beginners</li>
                             <span className="descriptionListCV">Digital Programming Workshop, Google</span>
@@ -136,15 +129,6 @@ const Certifications = ({language}) => {
                 <div>
                     <Row>
                         <p className="titleCV">Certificates</p><hr/>
-                        <Col sm={8}>
-                            <li className="listCV">3DPUB Summer School</li>
-                            <span className="descriptionListCV">Summer school organized by UPB in partnership with Gameloft</span>
-                        </Col>
-                        <Col sm={4} style={{textAlign: "right"}}>
-                            June 2023 - Present
-                        </Col>
-                    </Row>
-                    <Row>
                         <Col sm={8}>
                             <li className="listCV">Embedded Programming for Beginners</li>
                             <span className="descriptionListCV">Digital Programming Workshop, Google</span>
