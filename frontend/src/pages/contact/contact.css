@@ -48,3 +48,16 @@
     border-radius: 0px;
     border-color: none;
 }
+
+input[type=text], input[type=textarea], input[type=password], input[type=email], .textarea{
+    width: 100%;
+
+    margin-left: 5px;
+    margin-bottom: 5px;
+
+    display: inline-block;
+    
+    border: 2px solid #747474 !important;
+    border-radius: 5px;
+    box-sizing: border-box;
+}

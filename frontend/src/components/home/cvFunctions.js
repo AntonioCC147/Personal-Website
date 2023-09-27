@@ -69,13 +69,13 @@ const Education = ({language}) => {
                 <div>
                     <Row>
                         <p className="titleCV">Educație</p><hr/>
-                        <Col sm={10}>
+                        <Col sm={9}>
                             <li className="listCV">Universitatea Politehnică din București</li>
                             <span className="descriptionListCV">Facultatea de "Automatică și Calculatoare",
                             domeniul "Ingineria Sistemelor"</span>
                         </Col>
-                        <Col sm={2} style={{textAlign: "right"}}>
-                            2022 - Prezent
+                        <Col sm={3} style={{textAlign: "right"}}>
+                            Octombrie 2022 - Prezent
                         </Col>
                     </Row>
                 </div>

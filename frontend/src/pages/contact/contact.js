@@ -117,8 +117,8 @@ export default function Contact({language}) {
                             <Col sm={6}>
                                 {language === "RO" && ( <b><label htmlFor="message">Mesaj:</label></b> )}
                                 {language === "UK" && ( <b><label htmlFor="message">Message:</label></b> )}
-                                {language === "RO" && ( <Field as="textarea" name="message" className="form-control formAppearance" rows="10" cols="50" placeholder="Scrie aici mesajul..."/> )}
-                                {language === "UK" && ( <Field as="textarea" name="message" className="form-control formAppearance" rows="10" cols="50" placeholder="Write here the message..."/> )}    
+                                {language === "RO" && ( <Field as="textarea" name="message" className="textarea form-control formAppearance" rows="11" cols="50" placeholder="Scrie aici mesajul..."/> )}
+                                {language === "UK" && ( <Field as="textarea" name="message" className="textarea form-control formAppearance" rows="11" cols="50" placeholder="Write here the message..."/> )}    
                                 <ErrorMessage name="message" component="div" className="error-message" />
                             </Col>
                         </Row>
