@@ -51,7 +51,9 @@ export default function Portofoliu({language}) {
                 {language === "RO" && ( <p className="title">&lt; Portofoliu /&gt;</p> )}
                 {language === "UK" && ( <p className="title">&lt; Portofolio /&gt;</p> )}
                 {language === "RO" && ( <p className="subTitle" style={{ marginBottom: "40px" }}>Mai jos prezint câteva creații personale. Acestea nu reprezintă și munca din cadrul Departamentului de IT</p> )}
-                {language === "UK" && (<p className="subTitle" style={{ marginBottom: "40px" }}>Below I present some personal creations. They also do not represent the work within the IT Department</p> )}
+                {language === "UK" && ( <p className="subTitle" style={{ marginBottom: "40px" }}>Below I present some personal creations. They also do not represent the work within the IT Department</p> )}
+                {language === "RO" && ( <p className="subSubTitle">&lt; Proiecte Personale /&gt;</p> )}
+                {language === "UK" && ( <p className="subSubTitle">&lt; Personal Project /&gt;</p> )}
                 <Col>
                     {language === "RO" && (
                         <PortofoliuCard
@@ -266,6 +268,59 @@ export default function Portofoliu({language}) {
                     )}
                 </Col>
             </Row>
+            <Row>
+                {language === "RO" && ( <p className="subSubTitle">&lt; Proiecte de Echipă /&gt;</p> )}
+                {language === "UK" && ( <p className="subSubTitle">&lt; Team Projects /&gt;</p> )}
+                <Col>
+                    {language === "RO" && (
+                        <PortofoliuCard
+                            linkToProject="yes"
+                            img={ProiectChimie} img1={Chimie1} img2={Chimie2} img3={Chimie3}
+                            title={<>Career Talks - Web App</>}
+                            description={<>Am fost "Manager de Departament - IT" in cadrul evenimentului, unde am organizat
+                            echipa de IT si am ajuns la rezultatul care se poate vedea de față.</>}
+                            technology={<>React, JavaScript, HTML, Bootstrap, SCSS, CSS</>}
+                            git="https://github.com/AntonioCC147/Chemistry-App" adress="https://acs-chemistry-app.netlify.app/"
+                        />
+                    )}
+                    {language === "UK" && (
+                        <PortofoliuCard
+                            linkToProject="yes"
+                            img={ProiectChimie} img1={Chimie1} img2={Chimie2} img3={Chimie3}
+                            title={<>Career Talks - Web App</>}
+                            description={<>I was "Department Manager - IT" in the event, where I organized the IT team and we
+                            reached the result that can be seen from the front.</>}
+                            technology={<>React, JavaScript, HTML, Bootstrap, SCCS, CSS</>}
+                            git="https://github.com/AntonioCC147/Chemistry-App" adress="https://acs-chemistry-app.netlify.app/"
+                        />
+                    )}
+                </Col>
+                <Col>
+                    {language === "RO" && (
+                        <PortofoliuCard
+                            linkToProject="yes"
+                            img={ProiectChimie} img1={Chimie1} img2={Chimie2} img3={Chimie3}
+                            title={<>Admin Panel - Boilerplate</>}
+                            description={<>Avand responsabilitatea de "Team Lead", am organizat echipa și am creat un Generic
+                            Admin Panel ușor de folosit, fiind un proiect open-source.</>}
+                            technology={<>React, TypeScript, JavaScript, HTML, CSS</>}
+                            git="https://github.com/AntonioCC147/Chemistry-App" adress="https://acs-chemistry-app.netlify.app/"
+                        />
+                    )}
+                    {language === "UK" && (
+                        <PortofoliuCard
+                            linkToProject="yes"
+                            img={ProiectChimie} img1={Chimie1} img2={Chimie2} img3={Chimie3}
+                            title={<>Admin Panel - Boilerplate</>}
+                            description={<>Having the responsibility of "Team Lead", I organized the team and created a Generic
+                            Easy to use Admin Panel, being an open-source project.</>}
+                            technology={<>React, TypeScript, JavaScript, HTML, CSS</>}
+                            git="https://github.com/AntonioCC147/Chemistry-App" adress="https://acs-chemistry-app.netlify.app/"
+                        />
+                    )}
+                </Col>
+            </Row>
+            
         </Container>
     );
 }

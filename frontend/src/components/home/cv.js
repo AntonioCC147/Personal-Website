@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMap } from '@fortawesome/free-solid-svg-icons';
 
-import { SkillsCourses, Education, Certifications, Projects, Volunteering } from './cvFunctions';
+import { SkillsCourses, Education, Certifications, Projects, Volunteering, ProgressBar } from './cvFunctions';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -31,6 +31,8 @@ export default function CV({language}) {
                         {language === "UK" && ( <span><FontAwesomeIcon icon={faMap}/>{" "}Bucharest</span> )}
                     </Row>
                     <SkillsCourses language={language}/>
+                    Language Bar
+                    <ProgressBar/>
                 </Col>
                 <Col sm={8}>
                     <Education language={language}/>

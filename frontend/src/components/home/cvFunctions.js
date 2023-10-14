@@ -318,4 +318,30 @@ const Volunteering = ({language}) => {
     )
 }
 
-export { SkillsCourses, Education, Certifications, Projects, Volunteering };
+const ProgressBar = () => {
+    return (
+        <div>
+            <p className="titleCV">Language Bar</p>
+            <div className="color-bar-JavaScript"><span className="yellow"></span></div>
+            <div className="color-bar-HTML"><span className="orange1"></span></div>
+            <div className="color-bar-CSS"><span className="purple"></span></div>
+            <div className="color-bar-CPP"><span className="pink"></span></div>
+            <div className="color-bar-C"><span className="gray"></span></div>
+            <div className="color-bar-Matlab"><span className="orange2"></span></div>
+            <div className="color-bar-Others"><span className="green"></span></div>
+            <div className="text-center">
+            <ul className="wrap">
+                
+                <span className="yellow-li">JavaScript</span>
+                <span className="orange1-li">HTML</span>
+                <span className="purple-li">CSS</span>
+                <span className="pink-li">C++</span>
+                <span className="gray-li">C</span>
+                <span className="orange2-li">Matlab</span>
+                <span className="green-li">Others</span>
+            </ul></div>
+        </div>
+    )
+}
+
+export { SkillsCourses, Education, Certifications, Projects, Volunteering, ProgressBar };

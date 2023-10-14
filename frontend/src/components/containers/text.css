@@ -21,7 +21,7 @@
 
 .subTitle {
     margin-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 20px !important;
 
     text-align: center;
     font-style: italic;

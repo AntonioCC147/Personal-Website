@@ -41,6 +41,149 @@
     text-align: justify;
 }
 
+.wrap {
+    margin-top: 20px;
+    margin-left: -10%;
+
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-bar-JavaScript span{
+    width: 20%;
+    float: left;
+    height: 10px;
+}
+
+.yellow{
+    background: #FFD117;
+    height: 5px;
+    display: block;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.yellow-li::before {
+    content: "•";
+    color: #FFD117;
+    margin-left: 5px;
+}
+
+.color-bar-HTML span{
+    width: 15%;
+    float: left;
+    height: 10px;
+}
+
+.orange1{
+    background: #FFAA17;
+    height: 5px;
+    display: block;
+}
+
+.orange1-li::before {
+    content: "•";
+    color: #FFAA17;
+    margin: 5px;
+}
+
+.color-bar-CSS span{
+    width: 15%;
+    float: left;
+    height: 10px;
+}
+
+.purple{
+    background: #800080;
+    height: 5px;
+    display: block;
+}
+
+.purple-li::before {
+    content: "•";
+    color: #800080;
+    margin: 5px;
+}
+
+.color-bar-CPP span{
+    width: 20%;
+    float: left;
+    height: 10px;
+}
+
+.pink{
+    background: #eea7b3;
+    height: 5px;
+    display: block;
+}
+
+.pink-li::before {
+    content: "•";
+    color: #eea7b3;
+    margin: 5px;
+}
+
+.color-bar-C span{
+    width: 20%;
+    float: left;
+    height: 10px;
+}
+
+.gray{
+    background: gray;
+    height: 5px;
+    display: block;
+}
+
+.gray-li::before {
+    content: "•";
+    color: gray;
+    margin: 5px;
+}
+
+.color-bar-Matlab span{
+    width: 5%;
+    float: left;
+    height: 10px;
+}
+
+.orange2{
+    background: #ffb83e;
+    height: 5px;
+    display: block;
+}
+
+.orange2-li::before {
+    content: "•";
+    color: #ffb83e;
+    margin: 5px;
+}
+
+.color-bar-Others span{
+    width: 5%;
+    float: left;
+    height: 10px;
+}
+
+.green{
+    background: #BBD07B;
+    height: 5px;
+    display: block;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.green-li::before {
+    content: "•";
+    color: #BBD07B;
+    margin: 5px;
+}
+
 @media only screen and (max-width: 1000px) {
     .imgCV{
         width: 250px;
