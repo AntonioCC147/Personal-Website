@@ -280,6 +280,25 @@ const Volunteering = ({language}) => {
                             Decembrie 2022 - Prezent
                         </Col>
                     </Row>
+                    <div>
+                        <Row>
+                            <Col sm={9}>
+                                <li className="listCV">Voluntar de Laborator</li>
+                                <span className="descriptionListCV">Membru în "Asociația Automatică și Calculatoare"</span>
+                            </Col>
+                            <Col sm={3} style={{textAlign: "right"}}>
+                                Octombrie 2023 - Prezent
+                            </Col>
+                            
+                        </Row>
+                        <Row style={{marginRight: "60px"}}>
+                            <p className="descriptionList2CV" >
+                                Am ajutat o mulțime de studenți la laborator pentru a înțelege conceptele de programare la
+                                materiile "Programarea Calculatoarelor și Limbaje de Programare" și "Structuri de Date și
+                                Algoritmi".
+                            </p>
+                        </Row>
+                    </div>
                     <Row>
                         <Col sm={9}>
                             <li className="listCV">Meditator</li>
@@ -303,6 +322,24 @@ const Volunteering = ({language}) => {
                             December 2022 - Present
                         </Col>
                     </Row>
+                    <div>
+                        <Row>
+                            <Col sm={9}>
+                                <li className="listCV">Laboratory Volunteer</li>
+                                <span className="descriptionListCV">Membru in "Association of Automatic Control and Computer Science"</span>
+                            </Col>
+                            <Col sm={3} style={{textAlign: "right"}}>
+                                October 2023 - Present
+                            </Col>
+                            
+                        </Row>
+                        <Row style={{marginRight: "60px"}}>
+                            <p className="descriptionList2CV" >
+                                Helped a lot of students at laboratories to understand the concept of programming at "Computer
+                                Programming and Programming Languages" and "Data Structures and Algorithms" subjects.
+                            </p>
+                        </Row>
+                    </div>
                     <Row>
                         <Col sm={9}>
                             <li className="listCV">Tutor</li>
