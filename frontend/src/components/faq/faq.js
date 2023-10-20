@@ -33,7 +33,7 @@ function ContextAwareToggle({ children, eventKey, callback }) {
             </div>
         </button>
     );
-  }
+}
 
 export default function FAQ({language}) {
     return (
