@@ -1,5 +1,5 @@
 .img-setUp {
-    width: 350px;
+    width: 85%;
 
     border-radius: 10px 100px / 120px 100px;
 
@@ -17,28 +17,4 @@
 .tab {
     display: inline-block;
     margin-left: 4em;
-}
-
-@media only screen and (max-width: 1200px) {
-    .img-setUp{
-        width: 250px;
-    }
-}
-
-@media only screen and (max-width: 1000px) {
-    .img-setUp{
-        width: 200px;
-    }
-}
-
-@media only screen and (max-width: 800px) {
-    .img-setUp{
-        width: 150px;
-    }
-}
-
-@media only screen and (max-width: 580px) {
-    .img-setUp{
-        width: 350px;
-    }
 }
