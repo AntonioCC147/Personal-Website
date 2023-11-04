@@ -12,8 +12,8 @@ const SkillsCourses = ({language}) => {
                     <span className="simpleTextCV">Programarea Calculatoarelor</span>
                     <span className="simpleTextCV">Structuri de Date și Algoritmi</span>
                     <span className="simpleTextCV">Sisteme de Operare</span>
-                    <span className="simpleTextCV">Procesarea Informației</span>
-                    <span className="simpleTextCV">Managementul Documentelor</span>
+                    <span className="simpleTextCV">Programare Orientată pe Obiect</span>
+                    <span className="simpleTextCV">Metode Numerice</span>
                 </Row>
             )}
             {language === "UK" && (
@@ -22,8 +22,8 @@ const SkillsCourses = ({language}) => {
                     <span className="simpleTextCV">Computer Programming</span>
                     <span className="simpleTextCV">Data Structures and Algorithms</span>
                     <span className="simpleTextCV">Operating Systems</span>
-                    <span className="simpleTextCV">Information Processing</span>
-                    <span className="simpleTextCV">Document Management</span>
+                    <span className="simpleTextCV">Object Oriented Programming</span>
+                    <span className="simpleTextCV">Numerical Methods</span>
                 </Row>
             )}
 
