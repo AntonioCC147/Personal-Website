@@ -42,8 +42,7 @@
     position: absolute;
 
     bottom: 0;
-    left: 0;
-    width: 100%;
+    width: 15%;
 
     border-radius: 6px;
     border-bottom: 6px solid rgb(201, 201, 201);
@@ -62,6 +61,13 @@
 
     border-radius: 6px;
     border-bottom: 6px solid rgb(201, 201, 201);
+}
+
+.nav-link {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border-bottom: 0px solid;
 }
 
 .nav-dropdown-text > a.nav-link {
