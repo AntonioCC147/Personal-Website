@@ -40,6 +40,10 @@ import ProiectLitere from '../../assets/projects/ProiectLitere.jpg';
     import Joc1 from '../../assets/projects/Joc1.jpg';
     import Joc2 from '../../assets/projects/Joc2.jpg';
     import Joc3 from '../../assets/projects/Joc3.jpg';
+import ProiectGAP from '../../assets/projects/ProiectGAP.jpg';
+    import GAP1 from '../../assets/projects/GAP1.jpg';
+    import GAP2 from '../../assets/projects/GAP2.jpg';
+    import GAP3 from '../../assets/projects/GAP3.jpg';
 
 import '../../components/containers/text.css';
 import './portofoliu.css';
@@ -299,7 +303,7 @@ export default function Portofoliu({language}) {
                     {language === "RO" && (
                         <PortofoliuCard
                             linkToProject="yes"
-                            img={ProiectChimie} img1={Chimie1} img2={Chimie2} img3={Chimie3}
+                            img={ProiectGAP} img1={GAP1} img2={GAP2} img3={GAP3}
                             title={<>Admin Panel - Boilerplate</>}
                             description={<>Avand responsabilitatea de "Team Lead", am organizat echipa și am creat un Generic
                             Admin Panel ușor de folosit, fiind un proiect open-source.</>}
@@ -310,7 +314,7 @@ export default function Portofoliu({language}) {
                     {language === "UK" && (
                         <PortofoliuCard
                             linkToProject="yes"
-                            img={ProiectChimie} img1={Chimie1} img2={Chimie2} img3={Chimie3}
+                            img={ProiectGAP} img1={GAP1} img2={GAP2} img3={GAP3}
                             title={<>Admin Panel - Boilerplate</>}
                             description={<>Having the responsibility of "Team Lead", I organized the team and created a Generic
                             Easy to use Admin Panel, being an open-source project.</>}
@@ -320,7 +324,6 @@ export default function Portofoliu({language}) {
                     )}
                 </Col>
             </Row>
-            
         </Container>
     );
 }
