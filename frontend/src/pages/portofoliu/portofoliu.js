@@ -302,24 +302,24 @@ export default function Portofoliu({language}) {
                 <Col>
                     {language === "RO" && (
                         <PortofoliuCard
-                            linkToProject="yes"
+                            linkToProject="no"
                             img={ProiectGAP} img1={GAP1} img2={GAP2} img3={GAP3}
                             title={<>Admin Panel - Boilerplate</>}
                             description={<>Avand responsabilitatea de "Team Lead", am organizat echipa și am creat un Generic
                             Admin Panel ușor de folosit, fiind un proiect open-source.</>}
                             technology={<>React, TypeScript, JavaScript, HTML, CSS</>}
-                            git="https://github.com/AntonioCC147/Chemistry-App" adress="https://acs-chemistry-app.netlify.app/"
+                            git="" adress="/"
                         />
                     )}
                     {language === "UK" && (
                         <PortofoliuCard
-                            linkToProject="yes"
+                            linkToProject="no"
                             img={ProiectGAP} img1={GAP1} img2={GAP2} img3={GAP3}
                             title={<>Admin Panel - Boilerplate</>}
                             description={<>Having the responsibility of "Team Lead", I organized the team and created a Generic
                             Easy to use Admin Panel, being an open-source project.</>}
                             technology={<>React, TypeScript, JavaScript, HTML, CSS</>}
-                            git="https://github.com/AntonioCC147/Chemistry-App" adress="https://acs-chemistry-app.netlify.app/"
+                            git="" adress="/"
                         />
                     )}
                 </Col>
