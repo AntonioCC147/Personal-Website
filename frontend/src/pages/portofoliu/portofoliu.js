@@ -40,6 +40,10 @@ import ProiectLitere from '../../assets/projects/ProiectLitere.jpg';
     import Joc1 from '../../assets/projects/Joc1.jpg';
     import Joc2 from '../../assets/projects/Joc2.jpg';
     import Joc3 from '../../assets/projects/Joc3.jpg';
+import ProiectGCCC from '../../assets/projects/GCCC.jpg';
+    import CCC1 from '../../assets/projects/CCC1.jpg';
+    import CCC2 from '../../assets/projects/CCC2.jpg';
+    import CCC3 from '../../assets/projects/CCC3.jpg';
 import ProiectGAP from '../../assets/projects/ProiectGAP.jpg';
     import GAP1 from '../../assets/projects/GAP1.jpg';
     import GAP2 from '../../assets/projects/GAP2.jpg';
@@ -275,6 +279,30 @@ export default function Portofoliu({language}) {
             <Row>
                 {language === "RO" && ( <p className="subSubTitle">&lt; Proiecte de Echipă /&gt;</p> )}
                 {language === "UK" && ( <p className="subSubTitle">&lt; Team Projects /&gt;</p> )}
+                <Col>
+                    {language === "RO" && (
+                        <PortofoliuCard
+                            linkToProject="yes"
+                            img={ProiectGCCC} img1={CCC1} img2={CCC2} img3={CCC3}
+                            title={<>GreenCCC - Web App</>}
+                            description={<>Proiectul cu care am câștigat locul 2 la ZebraHack, un hackahton intern organizat
+                            de către facultate la care au participat peste 150 de studenți.</>}
+                            technology={<>HTML, CSS, JavaScript</>}
+                            git="https://github.com/AntonioCC147/GreenCCC-Website" adress="https://grenccc.netlify.app/"
+                        />
+                    )}
+                    {language === "UK" && (
+                        <PortofoliuCard
+                            linkToProject="yes"
+                            img={ProiectGCCC} img1={CCC1} img2={CCC2} img3={CCC3}
+                            title={<>GreenCCC - Web App</>}
+                            description={<>The project with which I won 2nd place at ZebraHack, an organized internal hackathon
+                            by the faculty attended by over 150 students.</>}
+                            technology={<>HTML, CSS, JavaScript</>}
+                            git="https://github.com/AntonioCC147/GreenCCC-Website" adress="https://grenccc.netlify.app/"
+                        />
+                    )}
+                </Col>
                 <Col>
                     {language === "RO" && (
                         <PortofoliuCard
