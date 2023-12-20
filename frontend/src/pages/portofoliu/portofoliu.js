@@ -235,8 +235,8 @@ export default function Portofoliu({language}) {
                             linkToProject="no"
                             img={ProiectPA} img1={PA1} img2={PA2} img3={PA3}
                             title={<>LanParty - Proiect</>}
-                            description={<>Acest proiect a reprezentat tema pe semestrul II al primului an la materia
-                            "Structuri de Date și Algoritmi".</>}
+                            description={<>Acest proiect a reprezentat un proiect pe semestrul II al primului an de facultate la
+                            materia "Structuri de Date și Algoritmi".</>}
                             technology={<>Limbajul C</>}
                             git="https://github.com/AntonioCC147/PA-Project-LanParty" adress="/"
                         />
@@ -246,7 +246,8 @@ export default function Portofoliu({language}) {
                             linkToProject="no"
                             img={ProiectPA} img1={PA1} img2={PA2} img3={PA3}
                             title={<>LanParty - Project</>}
-                            description={<>This project was the assignment for the second semester of the first year in the "Data Structures and Algorithms" course.</>}
+                            description={<>This project was the project for the second semester of the first year at faculty in
+                            the "Data Structures and Algorithms" course.</>}
                             technology={<>C Language</>}
                             git="https://github.com/AntonioCC147/PA-Project-LanParty" address="/"
                         />
