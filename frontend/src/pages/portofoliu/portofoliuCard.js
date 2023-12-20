@@ -12,8 +12,13 @@ function verifyLinkToProject(linkToProject) {
     return null;
 }
 
+function verifyLinkToGitHub(linkToGitHub) {
+    if(linkToGitHub === "yes") return 1;
+    return null;
+}
+
 export default function PortofoliuCard(props) {
-    const { linkToProject, img, img1, img2, img3, title, description, technology, git, adress } = props;
+    const { linkToProject, linkToGitHub, img, img1, img2, img3, title, description, technology, git, adress } = props;
 
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
@@ -59,14 +64,21 @@ export default function PortofoliuCard(props) {
                             <span style={{fontWeight: "600"}}>Tehnologii: </span>{technology}
                         </Card.Text>
                         <div className="d-flex justify-content-between">
-                            <Button variant="secondary" href={git} target="_blank" style={{marginTop: "15px"}}>GitHub</Button>
-                                {verifyLinkToProject(linkToProject) ? (
-                                    <Button className="btn btn-danger" href={adress} target="_blank" style={{marginTop: "15px"}}>
-                                        Link to Project
-                                    </Button>
-                                ) : (
-                                    null
-                                )}
+                            {verifyLinkToGitHub(linkToGitHub) ? (
+                                <Button variant="secondary" href={git} target="_blank" style={{marginTop: "15px"}}>
+                                    GitHub
+                                </Button>
+                            ) : (
+                                null
+                            )}
+                            
+                            {verifyLinkToProject(linkToProject) ? (
+                                <Button className="btn btn-danger" href={adress} target="_blank" style={{marginTop: "15px"}}>
+                                    Link to Project
+                                </Button>
+                            ) : (
+                                null
+                            )}
                         </div>
                     </div>
                 </div>
