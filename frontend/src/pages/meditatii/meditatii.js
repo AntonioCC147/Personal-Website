@@ -26,7 +26,7 @@ export default function Meditatii({language}) {
                         <div className="meditatiiContainer">
                             <img src={Mate} style={{marginTop: "10px", width: "25%"}} alt="React"/>
                             <p className="meditatiiTitle">Matematică</p>
-                            <p className="meditatiiPrice">100 lei / 2 ore | 75 de lei / 1.30 ore</p>
+                            <p className="meditatiiPrice">100 lei / 1 oră jumătate | 75 de lei / 1 oră</p>
                             <p className="meditatiiDescription">
                                 <span className="bold">Ce vom învăța: </span>Algebră, Geometrie și Analiză Matematică.
                             </p>
@@ -49,7 +49,7 @@ export default function Meditatii({language}) {
                         <div className="meditatiiContainer">
                             <img src={Mate} style={{ marginTop: "10px", width: "25%" }} alt="React"/>
                             <p className="meditatiiTitle">Mathematics</p>
-                            <p className="meditatiiPrice">100 lei / 2 hours | 75 lei / 1.30 hours</p>
+                            <p className="meditatiiPrice">100 lei / 1 hour and half | 75 lei / 1 hour</p>
                             <p className="meditatiiDescription">
                                 <span className="bold">What will we learn: </span>Algebra, Geometry, and Mathematical Analysis.
                             </p>
@@ -74,7 +74,7 @@ export default function Meditatii({language}) {
                         <div className="meditatiiContainer">
                             <img src={Info} style={{marginTop: "10px", width: "25%"}} alt="React"/>
                             <p className="meditatiiTitle">Informatică</p>
-                            <p className="meditatiiPrice">100 lei / 2 ore | 75 de lei / 1.30 ore</p>
+                            <p className="meditatiiPrice">100 lei / 1 oră jumătate | 75 de lei / 1 oră</p>
                             <p className="meditatiiDescription">
                                 <span className="bold">Ce vom învăța: </span>Limbajele de programare C / C++.
                             </p>
@@ -99,7 +99,7 @@ export default function Meditatii({language}) {
                         <div className="meditatiiContainer">
                             <img src={Info} style={{ marginTop: "10px", width: "25%" }} alt="React"/>
                             <p className="meditatiiTitle">Informatics</p>
-                            <p className="meditatiiPrice">100 lei / 2 hours | 75 lei / 1.30 hours</p>
+                            <p className="meditatiiPrice">100 lei / 1 hour | 75 lei / 1 hour</p>
                             <p className="meditatiiDescription">
                                 <span className="bold">What will we learn: </span>Programming languages C / C++.
                             </p>
@@ -124,7 +124,7 @@ export default function Meditatii({language}) {
                         <div className="meditatiiContainer">
                             <img src={Tehn} style={{marginTop: "10px", width: "25%"}} alt="React"/>
                             <p className="meditatiiTitle">Tehnologii Web</p>
-                            <p className="meditatiiPrice">100 lei / 2 ore | 75 de lei / 1.30 ore</p>
+                            <p className="meditatiiPrice">100 lei / 1 oră jumătate | 75 de lei / 1 oră</p>
                             <p className="meditatiiDescription">
                                 <span className="bold">Ce vom învăța: </span>Bazele React, JavaScript, Bootstrap, HTML și CSS.
                             </p>
@@ -148,7 +148,7 @@ export default function Meditatii({language}) {
                         <div className="meditatiiContainer">
                             <img src={Tehn} style={{ marginTop: "10px", width: "25%" }} alt="React"/>
                             <p className="meditatiiTitle">Web Technologies</p>
-                            <p className="meditatiiPrice">100 lei / 2 hours | 75 lei / 1.30 hours</p>
+                            <p className="meditatiiPrice">100 lei / 1 hour | 75 lei / 1 hour</p>
                             <p className="meditatiiDescription">
                                 <span className="bold">What will we learn: </span>Fundamentals of React, JavaScript, Bootstrap,
                                 HTML, and CSS.
