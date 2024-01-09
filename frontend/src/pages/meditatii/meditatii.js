@@ -26,7 +26,7 @@ export default function Meditatii({language}) {
                         <div className="meditatiiContainer">
                             <img src={Mate} style={{marginTop: "10px", width: "25%"}} alt="React"/>
                             <p className="meditatiiTitle">Matematică</p>
-                            <p className="meditatiiPrice">100 lei / 1 oră jumătate | 75 de lei / 1 oră</p>
+                            <p className="meditatiiPrice">100 lei / 1 oră și jumătate | 75 de lei / 1 oră</p>
                             <p className="meditatiiDescription">
                                 <span className="bold">Ce vom învăța: </span>Algebră, Geometrie și Analiză Matematică.
                             </p>
@@ -74,7 +74,7 @@ export default function Meditatii({language}) {
                         <div className="meditatiiContainer">
                             <img src={Info} style={{marginTop: "10px", width: "25%"}} alt="React"/>
                             <p className="meditatiiTitle">Informatică</p>
-                            <p className="meditatiiPrice">100 lei / 1 oră jumătate | 75 de lei / 1 oră</p>
+                            <p className="meditatiiPrice">100 lei / 1 oră și jumătate | 75 de lei / 1 oră</p>
                             <p className="meditatiiDescription">
                                 <span className="bold">Ce vom învăța: </span>Limbajele de programare C / C++.
                             </p>
@@ -124,7 +124,7 @@ export default function Meditatii({language}) {
                         <div className="meditatiiContainer">
                             <img src={Tehn} style={{marginTop: "10px", width: "25%"}} alt="React"/>
                             <p className="meditatiiTitle">Tehnologii Web</p>
-                            <p className="meditatiiPrice">100 lei / 1 oră jumătate | 75 de lei / 1 oră</p>
+                            <p className="meditatiiPrice">100 lei / 1 oră și jumătate | 75 de lei / 1 oră</p>
                             <p className="meditatiiDescription">
                                 <span className="bold">Ce vom învăța: </span>Bazele React, JavaScript, Bootstrap, HTML și CSS.
                             </p>
