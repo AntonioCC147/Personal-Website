@@ -1,15 +1,16 @@
 .img-setUp {
+    margin: 20px 10px;
+
     width: 85%;
 
     border-radius: 10px 100px / 120px 100px;
-
-    margin: 10px;
 }
 
 .simpleText {
-    margin-top: 20px;
+    margin-top: 10px !important;
+    padding-right: 50px !important;
 
-    text-align: left;
+    text-align: justify;
 
     color: white;
 }
