@@ -159,6 +159,22 @@ const Projects = ({language}) => {
                 <div>
                     <Row>
                         <p className="titleCV">Proiecte Interne</p><hr/>
+                        <Col sm={8}>
+                            <li className="listCV">Generic Admin Panel</li>
+                            <span className="descriptionListCV">React, TypeScript, Git</span>
+                        </Col>
+                        <Col sm={4} style={{textAlign: "right"}}>
+                            Martie 2023 - Decembrie 2023
+                        </Col>
+                    </Row>
+                    <Row style={{marginRight: "60px"}}>
+                        <p className="descriptionList2CV" >
+                            Având responsabilitatea de <i>"Team Lead"</i> în cadrul acestui proiect, a trebuit să creem un Admin Panel
+                            cât mai general pentru o introducere mai rapidă a informațiilor, echipelor, chestionarelor sau a altor
+                            lucruri specifice pe celelalte platforme pe care le deține liga.
+                        </p>
+                    </Row>
+                    <Row>
                         <Col sm={10}>
                             <li className="listCV">Ce spun Automatiștii?</li>
                             <span className="descriptionListCV">React, MongoDB, Git</span>
@@ -176,22 +192,7 @@ const Projects = ({language}) => {
                             <i>"Footer"</i>. 
                         </p>
                     </Row>
-                    <Row>
-                        <Col sm={9}>
-                            <li className="listCV">Generic Admin Panel</li>
-                            <span className="descriptionListCV">React, TypeScript, Git</span>
-                        </Col>
-                        <Col sm={3} style={{textAlign: "right"}}>
-                            Martie 2023 - Prezent
-                        </Col>
-                    </Row>
-                    <Row style={{marginRight: "60px"}}>
-                        <p className="descriptionList2CV" >
-                            Având responsabilitatea de <i>"Team Lead"</i> în cadrul acestui proiect, a trebuit să creem un Admin Panel
-                            cât mai general pentru o introducere mai rapidă a informațiilor, echipelor, chestionarelor sau a altor
-                            lucruri specifice pe celelalte platforme pe care le deține liga.
-                        </p>
-                    </Row>
+                    
                     <Row>
                         <Col sm={8}>
                             <li className="listCV">Agendă Educațională de Bacalaureat la Informatică</li>
@@ -213,6 +214,22 @@ const Projects = ({language}) => {
                 <div>
                     <Row>
                         <p className="titleCV">Internal Projects</p><hr/>
+                        <Col sm={9}>
+                            <li className="listCV">Generic Admin Panel</li>
+                            <span className="descriptionListCV">React, TypeScript, Git</span>
+                        </Col>
+                        <Col sm={3} style={{textAlign: "right"}}>
+                            March 2023 - December 2023
+                        </Col>
+                    </Row>
+                    <Row style={{marginRight: "60px"}}>
+                        <p className="descriptionList2CV" >
+                            Having the responsibility of <i>"Team Lead"</i> within this project, we had to create an Admin Panel as general
+                            as possible for a faster introduction of information, teams, quizzes or other specific things on the other platforms
+                            that the league has.
+                        </p>
+                    </Row>
+                    <Row>
                         <Col sm={10}>
                             <li className="listCV">What Do Automation Engineers Say?</li>
                             <span className="descriptionListCV">React, MongoDB, Git</span>
@@ -226,22 +243,6 @@ const Projects = ({language}) => {
                             I worked with a team of 5 people to create an application intended to be a website used as an interface
                             for teams participating in an event to have the best possible experience. I was responsible for the Frontend,
                             working on sections such as <i>"About Us"</i>, <i>"FAQ",</i> or even the <i>"Footer."</i>
-                        </p>
-                    </Row>
-                    <Row>
-                        <Col sm={9}>
-                            <li className="listCV">Generic Admin Panel</li>
-                            <span className="descriptionListCV">React, TypeScript, Git</span>
-                        </Col>
-                        <Col sm={3} style={{textAlign: "right"}}>
-                            March 2023 - Present
-                        </Col>
-                    </Row>
-                    <Row style={{marginRight: "60px"}}>
-                        <p className="descriptionList2CV" >
-                            Having the responsibility of <i>"Team Lead"</i> within this project, we had to create an Admin Panel as general
-                            as possible for a faster introduction of information, teams, quizzes or other specific things on the other platforms
-                            that the league has.
                         </p>
                     </Row>
                     <Row>
