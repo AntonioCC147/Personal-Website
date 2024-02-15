@@ -44,6 +44,10 @@ import ProiectGCCC from '../../assets/projects/GCCC.jpg';
     import CCC1 from '../../assets/projects/CCC1.jpg';
     import CCC2 from '../../assets/projects/CCC2.jpg';
     import CCC3 from '../../assets/projects/CCC3.jpg';
+import ProiectCT from '../../assets/projects/ProiectCT.jpg';
+    import CT1 from '../../assets/projects/CT1.jpg';
+    import CT2 from '../../assets/projects/CT2.jpg';
+    import CT3 from '../../assets/projects/CT3.jpg';
 import ProiectGAP from '../../assets/projects/ProiectGAP.jpg';
     import GAP1 from '../../assets/projects/GAP1.jpg';
     import GAP2 from '../../assets/projects/GAP2.jpg';
@@ -283,6 +287,30 @@ export default function Portofoliu({language}) {
                 <Col>
                     {language === "RO" && (
                         <PortofoliuCard
+                            linkToProject="yes" linkToGitHub="no"
+                            img={ProiectCT} img1={CT1} img2={CT2} img3={CT3}
+                            title={<>Career Talks - Web App</>}
+                            description={<>Am fost "Manager de Departament - IT" in cadrul evenimentului, unde am organizat
+                            echipa de IT si am ajuns la rezultatul care se poate vedea de față.</>}
+                            technology={<>React, JavaScript, HTML, Bootstrap, SCSS, CSS</>}
+                            git="/" adress="https://careertalks.lsacbucuresti.ro/"
+                        />
+                    )}
+                    {language === "UK" && (
+                        <PortofoliuCard
+                            linkToProject="yes" linkToGitHub="no"
+                            img={ProiectCT} img1={CT1} img2={CT2} img3={CT3}
+                            title={<>Career Talks - Web App</>}
+                            description={<>I was "Department Manager - IT" in the event, where I organized the IT team and we
+                            reached the result that can be seen from the front.</>}
+                            technology={<>React, JavaScript, HTML, Bootstrap, SCCS, CSS</>}
+                            git="/" adress="https://careertalks.lsacbucuresti.ro/"
+                        />
+                    )}
+                </Col>
+                <Col>
+                    {language === "RO" && (
+                        <PortofoliuCard
                             linkToProject="yes" linkToGitHub="yes"
                             img={ProiectGCCC} img1={CCC1} img2={CCC2} img3={CCC3}
                             title={<>GreenCCC - Web App</>}
@@ -301,30 +329,6 @@ export default function Portofoliu({language}) {
                             by the faculty attended by over 150 students.</>}
                             technology={<>HTML, CSS, JavaScript</>}
                             git="https://github.com/AntonioCC147/GreenCCC-Website" adress="https://grenccc.netlify.app/"
-                        />
-                    )}
-                </Col>
-                <Col>
-                    {language === "RO" && (
-                        <PortofoliuCard
-                            linkToProject="yes" linkToGitHub="yes"
-                            img={ProiectChimie} img1={Chimie1} img2={Chimie2} img3={Chimie3}
-                            title={<>Career Talks - Web App</>}
-                            description={<>Am fost "Manager de Departament - IT" in cadrul evenimentului, unde am organizat
-                            echipa de IT si am ajuns la rezultatul care se poate vedea de față.</>}
-                            technology={<>React, JavaScript, HTML, Bootstrap, SCSS, CSS</>}
-                            git="https://github.com/AntonioCC147/Chemistry-App" adress="https://acs-chemistry-app.netlify.app/"
-                        />
-                    )}
-                    {language === "UK" && (
-                        <PortofoliuCard
-                            linkToProject="yes" linkToGitHub="yes"
-                            img={ProiectChimie} img1={Chimie1} img2={Chimie2} img3={Chimie3}
-                            title={<>Career Talks - Web App</>}
-                            description={<>I was "Department Manager - IT" in the event, where I organized the IT team and we
-                            reached the result that can be seen from the front.</>}
-                            technology={<>React, JavaScript, HTML, Bootstrap, SCCS, CSS</>}
-                            git="https://github.com/AntonioCC147/Chemistry-App" adress="https://acs-chemistry-app.netlify.app/"
                         />
                     )}
                 </Col>
