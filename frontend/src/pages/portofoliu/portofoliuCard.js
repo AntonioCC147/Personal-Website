@@ -18,7 +18,7 @@ function verifyLinkToGitHub(linkToGitHub) {
 }
 
 export default function PortofoliuCard(props) {
-    const { linkToProject, linkToGitHub, img, img1, img2, img3, title, description, technology, git, adress } = props;
+    const { language, linkToProject, linkToGitHub, img, img1, img2, img3, title, description, technology, git, adress } = props;
 
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
@@ -28,7 +28,8 @@ export default function PortofoliuCard(props) {
         <div>
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
-                    <Modal.Title>Imagini</Modal.Title>
+                    {language==="RO" && <Modal.Title>Imagini</Modal.Title>}
+                    {language==="UK" && <Modal.Title>Images</Modal.Title>}
                 </Modal.Header>
                 <Modal.Body>
                     <Carousel slide={false}>
@@ -44,9 +45,16 @@ export default function PortofoliuCard(props) {
                     </Carousel>
                 </Modal.Body>
                 <Modal.Footer>
-                    <Button variant="secondary" onClick={handleClose}>
-                        Închide
-                    </Button>
+                    {language==="RO" &&
+                        <Button variant="secondary" onClick={handleClose}>
+                            Închide
+                        </Button>
+                    }
+                    {language==="UK" &&
+                        <Button variant="secondary" onClick={handleClose}>
+                            Close
+                        </Button>
+                    }
                 </Modal.Footer>
             </Modal>
 
@@ -61,7 +69,8 @@ export default function PortofoliuCard(props) {
                         <h1>{title}</h1>
                         <p>{description}</p>
                         <Card.Text>
-                            <span style={{fontWeight: "600"}}>Tehnologii: </span>{technology}
+                            {language==="RO" && <div><span style={{fontWeight: "600"}}>Tehnologii: </span>{technology}</div>}
+                            {language==="UK" && <div><span style={{fontWeight: "600"}}>Technologies: </span>{technology}</div>}
                         </Card.Text>
                         <div className="d-flex justify-content-between">
                             {verifyLinkToGitHub(linkToGitHub) ? (
@@ -72,7 +81,14 @@ export default function PortofoliuCard(props) {
                                 null
                             )}
                             
-                            {verifyLinkToProject(linkToProject) ? (
+                            {verifyLinkToProject(linkToProject) && language==="RO" ? (
+                                <Button className="btn btn-danger" href={adress} target="_blank" style={{marginTop: "15px"}}>
+                                    Link către Proiect
+                                </Button>
+                            ) : (
+                                null
+                            )}
+                            {verifyLinkToProject(linkToProject) && language==="UK" ? (
                                 <Button className="btn btn-danger" href={adress} target="_blank" style={{marginTop: "15px"}}>
                                     Link to Project
                                 </Button>

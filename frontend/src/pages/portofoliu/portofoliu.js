@@ -69,7 +69,7 @@ export default function Portofoliu({language}) {
                 <Col>
                     {language === "RO" && (
                         <PortofoliuCard
-                            linkToProject="yes" linkToGitHub="yes"
+                            language="RO" linkToProject="yes" linkToGitHub="yes"
                             img={ProiectChimie} img1={Chimie1} img2={Chimie2} img3={Chimie3}
                             title={<>Chemistry App - Web App</>}
                             description={<>Proiectul a fost realizat la "Sesiunea de Comunicări Științifice" și reprezintă o
@@ -80,7 +80,7 @@ export default function Portofoliu({language}) {
                     )}
                     {language === "UK" && (
                         <PortofoliuCard
-                            linkToProject="yes" linkToGitHub="yes"
+                            language="UK" linkToProject="yes" linkToGitHub="yes"
                             img={ProiectChimie} img1={Chimie1} img2={Chimie2} img3={Chimie3}
                             title={<>Chemistry App - Web App</>}
                             description={<>The project was created during the "Scientific Communications Session" and represents an
@@ -93,7 +93,7 @@ export default function Portofoliu({language}) {
                 <Col>
                     {language === "RO" && (
                         <PortofoliuCard
-                            linkToProject="yes" linkToGitHub="yes"
+                            language="RO" linkToProject="yes" linkToGitHub="yes"
                             img={ProiectACS} img1={ACS1} img2={ACS2} img3={ACS3}
                             title={<>ACS IS AA - Web App</>}
                             description={<>Proiectul a fost realizat pentru a oferi un ajutor bobocilor de la Automatică. Conține
@@ -104,7 +104,7 @@ export default function Portofoliu({language}) {
                     )}
                     {language === "UK" && (
                         <PortofoliuCard
-                            linkToProject="yes" linkToGitHub="yes"
+                            language="UK" linkToProject="yes" linkToGitHub="yes"
                             img={ProiectACS} img1={ACS1} img2={ACS2} img3={ACS3}
                             title={<>ACS IS AA - Web App</>}
                             description={<>The project was created to provide assistance to freshmen at the Faculty of Automatic Control and Computers. It includes various essential info.</>}
@@ -116,7 +116,7 @@ export default function Portofoliu({language}) {
                 <Col>
                     {language === "RO" && (
                         <PortofoliuCard
-                            linkToProject="yes" linkToGitHub="yes"
+                            language="RO" linkToProject="yes" linkToGitHub="yes"
                             img={ProiectProba} img1={Proba1} img2={Proba2} img3={Proba3}
                             title={<>Proba Tehnică IT - Web App</>}
                             description={<>Proiectul pe care a trebuit să-l realizez drept probă de intrare în cadrul
@@ -127,7 +127,7 @@ export default function Portofoliu({language}) {
                     )}
                     {language === "UK" && (
                         <PortofoliuCard
-                            linkToProject="yes" linkToGitHub="yes"
+                            language="UK" linkToProject="yes" linkToGitHub="yes"
                             img={ProiectProba} img1={Proba1} img2={Proba2} img3={Proba3}
                             title={<>Technical Test IT - Web App</>}
                             description={<>The project I had to create as an entrance test for the "IT Department - LSAC".</>}
@@ -141,7 +141,7 @@ export default function Portofoliu({language}) {
                 <Col>
                     {language === "RO" && (
                         <PortofoliuCard
-                            linkToProject="yes" linkToGitHub="yes"
+                            language="RO" linkToProject="yes" linkToGitHub="yes"
                             img={ProiectConfiguration} img1={Config1} img2={Config2} img3={Config3}
                             title={<>Website Config - Web App</>}
                             description={<>Proiect realizat pentru a oferi o configurație celor care doresc să realizeze
@@ -152,7 +152,7 @@ export default function Portofoliu({language}) {
                     )}
                     {language === "UK" && (
                         <PortofoliuCard
-                            linkToProject="yes" linkToGitHub="yes"
+                            language="UK" linkToProject="yes" linkToGitHub="yes"
                             img={ProiectConfiguration} img1={Config1} img2={Config2} img3={Config3}
                             title={<>Website Configuration - Web App</>}
                             description={<>A project created to provide configuration options for those who want to build their own website.</>}
@@ -164,7 +164,7 @@ export default function Portofoliu({language}) {
                 <Col>
                     {language === "RO" && (
                         <PortofoliuCard
-                            linkToProject="no" linkToGitHub="yes"
+                            language="RO" linkToProject="no" linkToGitHub="yes"
                             img={ProiectHack} img1={Mental1} img2={Mental2} img3={Mental3}
                             title={<>Mental Health - Web App</>}
                             description={<>Proiect realizat în cadrul primei ediții a Hackathon-ului organizat de către
@@ -175,7 +175,7 @@ export default function Portofoliu({language}) {
                     )}
                     {language === "UK" && (
                         <PortofoliuCard
-                            linkToProject="no" linkToGitHub="yes"
+                            language="UK" linkToProject="no" linkToGitHub="yes"
                             img={ProiectHack} img1={Mental1} img2={Mental2} img3={Mental3}
                             title={<>Mental Health - Web App</>}
                             description={<>A project created during the first edition of the Hackathon organized by the "IT Department - LSAC".</>}
@@ -187,7 +187,7 @@ export default function Portofoliu({language}) {
                 <Col>
                     {language === "RO" && (
                         <PortofoliuCard
-                            linkToProject="yes" linkToGitHub="yes"
+                            language="RO" linkToProject="yes" linkToGitHub="yes"
                             img={ProiectWordScramble} img1={WS1} img2={WS2} img3={WS3}
                             title={<>Word Scramble - Joc</>}
                             description={<>Jocul este unul destul de simplu din punct de vedere al logicii. Acesta dispune atât
@@ -198,7 +198,7 @@ export default function Portofoliu({language}) {
                     )}
                     {language === "UK" && (
                         <PortofoliuCard
-                            linkToProject="yes" linkToGitHub="yes"
+                            language="UK" linkToProject="yes" linkToGitHub="yes"
                             img={ProiectWordScramble} img1={WS1} img2={WS2} img3={WS3}
                             title={<>Word Scramble - Game</>}
                             description={<>The game is quite simple in terms of logic. It supports both Romanian and English languages.</>}
@@ -212,7 +212,7 @@ export default function Portofoliu({language}) {
                 <Col>
                     {language === "RO" && (
                         <PortofoliuCard
-                            linkToProject="yes" linkToGitHub="yes"
+                            language="RO" linkToProject="yes" linkToGitHub="yes"
                             img={ProiectHangMan} img1={HM1} img2={HM2} img3={HM3}
                             title={<>HangMan - Joc</>}
                             description={<>Acest joc este clasicul Spânzurătoarea pe care îl cunoaștem cu toții de mici. Ai de ales
@@ -223,7 +223,7 @@ export default function Portofoliu({language}) {
                     )}
                     {language === "UK" && (
                         <PortofoliuCard
-                            linkToProject="yes" linkToGitHub="yes"
+                            language="UK" linkToProject="yes" linkToGitHub="yes"
                             img={ProiectHangMan} img1={HM1} img2={HM2} img3={HM3}
                             title={<>Hangman - Game</>}
                             description={<>This game is the classic Hangman that we all know from our childhood. You have to choose
@@ -236,7 +236,7 @@ export default function Portofoliu({language}) {
                 <Col>
                     {language === "RO" && (
                         <PortofoliuCard
-                            linkToProject="no" linkToGitHub="yes"
+                            language="RO" linkToProject="no" linkToGitHub="yes"
                             img={ProiectPA} img1={PA1} img2={PA2} img3={PA3}
                             title={<>LanParty - Proiect</>}
                             description={<>Acest proiect a reprezentat un proiect pe semestrul II al primului an de facultate la
@@ -247,7 +247,7 @@ export default function Portofoliu({language}) {
                     )}
                     {language === "UK" && (
                         <PortofoliuCard
-                            linkToProject="no" linkToGitHub="yes"
+                            language="UK" linkToProject="no" linkToGitHub="yes"
                             img={ProiectPA} img1={PA1} img2={PA2} img3={PA3}
                             title={<>LanParty - Project</>}
                             description={<>This project was the project for the second semester of the first year at faculty in
@@ -260,7 +260,7 @@ export default function Portofoliu({language}) {
                 <Col>
                     {language === "RO" && (
                         <PortofoliuCard
-                            linkToProject="no" linkToGitHub="yes"
+                            language="RO" linkToProject="no" linkToGitHub="yes"
                             img={ProiectLitere} img1={Joc1} img2={Joc2} img3={Joc3}
                             title={<>Din Litere în Cifre - Joc</>}
                             description={<>Acest joc presupune scrierea cu litere ale alfabetului a unui număr din intervalul
@@ -271,7 +271,7 @@ export default function Portofoliu({language}) {
                     )}
                     {language === "UK" && (
                         <PortofoliuCard
-                            linkToProject="no" linkToGitHub="yes"
+                            language="UK" linkToProject="no" linkToGitHub="yes"
                             img={ProiectLitere} img1={Joc1} img2={Joc2} img3={Joc3}
                             title={<>From Letters to Numbers</>}
                             description={<>This game involves writing a number in letters from the alphabet in the range [1, 1,000,000], and then converting it into digits.</>}
@@ -287,7 +287,7 @@ export default function Portofoliu({language}) {
                 <Col>
                     {language === "RO" && (
                         <PortofoliuCard
-                            linkToProject="yes" linkToGitHub="no"
+                            language="RO" linkToProject="yes" linkToGitHub="no"
                             img={ProiectCT} img1={CT1} img2={CT2} img3={CT3}
                             title={<>Career Talks - Web App</>}
                             description={<>Am fost "Manager de Departament - IT" in cadrul evenimentului, unde am organizat
@@ -298,7 +298,7 @@ export default function Portofoliu({language}) {
                     )}
                     {language === "UK" && (
                         <PortofoliuCard
-                            linkToProject="yes" linkToGitHub="no"
+                            language="UK" linkToProject="yes" linkToGitHub="no"
                             img={ProiectCT} img1={CT1} img2={CT2} img3={CT3}
                             title={<>Career Talks - Web App</>}
                             description={<>I was "Department Manager - IT" in the event, where I organized the IT team and we
@@ -311,7 +311,7 @@ export default function Portofoliu({language}) {
                 <Col>
                     {language === "RO" && (
                         <PortofoliuCard
-                            linkToProject="yes" linkToGitHub="yes"
+                            language="RO" linkToProject="yes" linkToGitHub="yes"
                             img={ProiectGCCC} img1={CCC1} img2={CCC2} img3={CCC3}
                             title={<>GreenCCC - Web App</>}
                             description={<>Proiectul cu care am câștigat locul 2 la ZebraHack, un hackahton intern organizat
@@ -322,7 +322,7 @@ export default function Portofoliu({language}) {
                     )}
                     {language === "UK" && (
                         <PortofoliuCard
-                            linkToProject="yes" linkToGitHub="yes"
+                            language="UK" linkToProject="yes" linkToGitHub="yes"
                             img={ProiectGCCC} img1={CCC1} img2={CCC2} img3={CCC3}
                             title={<>GreenCCC - Web App</>}
                             description={<>The project with which I won 2nd place at ZebraHack, an organized internal hackathon
@@ -335,7 +335,7 @@ export default function Portofoliu({language}) {
                 <Col>
                     {language === "RO" && (
                         <PortofoliuCard
-                            linkToProject="no" linkToGitHub="no"
+                            language="RO" linkToProject="no" linkToGitHub="no"
                             img={ProiectGAP} img1={GAP1} img2={GAP2} img3={GAP3}
                             title={<>Admin Panel - Boilerplate</>}
                             description={<>Avand responsabilitatea de "Team Lead", am organizat echipa și am creat un Generic
@@ -346,7 +346,7 @@ export default function Portofoliu({language}) {
                     )}
                     {language === "UK" && (
                         <PortofoliuCard
-                            linkToProject="no" linkToGitHub="no"
+                            language="UK" linkToProject="no" linkToGitHub="no"
                             img={ProiectGAP} img1={GAP1} img2={GAP2} img3={GAP3}
                             title={<>Admin Panel - Boilerplate</>}
                             description={<>Having the responsibility of "Team Lead", I organized the team and created a Generic
