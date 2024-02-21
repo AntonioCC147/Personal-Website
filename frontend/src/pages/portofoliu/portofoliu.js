@@ -58,7 +58,7 @@ import './portofoliu.css';
 
 export default function Portofoliu({language}) {
     return (
-        <Container>
+        <Container className="anta">
             <Row>
                 {language === "RO" && ( <p className="title">&lt; Portofoliu /&gt;</p> )}
                 {language === "UK" && ( <p className="title">&lt; Portofolio /&gt;</p> )}

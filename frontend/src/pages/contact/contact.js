@@ -64,7 +64,7 @@ export default function Contact({language}) {
     };
 
     return (
-        <Container>
+        <Container className="anta">
             {language === "RO" && ( <p className="title">&lt; Contactează-mă /&gt;</p> )}
             {language === "UK" && ( <p className="title">&lt; Contact me /&gt;</p> )}
             {language === "RO" && ( <p className="subTitle">Dacă dorești să mă contactezi într-un mod cât mai ușor și rapid, poți completa formularul de mai jos</p> )}

@@ -12,9 +12,9 @@ import '../../components/containers/principalContainer.css';
 export default function DespreMine({language}) {
     return (
         <div>
-            <Container className="bg-dark principalContainer text-center">
-                {language === "RO" && ( <div className="principalTitle">&lt; Despre mine /&gt;</div> )}
-                {language === "UK" && ( <div className="principalTitle">&lt; About me /&gt;</div> )}
+            <Container className="bg-dark principalContainer text-center anta">
+                {language === "RO" && ( <div className="principalTitle anta">&lt; Despre mine /&gt;</div> )}
+                {language === "UK" && ( <div className="principalTitle anta">&lt; About me /&gt;</div> )}
                 <hr className="hr"/>
                 <Row>
                     <Col sm="4">

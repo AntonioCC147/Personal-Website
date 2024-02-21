@@ -14,7 +14,7 @@ import './meditatii.css';
 
 export default function Meditatii({language}) {
     return (
-        <Container className="text-center">
+        <Container className="text-center anta">
             {language === "RO" && ( <p className="title">&lt; Meditatii /&gt;</p> )}
             {language === "UK" && ( <p className="title">&lt; Mentoring /&gt;</p> )}
             {language === "RO" && ( <p className="subTitle">Dorești să devii o persoană mai bună și să-ți întreci limitele?</p> )}

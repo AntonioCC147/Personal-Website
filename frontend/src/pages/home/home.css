@@ -18,7 +18,9 @@
 }
 
 .name {
-    font-size: 75px;
+    margin-top: 10%;
+
+    font-size: 65px;
     font-weight: bolder;
     font-style: italic;
 

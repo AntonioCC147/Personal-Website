@@ -14,7 +14,7 @@ export default function Footer({language}) {
     };
 
     return (
-        <MDBFooter bgColor="dark" className="text-center text-lg-start text-muted" style={{marginTop: "20px"}}>
+        <MDBFooter bgColor="dark" className="text-center text-lg-start text-muted anta" style={{marginTop: "20px"}}>
             <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom" style={{alignItems: "center", verticalAlign: "center"}}>
                 {language === "RO" && (
                     <div style={{color: "gray"}}> Conectează-mă prin rețelele de socializare disponibile:</div>

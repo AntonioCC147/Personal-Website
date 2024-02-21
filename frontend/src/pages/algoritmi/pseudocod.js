@@ -226,7 +226,7 @@ p ← 1
 scrie rezultat`
 
     return (
-        <Container>
+        <Container className="anta">
             <div className="title">&lt; Pseudocod /&gt;</div>
             {language === "RO" && (
                 <div className="subTitle">Algoritmi Elementari care se predau în clasele IX-X, în mare parte la specializarea Științele-Naturii</div>

@@ -37,7 +37,7 @@ function ContextAwareToggle({ children, eventKey, callback }) {
 
 export default function FAQ({language}) {
     return (
-        <div className='m-auto faq-container'>
+        <div className="m-auto faq-container anta">
             <p className="faq-title">&lt; FAQ /&gt;</p>
             {language ==="RO" && ( <p className="subTitle">Câteva întrebări și răspunsuri dintre cele mai întâlnite de către mine până acum</p> )}
             {language ==="UK" && ( <p className="subTitle">Some of the most common questions and answers I've encountered so far</p> )}

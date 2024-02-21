@@ -14,7 +14,7 @@ import './cv.css';
 
 export default function CV({language}) {
     return (
-        <Container>
+        <Container className="anta">
             <Row>
                 <Col>
                     <p className="title">&lt; Curriculum Vitae /&gt;</p>
