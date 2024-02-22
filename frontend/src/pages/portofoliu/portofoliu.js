@@ -251,7 +251,7 @@ export default function Portofoliu({language}) {
                             language="RO" linkToProject="yes" linkToGitHub="yes"
                             img={ProiectGCCC} img1={CCC1} img2={CCC2} img3={CCC3}
                             title={<>GreenCCC - Web App</>}
-                            description={<>Proiectul cu care am câștigat locul 2 la ZebraHack, un hackahton intern organizat
+                            description={<>Proiectul cu care am câștigat locul 2 la ZebraHack, un Hackahton intern organizat
                             de către facultate la care au participat peste 150 de studenți.</>}
                             technology={<>HTML, CSS, JavaScript</>}
                             git="https://github.com/AntonioCC147/GreenCCC-Website" adress="https://grenccc.netlify.app/"
@@ -262,7 +262,7 @@ export default function Portofoliu({language}) {
                             language="UK" linkToProject="yes" linkToGitHub="yes"
                             img={ProiectGCCC} img1={CCC1} img2={CCC2} img3={CCC3}
                             title={<>GreenCCC - Web App</>}
-                            description={<>The project with which I won 2nd place at ZebraHack, an organized internal hackathon
+                            description={<>The project with which I won 2nd place at ZebraHack, an organized internal Hackathon
                             by the faculty attended by over 150 students.</>}
                             technology={<>HTML, CSS, JavaScript</>}
                             git="https://github.com/AntonioCC147/GreenCCC-Website" adress="https://grenccc.netlify.app/"
@@ -286,7 +286,8 @@ export default function Portofoliu({language}) {
                             language="UK" linkToProject="no" linkToGitHub="yes"
                             img={ProiectHackIntern1} img1={Mental1} img2={Mental2} img3={Mental3}
                             title={<>Mental Health - Web App</>}
-                            description={<>A project created during the first edition of the Hackathon organized by the "IT Department - LSAC".</>}
+                            description={<>A project created during the first edition of the Hackathon organized by the "IT
+                            Department - LSAC".</>}
                             technology={<>Next.js, JavaScript, HTML, Bootstrap, CSS</>}
                             git="/" address="/aboutme"
                         />
@@ -313,7 +314,8 @@ export default function Portofoliu({language}) {
                             language="UK" linkToProject="yes" linkToGitHub="yes"
                             img={ProiectWordScramble} img1={WS1} img2={WS2} img3={WS3}
                             title={<>Word Scramble - Game</>}
-                            description={<>The game is quite simple in terms of logic. It supports both Romanian and English languages.</>}
+                            description={<>The game is quite simple in terms of logic. It supports both Romanian and English
+                            languages.</>}
                             technology={<>React, JavaScript, Bootstrap</>}
                             git="https://github.com/AntonioCC147/Word-Scramble-Game" address="https://game-word-scramble.netlify.app/"
                         />
@@ -325,8 +327,8 @@ export default function Portofoliu({language}) {
                             language="RO" linkToProject="yes" linkToGitHub="yes"
                             img={ProiectHangMan} img1={HM1} img2={HM2} img3={HM3}
                             title={<>HangMan - Joc</>}
-                            description={<>Acest joc este clasicul Spânzurătoarea pe care îl cunoaștem cu toții de mici. Ai de ales
-                            litere din alfabet până nimerești cuvântul, sau pierzi.</>}
+                            description={<>Acest joc este clasicul Spânzurătoarea pe care îl cunoaștem cu toții de mici. Ai de
+                            ales litere din alfabet până nimerești cuvântul, sau pierzi.</>}
                             technology={<>React, JavaScript, BootStrap</>}
                             git="https://github.com/AntonioCC147/HangMan-Game" adress="https://game-hangman-acc.netlify.app/"
                         />
@@ -360,7 +362,8 @@ export default function Portofoliu({language}) {
                             language="UK" linkToProject="no" linkToGitHub="yes"
                             img={ProiectLitere} img1={Joc1} img2={Joc2} img3={Joc3}
                             title={<>From Letters to Numbers</>}
-                            description={<>This game involves writing a number in letters from the alphabet in the range [1, 1,000,000], and then converting it into digits.</>}
+                            description={<>This game involves writing a number in letters from the alphabet in the range [1,
+                            1,000,000], and then converting it into digits.</>}
                             technology={<>C Language</>}
                             git="https://github.com/AntonioCC147/DinLitereInCifre" address="/"
                         />
@@ -404,8 +407,8 @@ export default function Portofoliu({language}) {
                             language="RO" linkToProject="yes" linkToGitHub="no"
                             img={ProiectCT} img1={CT1} img2={CT2} img3={CT3}
                             title={<>Career Talks - Web App</>}
-                            description={<>Am fost "Manager de Departament - IT" in cadrul evenimentului, unde am organizat
-                            echipa de IT si am ajuns la rezultatul care se poate vedea.</>}
+                            description={<>Am fost "Manager de Departament - IT" în cadrul evenimentului, unde am organizat
+                            echipa de IT și am ajuns la rezultatul care se poate vedea.</>}
                             technology={<>React, JavaScript, HTML, Bootstrap, SCSS, CSS</>}
                             git="/" adress="https://careertalks.lsacbucuresti.ro/"
                         />
@@ -428,7 +431,7 @@ export default function Portofoliu({language}) {
                             language="RO" linkToProject="no" linkToGitHub="no"
                             img={ProiectGAP} img1={GAP1} img2={GAP2} img3={GAP3}
                             title={<>Admin Panel - Boilerplate</>}
-                            description={<>Avand responsabilitatea de "Team Lead", am organizat echipa și am creat un Generic
+                            description={<>Având responsabilitatea de "Team Lead", am organizat echipa și am creat un Generic
                             Admin Panel ușor de folosit, fiind un proiect open-source.</>}
                             technology={<>React, TypeScript, JavaScript, HTML, CSS</>}
                             git="" adress="/"
@@ -472,7 +475,7 @@ export default function Portofoliu({language}) {
                 </Col>
             </Row>
             <Row>
-            <Col>
+                <Col>
                     {language === "RO" && (
                         <PortofoliuCard
                             language="RO" linkToProject="yes" linkToGitHub="no"
