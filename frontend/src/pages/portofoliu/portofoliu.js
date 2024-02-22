@@ -110,8 +110,8 @@ export default function Portofoliu({language}) {
                             language="RO" linkToProject="yes" linkToGitHub="yes"
                             img={ProiectACS} img1={ACS1} img2={ACS2} img3={ACS3}
                             title={<>ACS IS AA - Web App</>}
-                            description={<>Proiectul a fost realizat pentru a oferi un ajutor bobocilor de la Automatică. Conține
-                            mai multe informații esențiale, inclusiv feedback la materii.</>}
+                            description={<>Proiectul a fost realizat pentru a oferi un ajutor bobocilor. Conține diverse
+                            informații esențiale, inclusiv feedback la materii.</>}
                             technology={<>React, JavaScript, HTML, Bootstrap, CSS</>}
                             git="https://github.com/AntonioCC147/ACS-IS-AA-Website" adress="https://acs-is-aa.software/"
                         />
@@ -121,7 +121,8 @@ export default function Portofoliu({language}) {
                             language="UK" linkToProject="yes" linkToGitHub="yes"
                             img={ProiectACS} img1={ACS1} img2={ACS2} img3={ACS3}
                             title={<>ACS IS AA - Web App</>}
-                            description={<>The project was created to provide assistance to freshmen at the Faculty of Automatic Control and Computers. It includes various essential info.</>}
+                            description={<>The project was created to help freshmen. It contains various essential information,
+                            including subject feedback.</>}
                             technology={<>React, JavaScript, HTML, Bootstrap, CSS</>}
                             git="https://github.com/AntonioCC147/ACS-IS-AA-Website" address="https://acs-is-aa.software/"
                         />
@@ -333,8 +334,8 @@ export default function Portofoliu({language}) {
                             language="RO" linkToProject="yes" linkToGitHub="yes"
                             img={ProiectHangMan} img1={HM1} img2={HM2} img3={HM3}
                             title={<>HangMan - Joc</>}
-                            description={<>Acest joc este clasicul Spânzurătoarea pe care îl cunoaștem cu toții de mici. Ai de
-                            ales litere din alfabet până nimerești cuvântul, sau pierzi.</>}
+                            description={<>Jocul este clasicul Spânzurătoarea pe care îl cunoaștem cu toții. Ai de ales litere
+                            din alfabet până nimerești cuvântul ori pierzi.</>}
                             technology={<>React, JavaScript, BootStrap</>}
                             git="https://github.com/AntonioCC147/HangMan-Game" adress="https://game-hangman-acc.netlify.app/"
                         />
@@ -344,8 +345,8 @@ export default function Portofoliu({language}) {
                             language="UK" linkToProject="yes" linkToGitHub="yes"
                             img={ProiectHangMan} img1={HM1} img2={HM2} img3={HM3}
                             title={<>Hangman - Game</>}
-                            description={<>This game is the classic Hangman that we all know from our childhood. You have to choose
-                            letters from the alphabet until you guess the word or lose.</>}
+                            description={<>The game is the classic Hangman we all know. You have a choice of letters from the
+                            alphabet until you guess the word or lose.</>}
                             technology={<>React, JavaScript, Bootstrap</>}
                             git="https://github.com/AntonioCC147/HangMan-Game" address="https://game-hangman-acc.netlify.app/"
                         />
