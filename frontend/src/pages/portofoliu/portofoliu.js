@@ -16,7 +16,12 @@ import ProiectProba from '../../assets/projects/ProiectProba.jpg';
     import Proba1 from '../../assets/projects/Proba1.jpg';
     import Proba2 from '../../assets/projects/Proba2.jpg';
     import Proba3 from '../../assets/projects/Proba3.jpg';
-//alea 3
+//designer
+import ProiectMentoring from '../../assets/projects/ProiectMentoring.jpg';
+    import Mentoring1 from '../../assets/projects/Mentoring1.jpg';
+    import Mentoring2 from '../../assets/projects/Mentoring2.jpg';
+    import Mentoring3 from '../../assets/projects/Mentoring3.jpg';
+//dental
 import ProiectConfiguration from '../../assets/projects/ProiectConfiguration.jpg';
     import Config1 from '../../assets/projects/Config1.jpg';
     import Config2 from '../../assets/projects/Config2.jpg';
@@ -49,10 +54,6 @@ import ProiectCT from '../../assets/projects/ProiectCT.jpg';
     import CT1 from '../../assets/projects/CT1.jpg';
     import CT2 from '../../assets/projects/CT2.jpg';
     import CT3 from '../../assets/projects/CT3.jpg';
-import ProiectGAP from '../../assets/projects/ProiectGAP.jpg';
-    import GAP1 from '../../assets/projects/GAP1.jpg';
-    import GAP2 from '../../assets/projects/GAP2.jpg';
-    import GAP3 from '../../assets/projects/GAP3.jpg';
 import ProiectHackIT from '../../assets/projects/ProiectHackIT.jpg';
     import HackIT1 from '../../assets/projects/HackIT1.jpg';
     import HackIT2 from '../../assets/projects/HackIT2.jpg';
@@ -61,6 +62,10 @@ import ProiectCSA from '../../assets/projects/ProiectCSA.jpg';
     import CSA1 from '../../assets/projects/CSA1.jpg';
     import CSA2 from '../../assets/projects/CSA2.jpg';
     import CSA3 from '../../assets/projects/CSA3.jpg';
+import ProiectGAP from '../../assets/projects/ProiectGAP.jpg';
+    import GAP1 from '../../assets/projects/GAP1.jpg';
+    import GAP2 from '../../assets/projects/GAP2.jpg';
+    import GAP3 from '../../assets/projects/GAP3.jpg';
 
 import '../../components/containers/text.css';
 import './portofoliu.css';
@@ -174,22 +179,23 @@ export default function Portofoliu({language}) {
                     {language === "RO" && (
                         <PortofoliuCard
                             language="RO" linkToProject="yes" linkToGitHub="yes"
-                            img={ProiectProba} img1={Proba1} img2={Proba2} img3={Proba3}
-                            title={<>Proba Tehnică IT - Web App</>}
-                            description={<>Proiectul pe care a trebuit să-l realizez drept probă de intrare în cadrul
-                            "Departamentului de IT - LSAC".</>}
+                            img={ProiectMentoring} img1={Mentoring1} img2={Mentoring2} img3={Mentoring3}
+                            title={<>Meditator - Web App</>}
+                            description={<>O aplicație web pentru un client care și-a dorit un website pentru a-și promova
+                            meditațiile prin intermediul online.</>}
                             technology={<>React, JavaScript, HTML, Bootstrap, CSS</>}
-                            git="https://github.com/AntonioCC147/Proba-Tehnica-IT" adress="https://proba-meme-it.netlify.app/"
+                            git="https://github.com/AntonioCC147/Mentoring-Website" adress="https://robert-apostol.netlify.app/"
                         />
                     )}
                     {language === "UK" && (
                         <PortofoliuCard
                             language="UK" linkToProject="yes" linkToGitHub="yes"
-                            img={ProiectProba} img1={Proba1} img2={Proba2} img3={Proba3}
-                            title={<>Technical Test IT - Web App</>}
-                            description={<>The project I had to create as an entrance test for the "IT Department - LSAC".</>}
+                            img={ProiectMentoring} img1={Mentoring1} img2={Mentoring2} img3={Mentoring3}
+                            title={<>Mentoring - Web App</>}
+                            description={<>A web application for a client who wanted a website to promote meditations via
+                            online.</>}
                             technology={<>React, JavaScript, HTML, Bootstrap, CSS</>}
-                            git="https://github.com/AntonioCC147/Proba-Tehnica-IT" address="https://proba-meme-it.netlify.app/"
+                            git="https://github.com/AntonioCC147/Mentoring-Website" address="https://robert-apostol.netlify.app/"
                         />
                     )}
                 </Col>
@@ -428,30 +434,6 @@ export default function Portofoliu({language}) {
                 <Col>
                     {language === "RO" && (
                         <PortofoliuCard
-                            language="RO" linkToProject="no" linkToGitHub="no"
-                            img={ProiectGAP} img1={GAP1} img2={GAP2} img3={GAP3}
-                            title={<>Admin Panel - Boilerplate</>}
-                            description={<>Având responsabilitatea de "Team Lead", am organizat echipa și am creat un Generic
-                            Admin Panel ușor de folosit, fiind un proiect open-source.</>}
-                            technology={<>React, TypeScript, JavaScript, HTML, CSS</>}
-                            git="" adress="/"
-                        />
-                    )}
-                    {language === "UK" && (
-                        <PortofoliuCard
-                            language="UK" linkToProject="no" linkToGitHub="no"
-                            img={ProiectGAP} img1={GAP1} img2={GAP2} img3={GAP3}
-                            title={<>Admin Panel - Boilerplate</>}
-                            description={<>Having the responsibility of "Team Lead", I organized the team and created a Generic
-                            Easy to use Admin Panel, being an open-source project.</>}
-                            technology={<>React, TypeScript, JavaScript, HTML, CSS</>}
-                            git="" adress="/"
-                        />
-                    )}
-                </Col>
-                <Col>
-                    {language === "RO" && (
-                        <PortofoliuCard
                             language="RO" linkToProject="yes" linkToGitHub="no"
                             img={ProiectHackIT} img1={HackIT1} img2={HackIT2} img3={HackIT3}
                             title={<>HackITall 1 & 2 - Web App</>}
@@ -473,8 +455,6 @@ export default function Portofoliu({language}) {
                         />
                     )}
                 </Col>
-            </Row>
-            <Row>
                 <Col>
                     {language === "RO" && (
                         <PortofoliuCard
@@ -496,6 +476,32 @@ export default function Portofoliu({language}) {
                             front-end side.</>}
                             technology={<>React, JavaScript, HTML, CSS</>}
                             git="" adress="https://csa.lsacbucuresti.ro/"
+                        />
+                    )}
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    {language === "RO" && (
+                        <PortofoliuCard
+                            language="RO" linkToProject="no" linkToGitHub="no"
+                            img={ProiectGAP} img1={GAP1} img2={GAP2} img3={GAP3}
+                            title={<>Admin Panel - Boilerplate</>}
+                            description={<>Având responsabilitatea de "Team Lead", am organizat echipa și am creat un Generic
+                            Admin Panel ușor de folosit, fiind un proiect open-source.</>}
+                            technology={<>React, TypeScript, JavaScript, HTML, CSS</>}
+                            git="" adress="/"
+                        />
+                    )}
+                    {language === "UK" && (
+                        <PortofoliuCard
+                            language="UK" linkToProject="no" linkToGitHub="no"
+                            img={ProiectGAP} img1={GAP1} img2={GAP2} img3={GAP3}
+                            title={<>Admin Panel - Boilerplate</>}
+                            description={<>Having the responsibility of "Team Lead", I organized the team and created a Generic
+                            Easy to use Admin Panel, being an open-source project.</>}
+                            technology={<>React, TypeScript, JavaScript, HTML, CSS</>}
+                            git="" adress="/"
                         />
                     )}
                 </Col>
