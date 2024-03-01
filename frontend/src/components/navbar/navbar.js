@@ -32,11 +32,11 @@ export default function NavbarHeader({language, setLanguage}) {
                         <Nav className="me-auto navbarCenter">
                             {language ==="RO" && ( <Nav.Link href="/" className={isCurrentPage('/')}>Acasă</Nav.Link> )}
                             {language ==="UK" && ( <Nav.Link href="/" className={isCurrentPage('/')}>Home</Nav.Link> )}
-                            {language ==="RO" && ( <Nav.Link href="/despremine" className={isCurrentPage('/despremine')}>Despre mine</Nav.Link> )}
+                            {language ==="RO" && ( <Nav.Link href="/despremine" className={isCurrentPage('/despremine')}>Despre mine & FAQ</Nav.Link> )}
                             {language ==="UK" && ( <Nav.Link href="/despremine" className={isCurrentPage('/despremine')}>About me</Nav.Link> )}
                             {language ==="RO" && ( <Nav.Link href="/portofoliu" className={isCurrentPage('/portofoliu')}>Portofoliu</Nav.Link> )}
                             {language ==="UK" && ( <Nav.Link href="/portofoliu" className={isCurrentPage('/portofoliu')}>Portofolio</Nav.Link> )}
-                            {language ==="RO" && ( <Nav.Link href="/meditatii" className={isCurrentPage('/meditatii')}>Meditații</Nav.Link> )}
+                            {/*{language ==="RO" && ( <Nav.Link href="/meditatii" className={isCurrentPage('/meditatii')}>Meditații</Nav.Link> )}*/}
                             {language ==="UK" && ( <Nav.Link href="/meditatii" className={isCurrentPage('/meditatii')}>Mentoring</Nav.Link> )}
                             {language ==="RO" && (
                                 <NavDropdown title="Algoritmi" id="basic-nav-dropdown" className="nav-dropdown-text">
