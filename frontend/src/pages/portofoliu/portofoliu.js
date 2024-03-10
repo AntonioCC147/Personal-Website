@@ -30,7 +30,11 @@ import ProiectGCCC from '../../assets/projects/GCCC.jpg';
     import CCC1 from '../../assets/projects/CCC1.jpg';
     import CCC2 from '../../assets/projects/CCC2.jpg';
     import CCC3 from '../../assets/projects/CCC3.jpg';
-import ProiectHackIntern1 from '../../assets/projects/ProiectHackIntern1.jpg';
+import ProiectSign from '../../assets/projects/ProiectSign.jpg';
+    import Sign1 from '../../assets/projects/Sign1.jpg';
+    import Sign2 from '../../assets/projects/Sign2.jpg';
+    import Sign3 from '../../assets/projects/Sign3.jpg';
+import ProiectMental from '../../assets/projects/ProiectMental.jpg';
     import Mental1 from '../../assets/projects/Mental1.jpg';
     import Mental2 from '../../assets/projects/Mental2.jpg';
     import Mental3 from '../../assets/projects/Mental3.jpg';
@@ -255,6 +259,30 @@ export default function Portofoliu({language}) {
                 <Col>
                     {language === "RO" && (
                         <PortofoliuCard
+                            language="RO" linkToProject="no" linkToGitHub="yes"
+                            img={ProiectSign} img1={Sign1} img2={Sign2} img3={Sign3}
+                            title={<>Sign Language - Web App</>}
+                            description={<>Proiect realizat în cadrul celei de-a doua ediții a Hackathon-ului organizat de către
+                            "Departamentul de IT - LSAC".</>}
+                            technology={<>React, JavaScript, HTML, Bootstrap, CSS</>}
+                            git="https://github.com/AntonioCC147/Mental-Health-HackIT" adress="/"
+                        />
+                    )}
+                    {language === "UK" && (
+                        <PortofoliuCard
+                            language="UK" linkToProject="no" linkToGitHub="yes"
+                            img={ProiectSign} img1={Sign1} img2={Sign2} img3={Sign3}
+                            title={<>Sign Language - Web App</>}
+                            description={<>A project created during the second edition of the Hackathon organized by the "IT
+                            Department - LSAC".</>}
+                            technology={<>React, JavaScript, HTML, Bootstrap, CSS</>}
+                            git="https://github.com/AntonioCC147/Mental-Health-HackIT" address="/"
+                        />
+                    )}
+                </Col>
+                <Col>
+                    {language === "RO" && (
+                        <PortofoliuCard
                             language="RO" linkToProject="yes" linkToGitHub="yes"
                             img={ProiectGCCC} img1={CCC1} img2={CCC2} img3={CCC3}
                             title={<>GreenCCC - Web App</>}
@@ -280,23 +308,23 @@ export default function Portofoliu({language}) {
                     {language === "RO" && (
                         <PortofoliuCard
                             language="RO" linkToProject="no" linkToGitHub="yes"
-                            img={ProiectHackIntern1} img1={Mental1} img2={Mental2} img3={Mental3}
+                            img={ProiectMental} img1={Mental1} img2={Mental2} img3={Mental3}
                             title={<>Mental Health - Web App</>}
                             description={<>Proiect realizat în cadrul primei ediții a Hackathon-ului organizat de către
                             "Departamentul de IT - LSAC".</>}
-                            technology={<>Next.JS, JavaScript, HTML, Bootstrap, CSS</>}
-                            git="/" adress="/despremine"
+                            technology={<>React, Next.js, TypeScript, HTML, Bootstrap, CSS</>}
+                            git="https://github.com/AntonioCC147/Mental-Health-HackIT" adress="/"
                         />
                     )}
                     {language === "UK" && (
                         <PortofoliuCard
                             language="UK" linkToProject="no" linkToGitHub="yes"
-                            img={ProiectHackIntern1} img1={Mental1} img2={Mental2} img3={Mental3}
+                            img={ProiectMental} img1={Mental1} img2={Mental2} img3={Mental3}
                             title={<>Mental Health - Web App</>}
                             description={<>A project created during the first edition of the Hackathon organized by the "IT
                             Department - LSAC".</>}
-                            technology={<>Next.js, JavaScript, HTML, Bootstrap, CSS</>}
-                            git="/" address="/aboutme"
+                            technology={<>React, Next.js, TypeScript, HTML, Bootstrap, CSS</>}
+                            git="https://github.com/AntonioCC147/Mental-Health-HackIT" address="/"
                         />
                     )}
                 </Col>
