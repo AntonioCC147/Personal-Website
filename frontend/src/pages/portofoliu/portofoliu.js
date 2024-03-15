@@ -79,9 +79,9 @@ export default function Portofoliu({language}) {
         <Container className="anta">
             <Row>
                 {language === "RO" && ( <p className="title">&lt; Portofoliu /&gt;</p> )}
-                {language === "UK" && ( <p className="title">&lt; Portofolio /&gt;</p> )}
-                {language === "RO" && ( <p className="subTitle" style={{ marginBottom: "40px" }}>Mai jos prezint câteva creații personale. Acestea nu reprezintă și munca din cadrul Departamentului de IT</p> )}
-                {language === "UK" && ( <p className="subTitle" style={{ marginBottom: "40px" }}>Below I present some personal creations. They also do not represent the work within the IT Department</p> )}
+                {language === "UK" && ( <p className="title">&lt; Portfolio /&gt;</p> )}
+                {language === "RO" && ( <p className="subTitle" style={{ marginBottom: "40px" }}>Mai jos prezint câteva creații personale</p> )}
+                {language === "UK" && ( <p className="subTitle" style={{ marginBottom: "40px" }}>Below I present some personal creations</p> )}
                 {language === "RO" && ( <p className="subSubTitle">&lt; Website-uri /&gt;</p> )}
                 {language === "UK" && ( <p className="subSubTitle">&lt; Websites /&gt;</p> )}
                 <Col>
