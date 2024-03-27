@@ -104,8 +104,8 @@ export default function Contact({language}) {
                                     <Field type="email" name="user_email" className="form-control formAppearance" placeholder="popescu.ion@gmail.com"/>
                                     <ErrorMessage name="user_email" component="div" className="error-message" />
 
-                                    {language === "RO" && ( <b><label htmlFor="message">Telefon (opțional, dar necesar dacă doriți meditații):</label></b> )}
-                                    {language === "UK" && ( <b><label htmlFor="message">Phone (optional, but necessary if you want mentoring):</label></b> )}
+                                    {language === "RO" && ( <b><label htmlFor="message">Telefon (opțional):</label></b> )}
+                                    {language === "UK" && ( <b><label htmlFor="message">Phone (optional):</label></b> )}
                                     <Field type="text" name="user_phone" className="form-control formAppearance" placeholder="07 . . ."/>
                                 </Row>
                                 <Row>
