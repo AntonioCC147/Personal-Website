@@ -157,7 +157,7 @@ export default function Portofoliu({language}) {
                 </Col>
             </Row>
             <Row>
-                <Col>
+                {/* <Col>
                     {language === "RO" && (
                         <PortofoliuCard
                             language="RO" linkToProject="yes" linkToGitHub="yes"
@@ -179,7 +179,7 @@ export default function Portofoliu({language}) {
                             git="https://github.com/AntonioCC147/Proba-Tehnica-IT" address="https://proba-meme-it.netlify.app/"
                         />
                     )}
-                </Col>
+                </Col> */}
                 <Col>
                     {language === "RO" && (
                         <PortofoliuCard
@@ -204,7 +204,7 @@ export default function Portofoliu({language}) {
                         />
                     )}
                 </Col>
-                <Col>
+                {/* <Col>
                     {language === "RO" && (
                         <PortofoliuCard
                             language="RO" linkToProject="yes" linkToGitHub="yes"
@@ -226,7 +226,7 @@ export default function Portofoliu({language}) {
                             git="https://github.com/AntonioCC147/Proba-Tehnica-IT" address="https://proba-meme-it.netlify.app/"
                         />
                     )}
-                </Col>
+                </Col> */}
             </Row>
             <Row>
                 <Col>
