@@ -283,11 +283,11 @@ const Volunteering = ({language}) => {
                     </Row>
                     <div>
                         <Row>
-                            <Col sm={9}>
+                            <Col sm={8}>
                                 <li className="listCV">Voluntar de Laborator</li>
                                 <span className="descriptionListCV">Membru în "Asociația Automatică și Calculatoare"</span>
                             </Col>
-                            <Col sm={3} style={{textAlign: "right"}}>
+                            <Col sm={4} style={{textAlign: "right"}}>
                                 Octombrie 2023 - Prezent
                             </Col>
                             

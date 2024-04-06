@@ -439,72 +439,72 @@ export default function Portofoliu({language}) {
                 <Col>
                     {language === "RO" && (
                         <PortofoliuCard
-                            language="RO" linkToProject="yes" linkToGitHub="no"
+                            language="RO" linkToProject="no" linkToGitHub="no"
                             img={ProiectCT} img1={CT1} img2={CT2} img3={CT3}
                             title={<>Career Talks - Web App</>}
                             description={<>Am fost "Manager de Departament - IT" în cadrul evenimentului, unde am organizat
                             echipa de IT și am ajuns la rezultatul care se poate vedea.</>}
                             technology={<>React, JavaScript, HTML, Bootstrap, SCSS, CSS</>}
-                            git="/" adress="https://careertalks.lsacbucuresti.ro/"
+                            git="/" adress="/"
                         />
                     )}
                     {language === "UK" && (
                         <PortofoliuCard
-                            language="UK" linkToProject="yes" linkToGitHub="no"
+                            language="UK" linkToProject="no" linkToGitHub="no"
                             img={ProiectCT} img1={CT1} img2={CT2} img3={CT3}
                             title={<>Career Talks - Web App</>}
                             description={<>I was "Department Manager - IT" in the event, where I organized the IT team and we
                             reached the result that can be seen from the front.</>}
                             technology={<>React, JavaScript, HTML, Bootstrap, SCCS, CSS</>}
-                            git="/" adress="https://careertalks.lsacbucuresti.ro/"
+                            git="/" adress="/"
                         />
                     )}
                 </Col>
                 <Col>
                     {language === "RO" && (
                         <PortofoliuCard
-                            language="RO" linkToProject="yes" linkToGitHub="no"
+                            language="RO" linkToProject="no" linkToGitHub="no"
                             img={ProiectHackIT} img1={HackIT1} img2={HackIT2} img3={HackIT3}
                             title={<>HackITall 1 & 2 - Web App</>}
                             description={<>Am participat ca membru în echipa internă a HackITall 1 și 2 și am ajutat la diferite
                             task-uri pe partea de front-end.</>}
                             technology={<>React, TypeScript, JavaScript, ChakraUI, HTML, CSS</>}
-                            git="" adress="https://hack.lsacbucuresti.ro/"
+                            git="/" adress="/"
                         />
                     )}
                     {language === "UK" && (
                         <PortofoliuCard
-                            language="UK" linkToProject="yes" linkToGitHub="no"
+                            language="UK" linkToProject="no" linkToGitHub="no"
                             img={ProiectHackIT} img1={HackIT1} img2={HackIT2} img3={HackIT3}
                             title={<>HackITall 1 & 2 - Web App</>}
                             description={<>I participated as a member of the internal team of HackITall 1 and 2 and had different
                             tasks on the front-end side.</>}
                             technology={<>React, TypeScript, JavaScript, ChakraUI, HTML, CSS</>}
-                            git="" adress="https://hack.lsacbucuresti.ro/"
+                            git="/" adress="/"
                         />
                     )}
                 </Col>
                 <Col>
                     {language === "RO" && (
                         <PortofoliuCard
-                            language="RO" linkToProject="yes" linkToGitHub="no"
+                            language="RO" linkToProject="no" linkToGitHub="no"
                             img={ProiectCSA} img1={CSA1} img2={CSA2} img3={CSA3}
                             title={<>CSA - Web App</>}
                             description={<>Am participat ca membru în echipa internă a CSA și am ajutat la diferite task-uri pe
                             partea de front-end.</>}
                             technology={<>React, JavaScript, HTML, CSS</>}
-                            git="" adress="https://csa.lsacbucuresti.ro/"
+                            git="/" adress="/"
                         />
                     )}
                     {language === "UK" && (
                         <PortofoliuCard
-                            language="UK" linkToProject="yes" linkToGitHub="no"
+                            language="UK" linkToProject="no" linkToGitHub="no"
                             img={ProiectCSA} img1={CSA1} img2={CSA2} img3={CSA3}
                             title={<>CSA - Web App</>}
                             description={<>I participated as a member of the internal team of CSA and had different tasks on the
                             front-end side.</>}
                             technology={<>React, JavaScript, HTML, CSS</>}
-                            git="" adress="https://csa.lsacbucuresti.ro/"
+                            git="/" adress="/"
                         />
                     )}
                 </Col>
@@ -519,7 +519,7 @@ export default function Portofoliu({language}) {
                             description={<>Având responsabilitatea de "Team Lead", am organizat echipa și am creat un Generic
                             Admin Panel ușor de folosit, fiind un proiect open-source.</>}
                             technology={<>React, TypeScript, JavaScript, HTML, CSS</>}
-                            git="" adress="/"
+                            git="/" adress="/"
                         />
                     )}
                     {language === "UK" && (
@@ -530,7 +530,7 @@ export default function Portofoliu({language}) {
                             description={<>Having the responsibility of "Team Lead", I organized the team and created a Generic
                             Easy to use Admin Panel, being an open-source project.</>}
                             technology={<>React, TypeScript, JavaScript, HTML, CSS</>}
-                            git="" adress="/"
+                            git="/" adress="/"
                         />
                     )}
                 </Col>
