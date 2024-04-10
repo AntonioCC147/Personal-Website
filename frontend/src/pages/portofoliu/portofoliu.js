@@ -20,6 +20,10 @@ import ProiectSpace from '../../assets/projects/ProiectSpace.jpg';
     import Space1 from '../../assets/projects/Space1.jpg';
     import Space2 from '../../assets/projects/Space2.jpg';
     import Space3 from '../../assets/projects/Space3.jpg';
+import ProiectFreelancer from '../../assets/projects/ProiectFreelancer.jpg';
+    import Freelancer1 from '../../assets/projects/Freelancer1.jpg';
+    import Freelancer2 from '../../assets/projects/Freelancer2.jpg';
+    import Freelancer3 from '../../assets/projects/Freelancer3.jpg';
 import ProiectMentoring from '../../assets/projects/ProiectMentoring.jpg';
     import Mentoring1 from '../../assets/projects/Mentoring1.jpg';
     import Mentoring2 from '../../assets/projects/Mentoring2.jpg';
@@ -180,6 +184,30 @@ export default function Portofoliu({language}) {
                             information about planets, specialists, and technologies.</>}
                             technology={<>React, JavaScript, HTML, Bootstrap, CSS</>}
                             git="https://github.com/AntonioCC147/Space-Exploring-Website" adress="https://space-exploring.netlify.app/"
+                        />
+                    )}
+                </Col>
+                <Col>
+                    {language === "RO" && (
+                        <PortofoliuCard
+                            language="RO" linkToProject="yes" linkToGitHub="yes"
+                            img={ProiectFreelancer} img1={Freelancer1} img2={Freelancer2} img3={Freelancer3}
+                            title={<>Designer - Web App</>}
+                            description={<>Website-ul este destinat portofoliului unui designer care dorești să-și promoveze
+                            serviciile prin intermediul unei platform online.</>}
+                            technology={<>React, JavaScript, HTML, Bootstrap, CSS</>}
+                            git="https://github.com/AntonioCC147/Designer-Website" adress="https://designer-app.netlify.app/"
+                        />
+                    )}
+                    {language === "UK" && (
+                        <PortofoliuCard
+                            language="UK" linkToProject="yes" linkToGitHub="yes"
+                            img={ProiectFreelancer} img1={Freelancer1} img2={Freelancer2} img3={Freelancer3}
+                            title={<>Designer - Web App</>}
+                            description={<>The website is intended for the portfolio of a designer you want to promote services
+                            through an online platform.</>}
+                            technology={<>React, JavaScript, HTML, Bootstrap, CSS</>}
+                            git="https://github.com/AntonioCC147/Designer-Website" adress="https://designer-app.netlify.app/"
                         />
                     )}
                 </Col>
