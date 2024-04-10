@@ -16,12 +16,14 @@ import ProiectProba from '../../assets/projects/ProiectProba.jpg';
     import Proba1 from '../../assets/projects/Proba1.jpg';
     import Proba2 from '../../assets/projects/Proba2.jpg';
     import Proba3 from '../../assets/projects/Proba3.jpg';
-//designer
+import ProiectSpace from '../../assets/projects/ProiectSpace.jpg';
+    import Space1 from '../../assets/projects/Space1.jpg';
+    import Space2 from '../../assets/projects/Space2.jpg';
+    import Space3 from '../../assets/projects/Space3.jpg';
 import ProiectMentoring from '../../assets/projects/ProiectMentoring.jpg';
     import Mentoring1 from '../../assets/projects/Mentoring1.jpg';
     import Mentoring2 from '../../assets/projects/Mentoring2.jpg';
     import Mentoring3 from '../../assets/projects/Mentoring3.jpg';
-//dental
 import ProiectConfiguration from '../../assets/projects/ProiectConfiguration.jpg';
     import Config1 from '../../assets/projects/Config1.jpg';
     import Config2 from '../../assets/projects/Config2.jpg';
@@ -128,7 +130,7 @@ export default function Portofoliu({language}) {
                             description={<>The project was created to help freshmen. It contains various essential information,
                             including subject feedback.</>}
                             technology={<>React, JavaScript, HTML, Bootstrap, CSS</>}
-                            git="https://github.com/AntonioCC147/ACS-IS-AA-Website" address="https://acs-is-aa.software/"
+                            git="https://github.com/AntonioCC147/ACS-IS-AA-Website" adress="https://acs-is-aa.software/"
                         />
                     )}
                 </Col>
@@ -151,35 +153,36 @@ export default function Portofoliu({language}) {
                             title={<>Technical Test IT - Web App</>}
                             description={<>The project I had to create as an entrance test for the "IT Department - LSAC".</>}
                             technology={<>React, JavaScript, HTML, Bootstrap, CSS</>}
-                            git="https://github.com/AntonioCC147/Proba-Tehnica-IT" address="https://proba-meme-it.netlify.app/"
+                            git="https://github.com/AntonioCC147/Proba-Tehnica-IT" adress="https://proba-meme-it.netlify.app/"
                         />
                     )}
                 </Col>
             </Row>
             <Row>
-                {/* <Col>
+                <Col>
                     {language === "RO" && (
                         <PortofoliuCard
                             language="RO" linkToProject="yes" linkToGitHub="yes"
-                            img={ProiectProba} img1={Proba1} img2={Proba2} img3={Proba3}
-                            title={<>Proba Tehnică IT - Web App</>}
-                            description={<>Proiectul pe care a trebuit să-l realizez drept probă de intrare în cadrul
-                            "Departamentului de IT - LSAC".</>}
+                            img={ProiectSpace} img1={Space1} img2={Space2} img3={Space3}
+                            title={<>Space Explorer - Web App</>}
+                            description={<>Proiectul reprezintă un Landing Page cu tematica spațiului ce conține informații
+                            despre planete, specialiști, dar și tehnologii.</>}
                             technology={<>React, JavaScript, HTML, Bootstrap, CSS</>}
-                            git="https://github.com/AntonioCC147/Proba-Tehnica-IT" adress="https://proba-meme-it.netlify.app/"
+                            git="https://github.com/AntonioCC147/Space-Exploring-Website" adress="https://space-exploring.netlify.app/"
                         />
                     )}
                     {language === "UK" && (
                         <PortofoliuCard
                             language="UK" linkToProject="yes" linkToGitHub="yes"
-                            img={ProiectProba} img1={Proba1} img2={Proba2} img3={Proba3}
+                            img={ProiectSpace} img1={Space1} img2={Space2} img3={Space3}
                             title={<>Technical Test IT - Web App</>}
-                            description={<>The project I had to create as an entrance test for the "IT Department - LSAC".</>}
+                            description={<>The project represents a Landing Page with the theme of the space that contains
+                            information about planets, specialists, and technologies.</>}
                             technology={<>React, JavaScript, HTML, Bootstrap, CSS</>}
-                            git="https://github.com/AntonioCC147/Proba-Tehnica-IT" address="https://proba-meme-it.netlify.app/"
+                            git="https://github.com/AntonioCC147/Space-Exploring-Website" adress="https://space-exploring.netlify.app/"
                         />
                     )}
-                </Col> */}
+                </Col>
                 <Col>
                     {language === "RO" && (
                         <PortofoliuCard
@@ -189,7 +192,7 @@ export default function Portofoliu({language}) {
                             description={<>O aplicație web pentru un client care și-a dorit un website pentru a-și promova
                             meditațiile prin intermediul online.</>}
                             technology={<>React, JavaScript, HTML, Bootstrap, CSS</>}
-                            git="https://github.com/AntonioCC147/Mentoring-Website" adress="https://robert-apostol.netlify.app/"
+                            git="https://github.com/AntonioCC147/Mentoring-Website" adress="https://apostol-robert.netlify.app/"
                         />
                     )}
                     {language === "UK" && (
@@ -200,7 +203,7 @@ export default function Portofoliu({language}) {
                             description={<>A web application for a client who wanted a website to promote meditations via
                             online.</>}
                             technology={<>React, JavaScript, HTML, Bootstrap, CSS</>}
-                            git="https://github.com/AntonioCC147/Mentoring-Website" address="https://robert-apostol.netlify.app/"
+                            git="https://github.com/AntonioCC147/Mentoring-Website" adress="https://apostol-robert.netlify.app/"
                         />
                     )}
                 </Col>
@@ -223,7 +226,7 @@ export default function Portofoliu({language}) {
                             title={<>Technical Test IT - Web App</>}
                             description={<>The project I had to create as an entrance test for the "IT Department - LSAC".</>}
                             technology={<>React, JavaScript, HTML, Bootstrap, CSS</>}
-                            git="https://github.com/AntonioCC147/Proba-Tehnica-IT" address="https://proba-meme-it.netlify.app/"
+                            git="https://github.com/AntonioCC147/Proba-Tehnica-IT" adress="https://proba-meme-it.netlify.app/"
                         />
                     )}
                 </Col> */}
@@ -248,7 +251,7 @@ export default function Portofoliu({language}) {
                             title={<>Website Configuration - Web App</>}
                             description={<>A project created to provide configuration options for those who want to build their own website.</>}
                             technology={<>React, JavaScript, HTML, Bootstrap, CSS</>}
-                            git="https://github.com/AntonioCC147/Website-Setup-Configuration" address="https://website-setup-configuration.netlify.app/"
+                            git="https://github.com/AntonioCC147/Website-Setup-Configuration" adress="https://website-setup-configuration.netlify.app/"
                         />
                     )}
                 </Col>
@@ -276,7 +279,7 @@ export default function Portofoliu({language}) {
                             description={<>A project created during the second edition of the Hackathon organized by the "IT
                             Department - LSAC".</>}
                             technology={<>React, JavaScript, HTML, Bootstrap, CSS</>}
-                            git="https://github.com/AntonioCC147/Mental-Health-HackIT" address="/"
+                            git="https://github.com/AntonioCC147/Mental-Health-HackIT" adress="/"
                         />
                     )}
                 </Col>
@@ -324,7 +327,7 @@ export default function Portofoliu({language}) {
                             description={<>A project created during the first edition of the Hackathon organized by the "IT
                             Department - LSAC".</>}
                             technology={<>React, Next.js, TypeScript, HTML, Bootstrap, CSS</>}
-                            git="https://github.com/AntonioCC147/Mental-Health-HackIT" address="/"
+                            git="https://github.com/AntonioCC147/Mental-Health-HackIT" adress="/"
                         />
                     )}
                 </Col>
@@ -352,7 +355,7 @@ export default function Portofoliu({language}) {
                             description={<>The game is quite simple in terms of logic. It supports both Romanian and English
                             languages.</>}
                             technology={<>React, JavaScript, Bootstrap</>}
-                            git="https://github.com/AntonioCC147/Word-Scramble-Game" address="https://game-word-scramble.netlify.app/"
+                            git="https://github.com/AntonioCC147/Word-Scramble-Game" adress="https://game-word-scramble.netlify.app/"
                         />
                     )}
                 </Col>
@@ -376,7 +379,7 @@ export default function Portofoliu({language}) {
                             description={<>The game is the classic Hangman we all know. You have a choice of letters from the
                             alphabet until you guess the word or lose.</>}
                             technology={<>React, JavaScript, Bootstrap</>}
-                            git="https://github.com/AntonioCC147/HangMan-Game" address="https://game-hangman-acc.netlify.app/"
+                            git="https://github.com/AntonioCC147/HangMan-Game" adress="https://game-hangman-acc.netlify.app/"
                         />
                     )}
                 </Col>
@@ -400,7 +403,7 @@ export default function Portofoliu({language}) {
                             description={<>This game involves writing a number in letters from the alphabet in the range [1,
                             1,000,000], and then converting it into digits.</>}
                             technology={<>C Language</>}
-                            git="https://github.com/AntonioCC147/DinLitereInCifre" address="/"
+                            git="https://github.com/AntonioCC147/DinLitereInCifre" adress="/"
                         />
                     )}
                 </Col>
@@ -428,7 +431,7 @@ export default function Portofoliu({language}) {
                             description={<>This project was the project for the second semester of the first year at faculty in
                             the "Data Structures and Algorithms" course.</>}
                             technology={<>C Language</>}
-                            git="https://github.com/AntonioCC147/PA-Project-LanParty" address="/"
+                            git="https://github.com/AntonioCC147/PA-Project-LanParty" adress="/"
                         />
                     )}
                 </Col>
