@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMap } from '@fortawesome/free-solid-svg-icons';
 
-import { SkillsCourses, Education, Certifications, Projects, Volunteering, ProgressBar } from './cvFunctions';
+import { SkillsCourses, Education, Certifications, Experience, Projects, Volunteering, ProgressBar } from './cvFunctions';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -25,18 +25,14 @@ export default function CV({language}) {
             <Row>
                 <Col sm={4} className="text-center">
                     <Image src={MePhoto1} className="imgCV" alt="Image" roundedCircle/>
-                    <Row>
-                        <p className="nameCV">Crantea Antonio-Cristian</p>
-                        {language === "RO" && ( <span><FontAwesomeIcon icon={faMap}/>{" "}București</span> )}
-                        {language === "UK" && ( <span><FontAwesomeIcon icon={faMap}/>{" "}Bucharest</span> )}
-                    </Row>
+                    <p className="nameCV">Crantea Antonio-Cristian</p>
                     <SkillsCourses language={language}/>
-                    Language Bar
                     <ProgressBar/>
                 </Col>
                 <Col sm={8}>
                     <Education language={language}/>
                     <Certifications language={language}/>
+                    <Experience language={language}/>
                     <Projects language={language}/>
                     <Volunteering language={language}/>
                 </Col>

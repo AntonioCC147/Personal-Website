@@ -11,8 +11,8 @@ const SkillsCourses = ({language}) => {
                     <p className="titleCV">Cursuri Relevante</p>
                     <span className="simpleTextCV">Programarea Calculatoarelor</span>
                     <span className="simpleTextCV">Structuri de Date și Algoritmi</span>
-                    <span className="simpleTextCV">Sisteme de Operare</span>
                     <span className="simpleTextCV">Programare Orientată pe Obiect</span>
+                    <span className="simpleTextCV">Sisteme de Operare</span>
                     <span className="simpleTextCV">Metode Numerice</span>
                 </Row>
             )}
@@ -21,8 +21,8 @@ const SkillsCourses = ({language}) => {
                     <p className="titleCV">Relevant Courses</p>
                     <span className="simpleTextCV">Computer Programming</span>
                     <span className="simpleTextCV">Data Structures and Algorithms</span>
-                    <span className="simpleTextCV">Operating Systems</span>
                     <span className="simpleTextCV">Object Oriented Programming</span>
+                    <span className="simpleTextCV">Operating Systems</span>
                     <span className="simpleTextCV">Numerical Methods</span>
                 </Row>
             )}
@@ -30,25 +30,19 @@ const SkillsCourses = ({language}) => {
             {language === "RO" && (
                 <Row>
                     <p className="titleCV">Skill-uri Tehnice</p>
-                    <span className="simpleTextCV">React</span>
-                    <span className="simpleTextCV">JavaScript</span>
-                    <span className="simpleTextCV">HTML</span>
-                    <span className="simpleTextCV">Bootstrap</span>
-                    <span className="simpleTextCV">CSS</span>
-                    <span className="simpleTextCV">C / C++</span>
-                    <span className="simpleTextCV">Matlab</span>
+                    <span className="simpleTextCV">React, JavaScript</span>
+                    <span className="simpleTextCV">HTML, CSS, Bootstrap</span>
+                    <span className="simpleTextCV">C, C++</span>
+                    <span className="simpleTextCV">MATLAB</span>
                 </Row>
             )}
             {language === "UK" && (
                 <Row>
                     <p className="titleCV">Technical Skills</p>
-                    <span className="simpleTextCV">React</span>
-                    <span className="simpleTextCV">JavaScript</span>
-                    <span className="simpleTextCV">HTML</span>
-                    <span className="simpleTextCV">Bootstrap</span>
-                    <span className="simpleTextCV">CSS</span>
-                    <span className="simpleTextCV">C / C++</span>
-                    <span className="simpleTextCV">Matlab</span>
+                    <span className="simpleTextCV">React, JavaScript</span>
+                    <span className="simpleTextCV">HTML, CSS, Bootstrap</span>
+                    <span className="simpleTextCV">C, C++</span>
+                    <span className="simpleTextCV">MATLAB</span>
                 </Row>
             )}
 
@@ -56,7 +50,6 @@ const SkillsCourses = ({language}) => {
                 <p className="titleCV">Dev Tools</p>
                 <span className="simpleTextCV">Visual Studio Code</span>
                 <span className="simpleTextCV">GitHub / GitHub Desktop</span>
-                <span className="simpleTextCV">CodeBlocks</span>
             </Row>
         </div>
     )
@@ -70,12 +63,21 @@ const Education = ({language}) => {
                     <Row>
                         <p className="titleCV">Educație</p><hr/>
                         <Col sm={8}>
-                            <li className="listCV">Universitatea Politehnică din București</li>
+                            <li className="listCV">Universitatea Politehnica din București</li>
                             <span className="descriptionListCV">Facultatea de "Automatică și Calculatoare",
                             "Ingineria Sistemelor"</span>
                         </Col>
                         <Col sm={4} style={{textAlign: "right"}}>
                             Octombrie 2022 - Prezent
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col sm={8}>
+                            <li className="listCV">Liceul Teoretic George Călinescu</li>
+                            <span className="descriptionListCV">Șef de Promoție - Specializarea "Matematică-Informatică"</span>
+                        </Col>
+                        <Col sm={4} style={{textAlign: "right"}}>
+                            Septembrie 2018 - Iunie 2022
                         </Col>
                     </Row>
                 </div>
@@ -84,13 +86,22 @@ const Education = ({language}) => {
                 <div>
                     <Row>
                         <p className="titleCV">Education</p><hr/>
-                        <Col sm={10}>
+                        <Col sm={8}>
                             <li className="listCV">Politehnica University of Bucharest</li>
                             <span className="descriptionListCV">Faculty of "Automation and Computers",
-                            field of study: "Systems Engineering"</span>
+                            "Systems Engineering"</span>
                         </Col>
-                        <Col sm={2} style={{textAlign: "right"}}>
-                            2022 - Present
+                        <Col sm={4} style={{textAlign: "right"}}>
+                            October 2022 - Present
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col sm={8}>
+                            <li className="listCV">George Călinescu Theoretical High School</li>
+                            <span className="descriptionListCV">Head of Promotion - "Mathematics and Informatics" Specialization</span>
+                        </Col>
+                        <Col sm={4} style={{textAlign: "right"}}>
+                            September 2018 - June 2022
                         </Col>
                     </Row>
                 </div>
@@ -152,6 +163,51 @@ const Certifications = ({language}) => {
     )
 }
 
+const Experience = ({language}) => {
+    return (
+        <div>
+            {language === "RO" && (
+                <div>
+                    <Row>
+                        <p className="titleCV">Experiență</p><hr/>
+                        <Col sm={8}>
+                            <li className="listCV">Asistent de Laborator</li>
+                        </Col>
+                        <Col sm={4} style={{textAlign: "right"}}>
+                            Octombrie 2023 - Prezent
+                        </Col>
+                    </Row>
+                    <Row style={{marginRight: "60px"}}>
+                        <p className="descriptionList2CV" >
+                            Am ajutat peste 100 de studenții la laboratoare să înțeleagă conceptele de bază și avansate ale
+                            disciplinelor Programare Calculatoarelor și Structuri de Date și Algoritmi.
+                        </p>
+                    </Row>
+                </div>
+            )}
+            {language === "UK" && (
+                <div>
+                    <Row>
+                        <p className="titleCV">Experience</p><hr/>
+                        <Col sm={8}>
+                            <li className="listCV">Undergraduate Teaching Assistant</li>
+                        </Col>
+                        <Col sm={4} style={{textAlign: "right"}}>
+                            October 2023 - Present
+                        </Col>
+                    </Row>
+                    <Row style={{marginRight: "60px"}}>
+                        <p className="descriptionList2CV" >
+                            Helped more than 100 students at laboratories to understand the basic and advanced concepts of
+                            Computer Programming and Data Structures and Algorithms subjects.
+                        </p>
+                    </Row>
+                </div>
+            )}
+        </div>
+    )
+}
+
 const Projects = ({language}) => {
     return (
         <div>
@@ -159,41 +215,6 @@ const Projects = ({language}) => {
                 <div>
                     <Row>
                         <p className="titleCV">Proiecte Interne</p><hr/>
-                        <Col sm={8}>
-                            <li className="listCV">Generic Admin Panel</li>
-                            <span className="descriptionListCV">React, TypeScript, Git</span>
-                        </Col>
-                        <Col sm={4} style={{textAlign: "right"}}>
-                            Martie 2023 - Decembrie 2023
-                        </Col>
-                    </Row>
-                    <Row style={{marginRight: "60px"}}>
-                        <p className="descriptionList2CV" >
-                            Având responsabilitatea de <i>"Team Lead"</i> în cadrul acestui proiect, a trebuit să creem un Admin Panel
-                            cât mai general pentru o introducere mai rapidă a informațiilor, echipelor, chestionarelor sau a altor
-                            lucruri specifice pe celelalte platforme pe care le deține liga.
-                        </p>
-                    </Row>
-                    <Row>
-                        <Col sm={10}>
-                            <li className="listCV">Ce spun Automatiștii?</li>
-                            <span className="descriptionListCV">React, MongoDB, Git</span>
-                            
-                        </Col>
-                        <Col sm={2} style={{textAlign: "right"}}>
-                            Aprilie 2023
-                        </Col>
-                    </Row>
-                    <Row style={{marginRight: "60px"}}>
-                        <p className="descriptionList2CV">
-                            Am lucrat cu o echipă de 5 persoane pentru a crea o aplicație care se dorește a fi un Website folosit
-                            ca interfață pentru echipele participante la eveniment pentru a avea cea mai plăcută experiență posibilă.
-                            M-am ocupat de partea de Frontend, lucrând la secțiuni precum <i>"Despre noi"</i>, <i>"FAQ"</i> sau chiar
-                            <i>"Footer"</i>. 
-                        </p>
-                    </Row>
-                    
-                    <Row>
                         <Col sm={8}>
                             <li className="listCV">Agendă Educațională de Bacalaureat la Informatică</li>
                         </Col>
@@ -214,38 +235,6 @@ const Projects = ({language}) => {
                 <div>
                     <Row>
                         <p className="titleCV">Internal Projects</p><hr/>
-                        <Col sm={9}>
-                            <li className="listCV">Generic Admin Panel</li>
-                            <span className="descriptionListCV">React, TypeScript, Git</span>
-                        </Col>
-                        <Col sm={3} style={{textAlign: "right"}}>
-                            March 2023 - December 2023
-                        </Col>
-                    </Row>
-                    <Row style={{marginRight: "60px"}}>
-                        <p className="descriptionList2CV" >
-                            Having the responsibility of <i>"Team Lead"</i> within this project, we had to create an Admin Panel as general
-                            as possible for a faster introduction of information, teams, quizzes or other specific things on the other platforms
-                            that the league has.
-                        </p>
-                    </Row>
-                    <Row>
-                        <Col sm={10}>
-                            <li className="listCV">What Do Automation Engineers Say?</li>
-                            <span className="descriptionListCV">React, MongoDB, Git</span>
-                        </Col>
-                        <Col sm={2} style={{textAlign: "right"}}>
-                            April 2023
-                        </Col>
-                    </Row>
-                    <Row style={{marginRight: "60px"}}>
-                        <p className="descriptionList2CV">
-                            I worked with a team of 5 people to create an application intended to be a website used as an interface
-                            for teams participating in an event to have the best possible experience. I was responsible for the Frontend,
-                            working on sections such as <i>"About Us"</i>, <i>"FAQ",</i> or even the <i>"Footer."</i>
-                        </p>
-                    </Row>
-                    <Row>
                         <Col sm={9}>
                             <li className="listCV">Educational Agenda for the Computer Science Baccalaureate</li>
                         </Col>
@@ -281,28 +270,9 @@ const Volunteering = ({language}) => {
                             Decembrie 2022 - Prezent
                         </Col>
                     </Row>
-                    <div>
-                        <Row>
-                            <Col sm={8}>
-                                <li className="listCV">Voluntar de Laborator</li>
-                                <span className="descriptionListCV">Membru în "Asociația Automatică și Calculatoare"</span>
-                            </Col>
-                            <Col sm={4} style={{textAlign: "right"}}>
-                                Octombrie 2023 - Prezent
-                            </Col>
-                            
-                        </Row>
-                        <Row style={{marginRight: "60px"}}>
-                            <p className="descriptionList2CV" >
-                                Am ajutat o mulțime de studenți la laborator pentru a înțelege conceptele de programare la
-                                materiile "Programarea Calculatoarelor și Limbaje de Programare" și "Structuri de Date și
-                                Algoritmi".
-                            </p>
-                        </Row>
-                    </div>
                     <Row>
                         <Col sm={9}>
-                            <li className="listCV">Meditator</li>
+                            <li className="listCV">Mentor Educațional</li>
                             <span className="descriptionListCV">Suport educațional la materiile Informatică, Tehnologii Web și Matematică</span>
                         </Col>
                         <Col sm={3} style={{textAlign: "right"}}>
@@ -323,27 +293,9 @@ const Volunteering = ({language}) => {
                             December 2022 - Present
                         </Col>
                     </Row>
-                    <div>
-                        <Row>
-                            <Col sm={9}>
-                                <li className="listCV">Laboratory Volunteer</li>
-                                <span className="descriptionListCV">Membru in "Association of Automatic Control and Computer Science"</span>
-                            </Col>
-                            <Col sm={3} style={{textAlign: "right"}}>
-                                October 2023 - Present
-                            </Col>
-                            
-                        </Row>
-                        <Row style={{marginRight: "60px"}}>
-                            <p className="descriptionList2CV" >
-                                Helped a lot of students at laboratories to understand the concept of programming at "Computer
-                                Programming and Programming Languages" and "Data Structures and Algorithms" subjects.
-                            </p>
-                        </Row>
-                    </div>
                     <Row>
                         <Col sm={9}>
-                            <li className="listCV">Tutor</li>
+                            <li className="listCV">Educational Mentor</li>
                             <span className="descriptionListCV">Educational support in Informatics, Web Technologies, and Mathematics</span>
                         </Col>
                         <Col sm={3} style={{textAlign: "right"}}>
@@ -382,4 +334,4 @@ const ProgressBar = () => {
     )
 }
 
-export { SkillsCourses, Education, Certifications, Projects, Volunteering, ProgressBar };
+export { SkillsCourses, Education, Certifications, Experience, Projects, Volunteering, ProgressBar };
