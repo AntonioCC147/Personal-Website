@@ -1,6 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMap } from '@fortawesome/free-solid-svg-icons';
-
 import { SkillsCourses, Education, Certifications, Experience, Projects, Volunteering, ProgressBar } from './cvFunctions';
 
 import Container from 'react-bootstrap/Container';
