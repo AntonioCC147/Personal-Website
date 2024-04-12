@@ -19,3 +19,9 @@
     display: inline-block;
     margin-left: 4em;
 }
+
+@media only screen and (max-width: 990px) {
+    .simpleText {
+        padding-left: 50px !important;
+    }
+}

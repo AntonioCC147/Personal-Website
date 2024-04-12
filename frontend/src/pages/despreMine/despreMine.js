@@ -17,11 +17,11 @@ export default function DespreMine({language}) {
                 {language === "UK" && ( <div className="principalTitle anta">&lt; About me /&gt;</div> )}
                 <hr className="hr"/>
                 <Row>
-                    <Col sm="4">
+                    <Col lg="4">
                         <img src={MePhoto2} className="img-setUp" alt="MePhoto"/>
                     </Col>
                     {language === "RO" && (
-                        <Col sm="8" className="simpleText">
+                        <Col lg="8" className="simpleText">
                             <div>
                                 <span className="tab"/>
                                     Numele meu este Toni, am 20 de ani, sunt student la <b><i>"Facultatea de Automatică și
@@ -60,7 +60,7 @@ export default function DespreMine({language}) {
                         </Col>
                     )}
                     {language === "UK" && (
-                        <Col sm="8" className="simpleText">
+                        <Col lg="8" className="simpleText">
                             <div>
                                 <span className="tab"/>
                                 My name is Toni, I am 20 years old, and I am a student at the <b><i>"Faculty of Automation and Computers"</i></b> in Bucharest. I am also a member of the <b><i>"Student League"</i></b>.

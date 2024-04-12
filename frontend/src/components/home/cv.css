@@ -185,21 +185,21 @@ ul {
 }
 
 @media only screen and (max-width: 1000px) {
-    .imgCV{
+    .imgCV {
         width: 250px;
         height: 250px;
     }
 }
 
 @media only screen and (max-width: 800px) {
-    .imgCV{
+    .imgCV {
         width: 200px;
         height: 200px;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    .imgCV{
+    .imgCV {
         width: 150px;
         height: 150px;
     }
