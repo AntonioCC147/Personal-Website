@@ -2,11 +2,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 
 import NavbarHeader from "./components/navbar/navbar";
-//import Register from "./pages/register/register";
-//import Login from "./pages/login/login";
 
 import Home from "./pages/home/home";
 import DespreMine from "./pages/despreMine/despreMine";
+import Profesor from "./pages/profesor/profesor";
 import Portofoliu from "./pages/portofoliu/portofoliu";
 import Meditatii from "./pages/meditatii/meditatii";
 import Pseudocod from "./pages/algoritmi/pseudocod";
@@ -33,8 +32,12 @@ function App() {
             <Router>
                 <Routes>
                     <Route exact path="/" element={<Home language={language}/>} />
-                    <Route path="/despremine" element={<DespreMine language={language}/>}/>
+                    <Route path="/despre" element={<DespreMine language={language}/>}/>
+                    <Route path="/about" element={<DespreMine language={language}/>}/>
                     <Route path="/portofoliu" element={<Portofoliu language={language}/>}/>
+                    <Route path="/portofolio" element={<Portofoliu language={language}/>}/>
+                    <Route path="/profesor" element={<Profesor language={language}/>}/>
+                    <Route path="/teacher" element={<Profesor language={language}/>}/>
                     <Route path="/meditatii" element={<Meditatii language={language}/>}/>
                     <Route path="/pseudocod" element={<Pseudocod language={language}/>}/>
                     <Route path="/cpp" element={<CPP language={language}/>} />

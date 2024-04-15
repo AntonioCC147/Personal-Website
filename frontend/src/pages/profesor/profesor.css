@@ -1,0 +1,93 @@
+.teacherContainerLeft {
+    margin-left: -100px;
+    margin-bottom: 20px;
+    padding-bottom: 5%;
+
+    border-style: groove;
+    border-width: 2px;
+    border-radius: 50px 20px;
+    border-color: rgb(31, 30, 30);
+
+    height: auto;
+
+    background-color: #eeeeee6f;
+}
+
+.teacherContainerCenter {
+    margin-left: -50px;
+    margin-right: -50px;
+    margin-bottom: 20px;
+    padding-bottom: 5%;
+
+    border-style: groove;
+    border-width: 2px;
+    border-radius: 50px;
+    border-color: rgb(31, 30, 30);
+
+    height: auto;
+
+    background-color: #eeeeee6f;
+}
+
+.teacherContainerRight {
+    margin-right: -100px;
+    margin-bottom: 20px;
+    padding-bottom: 5%;
+
+    border-style: groove;
+    border-width: 2px;
+    border-radius: 20px 50px;
+    border-color: rgb(31, 30, 30);
+
+    height: auto;
+
+    background-color: #eeeeee6f;
+}
+
+.teacherContainerLeft:hover, .teacherContainerCenter:hover, .teacherContainerRight:hover {
+    transform: scale(1.05);
+}
+
+.teacherTitle {
+    padding: 10px;
+    margin-bottom: 0px;
+
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.teacherLanguage {
+    margin-top: 0px;
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.teacherYear {
+    margin-bottom: 0px;
+
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.teacherData {
+    margin-top: 0px;
+
+    font-size: 16px;
+}
+
+.teacherDescription{
+    margin: 0% 7% 0% 7%;
+
+    text-align: center;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 990px) {
+    .teacherContainerLeft {
+        margin-left: 0px;
+    }
+    .teacherContainerRight {
+        margin-right: 0px;
+    }
+}

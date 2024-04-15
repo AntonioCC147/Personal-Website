@@ -18,8 +18,8 @@ export default function Skills({language}) {
             {language === "RO" && ( <p className="subTitle">Câteva cunoștințe de bază pe care le-am dobândit de-a lungul anilor</p> )}
             {language === "UK" && ( <p className="subTitle">Some basic knowledge I've picked up over the years</p> )}
             <Row>
-                <Col sm={4}>
-                    <div className="skillsContainer">
+                <Col lg={4}>
+                    <div className="skillsContainerLeft">
                         <img src={ReactIcon} style={{marginTop: "10px", width: "25%"}} alt="React"/>
                         <p className="skillsTitle">React & JavaScript</p>
                         {language === "RO" && (
@@ -38,8 +38,8 @@ export default function Skills({language}) {
                         )}
                     </div>
                 </Col>
-                <Col sm={4}>
-                    <div className="skillsContainer">
+                <Col lg={4}>
+                    <div className="skillsContainerCenter">
                         <img src={HTMLCSSIcon} style={{marginTop: "10px", width: "25%"}} alt="React"/>
                         <p className="skillsTitle">HTML & CSS</p>
                         {language === "RO" && (
@@ -58,8 +58,8 @@ export default function Skills({language}) {
                         )}
                     </div>
                 </Col>
-                <Col sm={4}>
-                    <div className="skillsContainer">
+                <Col lg={4}>
+                    <div className="skillsContainerRight">
                         <img src={CppIcon} style={{marginTop: "10px", width: "22%"}} alt="React"/>
                         <p className="skillsTitle">C & C++</p>
                         {language === "RO" && (
@@ -80,9 +80,9 @@ export default function Skills({language}) {
                 </Col>
             </Row>
             <Row>
-                <Col sm={2}/>
-                <Col sm={4}>
-                    <div className="skillsContainer">
+                <Col lg={2}/>
+                <Col lg={4}>
+                    <div className="skillsContainerLeft">
                         <img src={MatlabIcon} style={{marginTop: "10px", width: "25%"}} alt="React"/>
                         <p className="skillsTitle">Matlab</p>
                         {language === "RO" && (
@@ -99,8 +99,8 @@ export default function Skills({language}) {
                         )}
                     </div>
                 </Col>
-                <Col>
-                    <div className="skillsContainer">
+                <Col lg={4}>
+                    <div className="skillsContainerRight">
                         <img src={ManagementIcon} style={{marginTop: "10px", width: "22%"}} alt="React"/>
                         <p className="skillsTitle">Management & Leadership</p>
                         {language === "RO" && (
@@ -118,7 +118,7 @@ export default function Skills({language}) {
                         )}
                     </div>
                 </Col>
-                <Col sm={2}/>
+                <Col lg={2}/>
             </Row>
         </Container>
     )

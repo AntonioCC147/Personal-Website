@@ -21,7 +21,7 @@ export default function NavbarHeader({language, setLanguage}) {
 
     return (
         <div>
-            <Navbar collapseOnSelect expand="xl" variant="dark" fixed="top" style={{background: "linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%)", marginBottom: '50px', minHeight: "75px"}}>
+            <Navbar collapseOnSelect expand="xxl" variant="dark" fixed="top" style={{background: "linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%)", marginBottom: '50px', minHeight: "75px"}}>
                 <Container className="anta">
                     <Navbar.Brand><a href="/"><img src={Icon} alt="Icon" style={{width: "35px"}}/></a></Navbar.Brand>
                     <Navbar.Brand style={{fontWeight: "bold"}} href="/">
@@ -32,10 +32,12 @@ export default function NavbarHeader({language, setLanguage}) {
                         <Nav className="me-auto navbarCenter">
                             {language ==="RO" && ( <Nav.Link href="/" className={isCurrentPage('/')}>Acasă</Nav.Link> )}
                             {language ==="UK" && ( <Nav.Link href="/" className={isCurrentPage('/')}>Home</Nav.Link> )}
-                            {language ==="RO" && ( <Nav.Link href="/despremine" className={isCurrentPage('/despremine')}>Despre mine & FAQ</Nav.Link> )}
-                            {language ==="UK" && ( <Nav.Link href="/despremine" className={isCurrentPage('/despremine')}>About me & FAQ</Nav.Link> )}
+                            {language ==="RO" && ( <Nav.Link href="/despre" className={isCurrentPage('/despre')}>Despre mine & FAQ</Nav.Link> )}
+                            {language ==="UK" && ( <Nav.Link href="/about" className={isCurrentPage('/about')}>About me & FAQ</Nav.Link> )}
+                            {language ==="RO" && ( <Nav.Link href="/profesor" className={isCurrentPage('/profesor')}>Profesor</Nav.Link> )}
+                            {language ==="UK" && ( <Nav.Link href="/teacher" className={isCurrentPage('/teacher')}>Teacher</Nav.Link> )}
                             {language ==="RO" && ( <Nav.Link href="/portofoliu" className={isCurrentPage('/portofoliu')}>Portofoliu</Nav.Link> )}
-                            {language ==="UK" && ( <Nav.Link href="/portofoliu" className={isCurrentPage('/portofoliu')}>Portfolio</Nav.Link> )}
+                            {language ==="UK" && ( <Nav.Link href="/portofolio" className={isCurrentPage('/portofolio')}>Portfolio</Nav.Link> )}
                             {/*{language ==="RO" && ( <Nav.Link href="/meditatii" className={isCurrentPage('/meditatii')}>Meditații</Nav.Link> )}*/}
                             {/*{{language ==="UK" && ( <Nav.Link href="/meditatii" className={isCurrentPage('/meditatii')}>Mentoring</Nav.Link> )}*/}
                             {language ==="RO" && (
