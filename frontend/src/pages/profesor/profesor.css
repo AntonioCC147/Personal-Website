@@ -84,10 +84,10 @@
 }
 
 @media only screen and (max-width: 990px) {
-    .teacherContainerLeft {
+    .teacherContainerLeft, .teacherContainerCenter {
         margin-left: 0px;
     }
-    .teacherContainerRight {
+    .teacherContainerRight, .teacherContainerCenter {
         margin-right: 0px;
     }
 }
