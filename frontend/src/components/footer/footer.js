@@ -41,8 +41,8 @@ export default function Footer({language}) {
                         </MDBCol>
 
                         <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
-                            {language === "RO" && ( <h6 className="text-uppercase fw-bold mb-4">&lt; Produse /&gt;</h6> )}
-                            {language === "UK" && ( <h6 className="text-uppercase fw-bold mb-4">&lt; Products /&gt;</h6> )}
+                            {language === "RO" && ( <h6 className="text-uppercase fw-bold mb-4">&lt; Colaborări /&gt;</h6> )}
+                            {language === "UK" && ( <h6 className="text-uppercase fw-bold mb-4">&lt; Collaboration /&gt;</h6> )}
                             <p>
                                 <a href="https://edeea.ro/produs/agenda-bacalaureat-informatica-matematica-informatica/" target="blank" className="text-reset">
                                     {language === "RO" && ( <>Agendă Informatică</> )}
