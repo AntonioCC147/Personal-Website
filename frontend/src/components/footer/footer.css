@@ -1,0 +1,10 @@
+.footerIcons {
+    margin: 2px;
+    
+    width: 30px;
+    height: 30px;
+}
+
+.footerIcons:hover {
+    transform: scale(1.05);
+}
