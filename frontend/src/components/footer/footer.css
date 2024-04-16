@@ -8,3 +8,11 @@
 .footerIcons:hover {
     transform: scale(1.05);
 }
+
+.footerArrow {
+    width: 50px;
+}
+
+.footerArrow:hover {
+    transform: scale(1.05);
+}

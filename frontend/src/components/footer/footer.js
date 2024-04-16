@@ -73,7 +73,7 @@ export default function Footer({language}) {
                     {language === "RO" && (<> Copyright | Crantea Antonio-Cristian, student la Facultatea de "Automatică și Calculatoare" </> )}
                     {language === "UK" && (<> Copyright | Crantea Antonio-Cristian, student at Faculty of "Automatic Control and Computer Science" </> )}
                 <button style={{ background: "transparent", border: "none", position: "absolute", right: "1rem", top: "50%", transform: "translateY(-50%)" }}>
-                    <img src={Arrow} onClick={scrollToTop} style={{ width: "50px" }} alt="Arrow" />
+                    <img src={Arrow} onClick={scrollToTop} className="footerArrow" alt="Arrow" />
                 </button>
             </div>   
         </MDBFooter>
