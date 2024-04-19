@@ -25,10 +25,10 @@ export default function Home({language}) {
                     <Row>
                         <Col>
                             {language === "RO" && (
-                                <Button variant="dark" href="/despremine" className="d-flex align-items-center justify-content-center homeButton">Află mai multe</Button>
+                                <Button variant="dark" href="/despre" className="d-flex align-items-center justify-content-center homeButton">Află mai multe</Button>
                             )}
                             {language === "UK" && (
-                                <Button variant="dark" href="/despremine" className="d-flex align-items-center justify-content-center homeButton">Find out more</Button>
+                                <Button variant="dark" href="/about" className="d-flex align-items-center justify-content-center homeButton">Find out more</Button>
                             )}
                         </Col>
                     </Row>
