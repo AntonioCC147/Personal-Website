@@ -44,10 +44,6 @@
     background-color: #eeeeee6f;
 }
 
-.teacherContainerLeft:hover, .teacherContainerCenter:hover, .teacherContainerRight:hover {
-    transform: scale(1.05);
-}
-
 .teacherTitle {
     padding: 10px;
     margin-bottom: 0px;

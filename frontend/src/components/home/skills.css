@@ -37,10 +37,6 @@
     background-color: #eeeeee6f;
 }
 
-.skillsContainerLeft:hover, .skillsContainerCenter:hover, .skillsContainerRight:hover {
-    transform: scale(1.05);
-}
-
 .skillsTitle {
     padding-top: 10px;
 

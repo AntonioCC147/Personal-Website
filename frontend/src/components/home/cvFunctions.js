@@ -14,6 +14,7 @@ const SkillsCourses = ({language}) => {
                     <span className="simpleTextCV">Programare Orientată pe Obiect</span>
                     <span className="simpleTextCV">Sisteme de Operare</span>
                     <span className="simpleTextCV">Metode Numerice</span>
+                    <span className="simpleTextCV">Tehnologii Web</span>
                 </Row>
             )}
             {language === "UK" && (
@@ -24,6 +25,7 @@ const SkillsCourses = ({language}) => {
                     <span className="simpleTextCV">Object Oriented Programming</span>
                     <span className="simpleTextCV">Operating Systems</span>
                     <span className="simpleTextCV">Numerical Methods</span>
+                    <span className="simpleTextCV">Web Technologies</span>
                 </Row>
             )}
 
