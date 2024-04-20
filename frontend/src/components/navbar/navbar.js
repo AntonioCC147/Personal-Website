@@ -39,7 +39,7 @@ export default function NavbarHeader({language, setLanguage}) {
                             {language === "UK" && ( <Nav.Link href="/portofolio" className={isCurrentPage('/portofolio')}>Portfolio</Nav.Link> )}
                             {/*{language ==="RO" && ( <Nav.Link href="/meditatii" className={isCurrentPage('/meditatii')}>Meditații</Nav.Link> )}*/}
                             {/*{{language ==="UK" && ( <Nav.Link href="/meditatii" className={isCurrentPage('/meditatii')}>Mentoring</Nav.Link> )}*/}
-                            {(language === "RO" || language === "UK") && ( <Nav.Link href="https://www.linkedin.com/in/antonio-crantea/overlay/1710600031181/single-media-viewer/?profileId=ACoAAD8-lOEBsK9QE9G0ayj8kHNX-Q-d0EMMsOQ" target="_blank" className={isCurrentPage('/cv')}>CV</Nav.Link> )}
+                            {(language === "RO" || language === "UK") && ( <Nav.Link href="https://tan-charlotte-39.tiiny.site/" target="_blank" className={isCurrentPage('/cv')}>CV</Nav.Link> )}
                             <Nav.Link href="/contact" className={isCurrentPage('/contact')}>Contact</Nav.Link>
                         </Nav>
                         <Nav>
