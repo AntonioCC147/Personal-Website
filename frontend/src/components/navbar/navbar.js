@@ -30,31 +30,18 @@ export default function NavbarHeader({language, setLanguage}) {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto navbarCenter">
-                            {language ==="RO" && ( <Nav.Link href="/" className={isCurrentPage('/')}>Acasă</Nav.Link> )}
-                            {language ==="UK" && ( <Nav.Link href="/" className={isCurrentPage('/')}>Home</Nav.Link> )}
-                            {language ==="RO" && ( <Nav.Link href="/despre" className={isCurrentPage('/despre')}>Despre mine & FAQ</Nav.Link> )}
-                            {language ==="UK" && ( <Nav.Link href="/about" className={isCurrentPage('/about')}>About me & FAQ</Nav.Link> )}
-                            {language ==="RO" && ( <Nav.Link href="/profesor" className={isCurrentPage('/profesor')}>Profesor</Nav.Link> )}
-                            {language ==="UK" && ( <Nav.Link href="/teacher" className={isCurrentPage('/teacher')}>Teacher</Nav.Link> )}
-                            {language ==="RO" && ( <Nav.Link href="/portofoliu" className={isCurrentPage('/portofoliu')}>Portofoliu</Nav.Link> )}
-                            {language ==="UK" && ( <Nav.Link href="/portofolio" className={isCurrentPage('/portofolio')}>Portfolio</Nav.Link> )}
+                            {language === "RO" && ( <Nav.Link href="/" className={isCurrentPage('/')}>Acasă</Nav.Link> )}
+                            {language === "UK" && ( <Nav.Link href="/" className={isCurrentPage('/')}>Home</Nav.Link> )}
+                            {language === "RO" && ( <Nav.Link href="/despre" className={isCurrentPage('/despre')}>Despre mine & FAQ</Nav.Link> )}
+                            {language === "UK" && ( <Nav.Link href="/about" className={isCurrentPage('/about')}>About me & FAQ</Nav.Link> )}
+                            {language === "RO" && ( <Nav.Link href="/profesor" className={isCurrentPage('/profesor')}>Profesor</Nav.Link> )}
+                            {language === "UK" && ( <Nav.Link href="/teacher" className={isCurrentPage('/teacher')}>Teacher</Nav.Link> )}
+                            {language === "RO" && ( <Nav.Link href="/portofoliu" className={isCurrentPage('/portofoliu')}>Portofoliu</Nav.Link> )}
+                            {language === "UK" && ( <Nav.Link href="/portofolio" className={isCurrentPage('/portofolio')}>Portfolio</Nav.Link> )}
                             {/*{language ==="RO" && ( <Nav.Link href="/meditatii" className={isCurrentPage('/meditatii')}>Meditații</Nav.Link> )}*/}
                             {/*{{language ==="UK" && ( <Nav.Link href="/meditatii" className={isCurrentPage('/meditatii')}>Mentoring</Nav.Link> )}*/}
-                            {language ==="RO" && (
-                                <NavDropdown title="Algoritmi" id="basic-nav-dropdown" className="nav-dropdown-text">
-                                    <NavDropdown.Item href="/pseudocod" className={`${isCurrentPage('/pseudocod')} navbarDropdopownText`}>Pseudocod</NavDropdown.Item>
-                                        <NavDropdown.Divider/>
-                                    <NavDropdown.Item href="/cpp" className={`${isCurrentPage('/cpp')} navbarDropdopownText`}>C++</NavDropdown.Item>
-                                </NavDropdown>
-                            )}
-                            {language ==="UK" && (
-                                <NavDropdown title="Algorithms" id="basic-nav-dropdown" className="nav-dropdown-text">
-                                    <NavDropdown.Item href="/pseudocod" className={`${isCurrentPage('/pseudocod')} navbarDropdopownText`}>Pseudocod</NavDropdown.Item>
-                                        <NavDropdown.Divider/>
-                                    <NavDropdown.Item href="/cpp" className={`${isCurrentPage('/cpp')} navbarDropdopownText`}>C++</NavDropdown.Item>
-                                </NavDropdown>
-                            )}
-                            <Nav.Link href="/contact" className={isCurrentPage('/atestate')}>Contact</Nav.Link>
+                            {(language === "RO" || language === "UK") && ( <Nav.Link href="https://www.linkedin.com/in/antonio-crantea/overlay/1710600031181/single-media-viewer/?profileId=ACoAAD8-lOEBsK9QE9G0ayj8kHNX-Q-d0EMMsOQ" target="_blank" className={isCurrentPage('/cv')}>CV</Nav.Link> )}
+                            <Nav.Link href="/contact" className={isCurrentPage('/contact')}>Contact</Nav.Link>
                         </Nav>
                         <Nav>
                             {language === "RO" && (
@@ -62,7 +49,7 @@ export default function NavbarHeader({language, setLanguage}) {
                                     <img src={uk} style={{width: "20px"}} alt="UK"/>{' '}UK
                                 </Button>
                             )}
-                            {language ==="UK" && (
+                            {language === "UK" && (
                                 <Button variant="outline-light" onClick={() => setLanguage("RO")}>
                                     <img src={ro} style={{width: "20px"}} alt="RO"/>{' '}RO
                                 </Button>
