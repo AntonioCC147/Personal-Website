@@ -128,7 +128,7 @@ const Certifications = ({language}) => {
                     <Row>
                         <Col sm={10}>
                             <li className="listCV">Diplomă de Bacalaureat</li>
-                            <span className="descriptionListCV">Informatică - 10, Matematică - 9.90, Media Finală - 9.70</span>
+                            <span className="descriptionListCV">Română - 9.20, Matematică - 9.90, Informatică - 10, Media Finală - 9.70</span>
                         </Col>
                         <Col sm={2} style={{textAlign: "right"}}>
                             Iulie 2022
@@ -151,7 +151,7 @@ const Certifications = ({language}) => {
                     <Row>
                         <Col sm={10}>
                             <li className="listCV">High School Diploma</li>
-                            <span className="descriptionListCV">Computer Science - 10, Mathematics - 9.90, Overall Average - 9.70</span>
+                            <span className="descriptionListCV">Romanian - 9,20, Mathematics - 9.90, Computer Science - 10, Overall Average - 9.70</span>
                         </Col>
                         <Col sm={2} style={{textAlign: "right"}}>
                             July 2022
