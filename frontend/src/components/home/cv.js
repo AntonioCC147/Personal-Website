@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/esm/Image';
 
-import MePhoto1 from '../../assets/photos/MePhoto1.jpg';
+import MePhoto1 from '../../assets/photos/MePhoto1.png';
 
 import './cv.css';
 
@@ -21,7 +21,7 @@ export default function CV({language}) {
             </Row>
             <Row>
                 <Col sm={4} className="text-center">
-                    <Image src={MePhoto1} className="imgCV" alt="Image" roundedCircle/>
+                    <Image src={MePhoto1} className="imgCV" alt="Image"/>
                     <p className="nameCV">Crantea Antonio-Cristian</p>
                     <SkillsCourses language={language}/>
                     <ProgressBar/>
