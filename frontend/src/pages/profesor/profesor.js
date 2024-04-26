@@ -108,6 +108,7 @@ export default function Profesor({language}) {
                                 <p className="teacherLanguage">HTML, CSS, JavaScript</p>
                                 <p className="teacherYear">Anul 2, Seria AA / AC</p>
                                 <p className="teacherData">Va urma</p>
+                                <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}Susținător de laborator</p>
                                 <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}Mentor React pe proiecte interne</p>
                                 <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}Organizator ZebraHack (Hackathon Intern)</p>
                             </>
@@ -118,6 +119,7 @@ export default function Profesor({language}) {
                                 <p className="teacherLanguage">HTML, CSS, JavaScript</p>
                                 <p className="teacherYear">Year 2, Series AA / AC</p>
                                 <p className="teacherData">Coming Soon</p>
+                                <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}Laboratory Supporter</p>
                                 <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}Mentor React on internal projects</p>
                                 <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}Zebra Hack Organizer (Internal Hackathon)</p>
                             </>
