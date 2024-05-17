@@ -29,7 +29,6 @@ export default function Footer({language}) {
                     <SocialIcon url="https://github.com/AntonioCC147" target="_blank" network="github" bgColor="#ffffff" className="footerIcons"/>
                     <SocialIcon url="https://discord.com/users/265854349362724864" target="_blank" network="discord" className="footerIcons"/>
                     <SocialIcon url="https://www.instagram.com/antoniocc147" target="_blank" network="instagram" className="footerIcons"/>
-                    <SocialIcon url="https://www.facebook.com/antoniocc147" target="_blank" network="facebook" className="footerIcons"/>
                 </div>
             </section>
             <section>
@@ -62,7 +61,6 @@ export default function Footer({language}) {
                         <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
                             <h6 className="text-uppercase fw-bold mb-4">&lt; Contact /&gt;</h6>
                             <p><span className="fw-bold">Gmail:</span> antoniocrantea@gmail.com</p>
-                            <p><span className="fw-bold">Yahoo:</span> thet0mmy@yhaoo.com</p>
                         </MDBCol>
                     </MDBRow>
                 </MDBContainer>
