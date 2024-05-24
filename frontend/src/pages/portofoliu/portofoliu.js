@@ -12,10 +12,10 @@ import ProiectACS from '../../assets/projects/ProiectACS.jpg';
     import ACS1 from '../../assets/projects/ACS1.jpg';
     import ACS2 from '../../assets/projects/ACS2.jpg';
     import ACS3 from '../../assets/projects/ACS3.jpg';
-import ProiectProba from '../../assets/projects/ProiectProba.jpg';
-    import Proba1 from '../../assets/projects/Proba1.jpg';
-    import Proba2 from '../../assets/projects/Proba2.jpg';
-    import Proba3 from '../../assets/projects/Proba3.jpg';
+import ProiectTW from '../../assets/projects/ProiectTW.jpg';
+    import TW1 from '../../assets/projects/TW1.jpg';
+    import TW2 from '../../assets/projects/TW2.jpg';
+    import TW3 from '../../assets/projects/TW3.jpg';
 import ProiectSpace from '../../assets/projects/ProiectSpace.jpg';
     import Space1 from '../../assets/projects/Space1.jpg';
     import Space2 from '../../assets/projects/Space2.jpg';
@@ -28,6 +28,10 @@ import ProiectMentoring from '../../assets/projects/ProiectMentoring.jpg';
     import Mentoring1 from '../../assets/projects/Mentoring1.jpg';
     import Mentoring2 from '../../assets/projects/Mentoring2.jpg';
     import Mentoring3 from '../../assets/projects/Mentoring3.jpg';
+import ProiectProba from '../../assets/projects/ProiectProba.jpg';
+    import Proba1 from '../../assets/projects/Proba1.jpg';
+    import Proba2 from '../../assets/projects/Proba2.jpg';
+    import Proba3 from '../../assets/projects/Proba3.jpg';
 import ProiectConfiguration from '../../assets/projects/ProiectConfiguration.jpg';
     import Config1 from '../../assets/projects/Config1.jpg';
     import Config2 from '../../assets/projects/Config2.jpg';
@@ -142,22 +146,23 @@ export default function Portofoliu({language}) {
                     {language === "RO" && (
                         <PortofoliuCard
                             language="RO" linkToProject="yes" linkToGitHub="yes"
-                            img={ProiectProba} img1={Proba1} img2={Proba2} img3={Proba3}
-                            title={<>Proba Tehnică IT - Web App</>}
-                            description={<>Proiectul pe care a trebuit să-l realizez drept probă de intrare în cadrul
-                            "Departamentului de IT - LSAC".</>}
-                            technology={<>React, JavaScript, HTML, Bootstrap, CSS</>}
-                            git="https://github.com/AntonioCC147/Proba-Tehnica-IT" adress="https://proba-meme-it.netlify.app/"
+                            img={ProiectTW} img1={TW1} img2={TW2} img3={TW3}
+                            title={<>Wiki - TW - Web App</>}
+                            description={<>Această platformă a fost creată drept site de prezentare pentru materia Tehnologii Web,
+                            materie din cadrul facultății.</>}
+                            technology={<>Docusaurus, React, JavaScript, HTML, Bootstrap, CSS</>}
+                            git="https://github.com/AntonioCC147/Wiki-Tehnologii-Web" adress="https://wiki-tw.netlify.app/"
                         />
                     )}
                     {language === "UK" && (
                         <PortofoliuCard
                             language="UK" linkToProject="yes" linkToGitHub="yes"
-                            img={ProiectProba} img1={Proba1} img2={Proba2} img3={Proba3}
-                            title={<>Technical Test IT - Web App</>}
-                            description={<>The project I had to create as an entrance test for the "IT Department - LSAC".</>}
-                            technology={<>React, JavaScript, HTML, Bootstrap, CSS</>}
-                            git="https://github.com/AntonioCC147/Proba-Tehnica-IT" adress="https://proba-meme-it.netlify.app/"
+                            img={ProiectTW} img1={TW1} img2={TW2} img3={TW3}
+                            title={<>Wiki - TW - Web App</>}
+                            description={<>This platform was created as a presentation site for the subject Web Technologies,
+                            subject within the faculty.</>}
+                            technology={<>Docusaurus, React, JavaScript, HTML, Bootstrap, CSS</>}
+                            git="https://github.com/AntonioCC147/Wiki-Tehnologii-Web" adress="https://wiki-tw.netlify.app/"
                         />
                     )}
                 </Col>
@@ -235,7 +240,9 @@ export default function Portofoliu({language}) {
                         />
                     )}
                 </Col>
-                {/* <Col>
+            </Row>
+            <Row>
+                <Col>
                     {language === "RO" && (
                         <PortofoliuCard
                             language="RO" linkToProject="yes" linkToGitHub="yes"
@@ -257,9 +264,7 @@ export default function Portofoliu({language}) {
                             git="https://github.com/AntonioCC147/Proba-Tehnica-IT" adress="https://proba-meme-it.netlify.app/"
                         />
                     )}
-                </Col> */}
-            </Row>
-            <Row>
+                </Col>
                 <Col>
                     {language === "RO" && (
                         <PortofoliuCard
