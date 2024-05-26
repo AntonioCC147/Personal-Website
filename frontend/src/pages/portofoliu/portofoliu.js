@@ -98,22 +98,22 @@ export default function Portofoliu({language}) {
             {language === "UK" && ( <p className="subTitle" style={{ marginBottom: "40px" }}>Below I present some personal creations</p> )}
             {language === "RO" &&
                 <div className="selectProject">
-                    <Button variant="outline-dark" className="selectButton" onClick={() => setView("All")}>Toate</Button>
-                    <Button variant="outline-dark" className="selectButton" onClick={() => setView("Website-uri")}>Website-uri</Button>
-                    <Button variant="outline-dark" className="selectButton" onClick={() => setView("Hackathon")}>Hackathon</Button>
-                    <Button variant="outline-dark" className="selectButton" onClick={() => setView("Jocuri")}>Jocuri</Button>
-                    <Button variant="outline-dark" className="selectButton" onClick={() => setView("Proiecte")}>Proiecte / Teme</Button>
-                    <Button variant="outline-dark" className="selectButton" onClick={() => setView("Departament")}>Proiecte Departamentul IT</Button>
+                    <Button variant="outline-dark" className={view === "All" ? "selectButton" : "noSelectButton"} onClick={() => setView("All")}>Toate</Button>
+                    <Button variant="outline-dark" className={view === "Website-uri" ? "selectButton" : "noSelectButton"} onClick={() => setView("Website-uri")}>Website-uri</Button>
+                    <Button variant="outline-dark" className={view === "Hackathon" ? "selectButton" : "noSelectButton"} onClick={() => setView("Hackathon")}>Hackathon</Button>
+                    <Button variant="outline-dark" className={view === "Jocuri" ? "selectButton" : "noSelectButton"} onClick={() => setView("Jocuri")}>Jocuri</Button>
+                    <Button variant="outline-dark" className={view === "Proiecte" ? "selectButton" : "noSelectButton"} onClick={() => setView("Proiecte")}>Proiecte / Teme</Button>
+                    <Button variant="outline-dark" className={view === "Departament" ? "selectButton" : "noSelectButton"} onClick={() => setView("Departament")}>Proiecte Departamentul IT</Button>
                 </div>
             }
             {language === "UK" &&
                 <div className="selectProject">
-                    <Button variant="outline-dark" className="selectButton" onClick={() => setView("All")}>All</Button>
-                    <Button variant="outline-dark" className="selectButton" onClick={() => setView("Website-uri")}>Websites</Button>
-                    <Button variant="outline-dark" className="selectButton" onClick={() => setView("Hackathon")}>Hackathon</Button>
-                    <Button variant="outline-dark" className="selectButton" onClick={() => setView("Jocuri")}>Games</Button>
-                    <Button variant="outline-dark" className="selectButton" onClick={() => setView("Proiecte")}>Projects / Homeworks</Button>
-                    <Button variant="outline-dark" className="selectButton" onClick={() => setView("Departament")}>IT Department Projects</Button>
+                    <Button variant="outline-dark" className={view === "All" ? "selectButton" : "noSelectButton"} onClick={() => setView("All")}>All</Button>
+                    <Button variant="outline-dark" className={view === "Website-uri" ? "selectButton" : "noSelectButton"} onClick={() => setView("Website-uri")}>Websites</Button>
+                    <Button variant="outline-dark" className={view === "Hackathon" ? "selectButton" : "noSelectButton"} onClick={() => setView("Hackathon")}>Hackathon</Button>
+                    <Button variant="outline-dark" className={view === "Jocuri" ? "selectButton" : "noSelectButton"} onClick={() => setView("Jocuri")}>Games</Button>
+                    <Button variant="outline-dark" className={view === "Proiecte" ? "selectButton" : "noSelectButton"} onClick={() => setView("Proiecte")}>Projects / Homeworks</Button>
+                    <Button variant="outline-dark" className={view === "Departament" ? "selectButton" : "noSelectButton"} onClick={() => setView("Departament")}>IT Department Projects</Button>
                 </div>
             }
             {(view === "All" || view === "Website-uri") && 
