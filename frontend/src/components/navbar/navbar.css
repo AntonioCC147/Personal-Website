@@ -96,3 +96,23 @@
         margin-right: 0px;
     }
 }
+
+@media only screen and (max-width: 550px) {
+    .navbar {
+        margin-left: 25px !important;
+        margin-right: 25px !important;
+
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .navbar {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}
