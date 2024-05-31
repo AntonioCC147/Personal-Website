@@ -19,45 +19,42 @@ export default function NavbarHeader({language, setLanguage}) {
     }
 
     return (
-        <div>
-            <Navbar collapseOnSelect expand="xxl" variant="dark" fixed="top" style={{background: "linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%)", marginBottom: '50px', minHeight: "75px"}}>
-                <Container className="anta">
-                    <Navbar.Brand><a href="/"><img src={Icon} alt="Icon" style={{width: "35px"}}/></a></Navbar.Brand>
-                    <Navbar.Brand style={{fontWeight: "bold"}} href="/">
-                        <span style={{fontSize: "18px"}}>&lt; A</span>ntonio <span style={{fontSize: "18px"}}>C</span>rantea<span style={{fontSize: "18px"}}> /&gt;</span>
-                    </Navbar.Brand>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="me-auto navbarCenter">
-                            {language === "RO" && ( <Nav.Link href="/" className={isCurrentPage('/')}>Acasă</Nav.Link> )}
-                            {language === "UK" && ( <Nav.Link href="/" className={isCurrentPage('/')}>Home</Nav.Link> )}
-                            {language === "RO" && ( <Nav.Link href="/despre" className={isCurrentPage('/despre')}>Despre mine & FAQ</Nav.Link> )}
-                            {language === "UK" && ( <Nav.Link href="/about" className={isCurrentPage('/about')}>About me & FAQ</Nav.Link> )}
-                            {language === "RO" && ( <Nav.Link href="/profesor" className={isCurrentPage('/profesor')}>Profesor</Nav.Link> )}
-                            {language === "UK" && ( <Nav.Link href="/teacher" className={isCurrentPage('/teacher')}>Teacher</Nav.Link> )}
-                            {language === "RO" && ( <Nav.Link href="/portofoliu" className={isCurrentPage('/portofoliu')}>Portofoliu</Nav.Link> )}
-                            {language === "UK" && ( <Nav.Link href="/portofolio" className={isCurrentPage('/portofolio')}>Portfolio</Nav.Link> )}
-                            {/*{language ==="RO" && ( <Nav.Link href="/meditatii" className={isCurrentPage('/meditatii')}>Meditații</Nav.Link> )}*/}
-                            {/*{{language ==="UK" && ( <Nav.Link href="/meditatii" className={isCurrentPage('/meditatii')}>Mentoring</Nav.Link> )}*/}
-                            {(language === "RO" || language === "UK") && ( <Nav.Link href="https://tan-charlotte-39.tiiny.site/" target="_blank" className={isCurrentPage('/cv')}>CV</Nav.Link> )}
-                            <Nav.Link href="/contact" className={isCurrentPage('/contact')}>Contact</Nav.Link>
-                        </Nav>
-                        <Nav>
-                            {language === "RO" && (
-                                <Button variant="outline-light" onClick={() => setLanguage("UK")}>
-                                    <img src={uk} style={{width: "20px"}} alt="UK"/>{' '}UK
-                                </Button>
-                            )}
-                            {language === "UK" && (
-                                <Button variant="outline-light" onClick={() => setLanguage("RO")}>
-                                    <img src={ro} style={{width: "20px"}} alt="RO"/>{' '}RO
-                                </Button>
-                            )}
-                        </Nav>
-                    </Navbar.Collapse>
-                </Container>
-            </Navbar>
-            <div style={{ paddingTop: "50px" }}/>
-      </div>
+        <Navbar collapseOnSelect expand="xxl" variant="dark" fixed="top" style={{background: "linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%)", marginBottom: '50px', minHeight: "75px"}}>
+            <Container className="anta">
+                <Navbar.Brand><a href="/"><img src={Icon} alt="Icon" style={{width: "35px"}}/></a></Navbar.Brand>
+                <Navbar.Brand style={{fontWeight: "bold"}} href="/">
+                    <span style={{fontSize: "18px"}}>&lt; A</span>ntonio <span style={{fontSize: "18px"}}>C</span>rantea<span style={{fontSize: "18px"}}> /&gt;</span>
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                    <Nav className="me-auto navbarCenter">
+                        {language === "RO" && ( <Nav.Link href="/" className={isCurrentPage('/')}>Acasă</Nav.Link> )}
+                        {language === "UK" && ( <Nav.Link href="/" className={isCurrentPage('/')}>Home</Nav.Link> )}
+                        {language === "RO" && ( <Nav.Link href="/despre" className={isCurrentPage('/despre')}>Despre mine & FAQ</Nav.Link> )}
+                        {language === "UK" && ( <Nav.Link href="/about" className={isCurrentPage('/about')}>About me & FAQ</Nav.Link> )}
+                        {language === "RO" && ( <Nav.Link href="/profesor" className={isCurrentPage('/profesor')}>Profesor</Nav.Link> )}
+                        {language === "UK" && ( <Nav.Link href="/teacher" className={isCurrentPage('/teacher')}>Teacher</Nav.Link> )}
+                        {language === "RO" && ( <Nav.Link href="/portofoliu" className={isCurrentPage('/portofoliu')}>Portofoliu</Nav.Link> )}
+                        {language === "UK" && ( <Nav.Link href="/portofolio" className={isCurrentPage('/portofolio')}>Portfolio</Nav.Link> )}
+                        {/*{language ==="RO" && ( <Nav.Link href="/meditatii" className={isCurrentPage('/meditatii')}>Meditații</Nav.Link> )}*/}
+                        {/*{{language ==="UK" && ( <Nav.Link href="/meditatii" className={isCurrentPage('/meditatii')}>Mentoring</Nav.Link> )}*/}
+                        {(language === "RO" || language === "UK") && ( <Nav.Link href="https://tan-charlotte-39.tiiny.site/" target="_blank" className={isCurrentPage('/cv')}>CV</Nav.Link> )}
+                        <Nav.Link href="/contact" className={isCurrentPage('/contact')}>Contact</Nav.Link>
+                    </Nav>
+                    <Nav>
+                        {language === "RO" && (
+                            <Button variant="outline-light" onClick={() => setLanguage("UK")}>
+                                <img src={uk} style={{width: "20px"}} alt="UK"/>{' '}UK
+                            </Button>
+                        )}
+                        {language === "UK" && (
+                            <Button variant="outline-light" onClick={() => setLanguage("RO")}>
+                                <img src={ro} style={{width: "20px"}} alt="RO"/>{' '}RO
+                            </Button>
+                        )}
+                    </Nav>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
     )
 }

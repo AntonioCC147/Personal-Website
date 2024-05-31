@@ -11,6 +11,7 @@ import Mate from '../../assets/profesor/Mate.png';
 import Tehn from '../../assets/profesor/Tehn.png';
 import Verify from '../../assets/profesor/Verify.png';
 
+import '../../components/containers/text.css';
 import './profesor.css';
 
 export default function Profesor({language}) {

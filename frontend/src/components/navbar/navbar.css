@@ -1,3 +1,10 @@
+.navbar {
+    margin: 25px 50px 0px 50px !important;
+    padding: 10px 50px 10px 50px !important;
+
+    border-radius: 50px;
+}
+
 .navbarCenter {
     display: flex;
     justify-content: center;

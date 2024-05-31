@@ -1,4 +1,6 @@
 .principalImg {
+    margin-top: -25px;
+
     height: 100vh;
 
     background-image: url("../../assets/photos/PrincipalImg.jpg");
@@ -18,7 +20,7 @@
 }
 
 .name {
-    margin-top: 10%;
+    margin-top: 20%;
 
     font-size: 65px;
     font-weight: bolder;
