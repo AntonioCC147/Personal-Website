@@ -15,15 +15,15 @@ import './meditatii.css';
 export default function Meditatii({language}) {
     return (
         <Container className="text-center anta">
-            {language === "RO" && ( <p className="title">&lt; Meditatii /&gt;</p> )}
+            {language === "RO" && ( <p className="title">&lt; Meditații /&gt;</p> )}
             {language === "UK" && ( <p className="title">&lt; Mentoring /&gt;</p> )}
             {language === "RO" && ( <p className="subTitle">Dorești să devii o persoană mai bună și să-ți întreci limitele?</p> )}
             {language === "UK" && ( <p className="subTitle">Do you want to become a better person and give back your limitations?</p> )}
             {language === "UK" && ( <p className="subTitle" style={{color: "red", fontWeight: "bolder"}}>The mentoring take place strictly in the Romanian language!</p> )}
             <Row>
-                <Col sm={4}>
+                <Col lg={4}>
                     {language === "RO" && (
-                        <div className="meditatiiContainer">
+                        <div className="meditatiiContainer meditatiiContainerDown">
                             <img src={Mate} style={{marginTop: "10px", width: "25%"}} alt="React"/>
                             <p className="meditatiiTitle">Matematică</p>
                             <p className="meditatiiPrice">100 lei / 1 oră și jumătate | 75 de lei / 1 oră</p>
@@ -46,7 +46,7 @@ export default function Meditatii({language}) {
                         </div>
                     )}
                     {language === "UK" && (
-                        <div className="meditatiiContainer">
+                        <div className="meditatiiContainer meditatiiContainerDown">
                             <img src={Mate} style={{ marginTop: "10px", width: "25%" }} alt="React"/>
                             <p className="meditatiiTitle">Mathematics</p>
                             <p className="meditatiiPrice">100 lei / 1 hour and half | 75 lei / 1 hour</p>
@@ -69,7 +69,7 @@ export default function Meditatii({language}) {
                         </div>
                     )}
                 </Col>
-                <Col sm={4}>
+                <Col lg={4}>
                     {language === "RO" && (
                         <div className="meditatiiContainer">
                             <img src={Info} style={{marginTop: "10px", width: "25%"}} alt="React"/>
@@ -119,9 +119,9 @@ export default function Meditatii({language}) {
                         </div>
                     )}
                 </Col>
-                <Col sm={4}>
+                <Col lg={4}>
                     {language === "RO" && (
-                        <div className="meditatiiContainer">
+                        <div className="meditatiiContainer meditatiiContainerDown">
                             <img src={Tehn} style={{marginTop: "10px", width: "25%"}} alt="React"/>
                             <p className="meditatiiTitle">Tehnologii Web</p>
                             <p className="meditatiiPrice">100 lei / 1 oră și jumătate | 75 de lei / 1 oră</p>
@@ -145,7 +145,7 @@ export default function Meditatii({language}) {
                         </div>
                     )}
                     {language === "UK" && (
-                        <div className="meditatiiContainer">
+                        <div className="meditatiiContainer meditatiiContainerDown">
                             <img src={Tehn} style={{ marginTop: "10px", width: "25%" }} alt="React"/>
                             <p className="meditatiiTitle">Web Technologies</p>
                             <p className="meditatiiPrice">100 lei / 1 hour | 75 lei / 1 hour</p>

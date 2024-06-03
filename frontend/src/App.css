@@ -51,3 +51,11 @@
 .anta {
   font-family: anta;
 }
+
+.navbar-toggler-icon {
+  background-image: url('./assets/icons/Burger.png') !important;
+}
+
+.navbar-toggler {
+  border-color: transparent !important;
+}

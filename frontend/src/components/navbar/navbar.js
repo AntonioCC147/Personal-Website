@@ -32,10 +32,10 @@ export default function NavbarHeader({language, setLanguage}) {
                         {language === "UK" && ( <Nav.Link href="/" className={isCurrentPage('/')}>Home</Nav.Link> )}
                         {language === "RO" && ( <Nav.Link href="/despre" className={isCurrentPage('/despre')}>Despre mine & FAQ</Nav.Link> )}
                         {language === "UK" && ( <Nav.Link href="/about" className={isCurrentPage('/about')}>About me & FAQ</Nav.Link> )}
-                        {language === "RO" && ( <Nav.Link href="/profesor" className={isCurrentPage('/profesor')}>Profesor</Nav.Link> )}
-                        {language === "UK" && ( <Nav.Link href="/teacher" className={isCurrentPage('/teacher')}>Teacher</Nav.Link> )}
                         {language === "RO" && ( <Nav.Link href="/portofoliu" className={isCurrentPage('/portofoliu')}>Portofoliu</Nav.Link> )}
                         {language === "UK" && ( <Nav.Link href="/portofolio" className={isCurrentPage('/portofolio')}>Portfolio</Nav.Link> )}
+                        {language === "RO" && ( <Nav.Link href="/profesor" className={isCurrentPage('/profesor')}>Profesor</Nav.Link> )}
+                        {language === "UK" && ( <Nav.Link href="/teacher" className={isCurrentPage('/teacher')}>Teacher</Nav.Link> )}
                         {/*{language ==="RO" && ( <Nav.Link href="/meditatii" className={isCurrentPage('/meditatii')}>Meditații</Nav.Link> )}*/}
                         {/*{{language ==="UK" && ( <Nav.Link href="/meditatii" className={isCurrentPage('/meditatii')}>Mentoring</Nav.Link> )}*/}
                         {(language === "RO" || language === "UK") && ( <Nav.Link href="https://tan-charlotte-39.tiiny.site/" target="_blank" className={isCurrentPage('/cv')}>CV</Nav.Link> )}

@@ -1,3 +1,13 @@
+.titleFeedback {
+    margin-top: -75px;
+    padding: 100px 0px 0px 0px;
+
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
 .feedbackNameText {
     margin-top: 10px;
 

@@ -1,5 +1,5 @@
 .meditatiiContainer {
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 
     border-style: groove;
     border-width: 2px;
@@ -11,8 +11,8 @@
     background-color: #eeeeee6f;
 }
 
-.meditatiiContainer:hover {
-    transform: scale(1.05);
+.meditatiiContainerDown {
+    margin-top: 25px;
 }
 
 .meditatiiTitle {
@@ -58,4 +58,10 @@
     height: 50px;
 
     text-align: center;
+}
+
+@media only screen and (max-width: 990px) {
+    .meditatiiContainerDown {
+        margin-top: 0px;
+    }
 }

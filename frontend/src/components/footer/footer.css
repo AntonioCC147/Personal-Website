@@ -16,3 +16,21 @@
 .footerArrow:hover {
     transform: scale(1.05);
 }
+
+.footerUp {
+    margin-top: -30px;
+}
+
+.textUp {
+    margin-top: -75px;
+}
+
+@media only screen and (max-width: 800px) {
+    .footerUp {
+        margin-top: -25px !important;
+    }
+
+    .textUp {
+        margin-top: 0px;
+    }
+}
