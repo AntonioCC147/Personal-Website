@@ -11,7 +11,7 @@ import './cv.css';
 
 export default function CV({language}) {
     return (
-        <Container className="anta">
+        <Container className="anta containerWaveText">
             <Row>
                 <Col>
                     <p className="title">&lt; Curriculum Vitae /&gt;</p>

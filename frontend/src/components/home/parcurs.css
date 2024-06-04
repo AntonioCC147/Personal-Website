@@ -1,3 +1,12 @@
+.titleParcurs {
+    margin: 0px;
+    padding-top: 0px;
+
+    text-align: center;
+    font-size: 30px !important;
+    font-weight: bold;
+}
+
 .imgParcurs {
     border: 5px solid gray !important;
     position: relative;
@@ -50,27 +59,61 @@
 }
 
 @media only screen and (max-width: 850px) {
-    .imgParcurs{
+    .imgParcurs {
         width: 100px;
         height: 100px;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    .titleParcurs{
+    .titleParcurs {
         font-size: 20px;
     }
 
-    .periodParcurs{
+    .periodParcurs {
         font-size: 16px;
     }
 
-    .descriptionParcurs{
+    .descriptionParcurs {
         font-size: 14px;
     }
 
-    .imgParcurs{
+    .imgParcurs {
         width: 75px;
         height: 75px;
+    }
+}
+
+.containerWaveDown {
+    margin-top: -25px;
+}
+
+@media only screen and (max-width: 800px) {
+    .containerWaveUp {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .containerWaveUp {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .containerWaveUp {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .containerWaveDown {
+        margin-top: -5px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .titleParcurs {
+        padding-top: 25px !important;
     }
 }

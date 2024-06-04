@@ -58,13 +58,13 @@ ul {
     align-items: center;
 }
 
-.color-bar-JavaScript span{
+.color-bar-JavaScript span {
     width: 20%;
     float: left;
     height: 10px;
 }
 
-.yellow{
+.yellow {
     background: #FFD117;
     height: 5px;
     display: block;
@@ -77,13 +77,13 @@ ul {
     margin-left: 5px;
 }
 
-.color-bar-HTML span{
+.color-bar-HTML span {
     width: 15%;
     float: left;
     height: 10px;
 }
 
-.orange1{
+.orange1 {
     background: #FFAA17;
     height: 5px;
     display: block;
@@ -95,13 +95,13 @@ ul {
     margin: 5px;
 }
 
-.color-bar-CSS span{
+.color-bar-CSS span {
     width: 15%;
     float: left;
     height: 10px;
 }
 
-.purple{
+.purple {
     background: #800080;
     height: 5px;
     display: block;
@@ -113,13 +113,13 @@ ul {
     margin: 5px;
 }
 
-.color-bar-CPP span{
+.color-bar-CPP span {
     width: 20%;
     float: left;
     height: 10px;
 }
 
-.pink{
+.pink {
     background: #eea7b3;
     height: 5px;
     display: block;
@@ -131,13 +131,13 @@ ul {
     margin: 5px;
 }
 
-.color-bar-C span{
+.color-bar-C span {
     width: 20%;
     float: left;
     height: 10px;
 }
 
-.gray{
+.gray {
     background: gray;
     height: 5px;
     display: block;
@@ -149,13 +149,13 @@ ul {
     margin: 5px;
 }
 
-.color-bar-Matlab span{
+.color-bar-Matlab span {
     width: 5%;
     float: left;
     height: 10px;
 }
 
-.orange2{
+.orange2 {
     background: #ffb83e;
     height: 5px;
     display: block;
@@ -167,13 +167,13 @@ ul {
     margin: 5px;
 }
 
-.color-bar-Others span{
+.color-bar-Others span {
     width: 5%;
     float: left;
     height: 10px;
 }
 
-.green{
+.green {
     background: #BBD07B;
     height: 5px;
     display: block;
@@ -184,6 +184,10 @@ ul {
     content: "•";
     color: #BBD07B;
     margin: 5px;
+}
+
+.containerWaveText {
+    margin-top: -150px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -211,5 +215,11 @@ ul {
     .imgCV {
         width: 250px;
         height: 250px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .containerWaveText {
+        margin-top: -100px;
     }
 }
