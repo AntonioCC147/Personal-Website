@@ -11,7 +11,7 @@ import '../../components/containers/principalContainer.css';
 
 export default function DespreMine({language}) {
     return (
-        <div>
+        <div style={{marginLeft: "25px", marginRight: "25px"}}>
             <Container className="bg-dark principalContainer text-center anta">
                 {language === "RO" && ( <div className="principalTitle anta">&lt; Despre mine /&gt;</div> )}
                 {language === "UK" && ( <div className="principalTitle anta">&lt; About me /&gt;</div> )}

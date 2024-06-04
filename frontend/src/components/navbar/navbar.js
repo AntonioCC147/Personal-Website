@@ -43,12 +43,12 @@ export default function NavbarHeader({language, setLanguage}) {
                     </Nav>
                     <Nav>
                         {language === "RO" && (
-                            <Button variant="outline-light" onClick={() => setLanguage("UK")}>
+                            <Button style={{width: "75px"}} variant="outline-light" onClick={() => setLanguage("UK")}>
                                 <img src={uk} style={{width: "20px"}} alt="UK"/>{' '}UK
                             </Button>
                         )}
                         {language === "UK" && (
-                            <Button variant="outline-light" onClick={() => setLanguage("RO")}>
+                            <Button style={{width: "75px"}} variant="outline-light" onClick={() => setLanguage("RO")}>
                                 <img src={ro} style={{width: "20px"}} alt="RO"/>{' '}RO
                             </Button>
                         )}
