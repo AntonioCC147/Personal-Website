@@ -84,16 +84,16 @@ export default function Skills({language}) {
                 <Col lg={4}>
                     <div className="skillsContainerLeft">
                         <img src={MatlabIcon} style={{marginTop: "10px", width: "25%"}} alt="React"/>
-                        <p className="skillsTitle">Matlab</p>
+                        <p className="skillsTitle">MATLAB</p>
                         {language === "RO" && (
                             <p className="skillsDescription">
-                                Matlab reprezintă un limbaj pe care l-am utilizat în prima parte a anului universitar 2022-2023.
+                                MATLAB reprezintă un limbaj pe care l-am utilizat în prima parte a anului universitar 2022-2023.
                                 Urmează să îl mai întâlnesc pe parcursul facultății, iar eu nu îl consider un limbaj greu de învățat.
                             </p>
                         )}
                         {language === "UK" && (
                             <p className="skillsDescription">
-                                Matlab is a language that I used in the first part of the academic year 2022-2023.
+                                MATLAB is a language that I used in the first part of the academic year 2022-2023.
                                 I'm going to meet it again during college, and I don't consider it a difficult language to learn.
                             </p>
                         )}

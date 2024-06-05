@@ -193,28 +193,28 @@ ul {
 @media only screen and (max-width: 1000px) {
     .imgCV {
         width: 250px;
-        height: 250px;
+        height: 230px;
     }
 }
 
 @media only screen and (max-width: 800px) {
     .imgCV {
         width: 200px;
-        height: 200px;
+        height: 175px;
     }
 }
 
 @media only screen and (max-width: 600px) {
     .imgCV {
         width: 150px;
-        height: 150px;
+        height: 130px;
     }
 }
 
 @media only screen and (max-width: 570px) {
     .imgCV {
         width: 250px;
-        height: 250px;
+        height: 230px;
     }
 }
 

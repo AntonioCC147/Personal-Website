@@ -173,7 +173,7 @@ const Experience = ({language}) => {
                     <Row>
                         <p className="titleCV">Experiență</p><hr/>
                         <Col sm={8}>
-                            <li className="listCV">Asistent de Laborator</li>
+                            <li className="listCV">Asistent la Laborator</li>
                         </Col>
                         <Col sm={4} style={{textAlign: "right"}}>
                             Octombrie 2023 - Prezent
@@ -181,8 +181,9 @@ const Experience = ({language}) => {
                     </Row>
                     <Row style={{marginRight: "60px"}}>
                         <p className="descriptionList2CV" >
-                            Am ajutat peste 100 de studenții la laboratoare să înțeleagă conceptele de bază și avansate ale
-                            disciplinelor Programare Calculatoarelor și Structuri de Date și Algoritmi.
+                            Ajut peste 100 de studenții pe an la laboratoare să înțeleagă conceptele de bază și avansate ale
+                            disciplinelor Programare Calculatoarelor, Structuri de Date și Algoritmi, Programare Orientată pe
+                            Obiect și Tehnologii Web.
                         </p>
                     </Row>
                 </div>
@@ -200,8 +201,9 @@ const Experience = ({language}) => {
                     </Row>
                     <Row style={{marginRight: "60px"}}>
                         <p className="descriptionList2CV" >
-                            Helped more than 100 students at laboratories to understand the basic and advanced concepts of
-                            Computer Programming and Data Structures and Algorithms subjects.
+                            Helped more than 100 students per year at laboratories to understand the concepts of Computer
+                            Programming, Data Structures and Algorithms, Object Oriented Programming and Web Technologies
+                            subjects.
                         </p>
                     </Row>
                 </div>
