@@ -51,7 +51,7 @@ export default function Skills({language}) {
                         )}
                         {language === "UK" && (
                             <p className="skillsDescription">
-                                HTML & CSS are the most basic languages ​​a program needs to know. I began to
+                                HTML & CSS are the most basic languages a program needs to know. I began to
                                 I work more with these last year when I completed the "Informatics Certificate" for high school,
                                 and later in all the projects I was working on and in React, being 100% necessary.
                             </p>
@@ -72,8 +72,8 @@ export default function Skills({language}) {
                         {language === "UK" && (
                             <p className="skillsDescription">
                                 C & C++ are also the most basic programming languages. I did C++ in high school for 4
-                                years, and I started doing C in college. Both languages ​​are pleasant and quite familiar to me.
-                                I am going to delve even more into these languages ​​in my university courses.
+                                years, and I started doing C in college. Both languages are pleasant and quite familiar to me.
+                                I am going to delve even more into these languages in my university courses.
                             </p>
                         )}
                     </div>
@@ -87,13 +87,13 @@ export default function Skills({language}) {
                         <p className="skillsTitle">Matlab</p>
                         {language === "RO" && (
                             <p className="skillsDescription">
-                                Matlab reprezintă un limbaj pe care l-am utilizat în prima parte a anului universitar 2020-2023.
+                                Matlab reprezintă un limbaj pe care l-am utilizat în prima parte a anului universitar 2022-2023.
                                 Urmează să îl mai întâlnesc pe parcursul facultății, iar eu nu îl consider un limbaj greu de învățat.
                             </p>
                         )}
                         {language === "UK" && (
                             <p className="skillsDescription">
-                                Matlab is a language that I used in the first part of the academic year 2020-2023.
+                                Matlab is a language that I used in the first part of the academic year 2022-2023.
                                 I'm going to meet it again during college, and I don't consider it a difficult language to learn.
                             </p>
                         )}
