@@ -27,6 +27,10 @@ import ProiectFreelancer from '../../assets/projects/ProiectFreelancer.jpg';
     import Freelancer1 from '../../assets/projects/Freelancer1.jpg';
     import Freelancer2 from '../../assets/projects/Freelancer2.jpg';
     import Freelancer3 from '../../assets/projects/Freelancer3.jpg';
+import ProiectFreelancer2 from '../../assets/projects/ProiectFreelancer2.jpg';
+    import Freelancer21 from '../../assets/projects/Freelancer21.jpg';
+    import Freelancer22 from '../../assets/projects/Freelancer22.jpg';
+    import Freelancer23 from '../../assets/projects/Freelancer23.jpg';
 import ProiectMentoring from '../../assets/projects/ProiectMentoring.jpg';
     import Mentoring1 from '../../assets/projects/Mentoring1.jpg';
     import Mentoring2 from '../../assets/projects/Mentoring2.jpg';
@@ -224,25 +228,51 @@ export default function Portofoliu({language}) {
                                 <PortofoliuCard
                                     language="RO" linkToProject="yes" linkToGitHub="yes"
                                     img={ProiectFreelancer} img1={Freelancer1} img2={Freelancer2} img3={Freelancer3}
-                                    title={<>Designer - Web App</>}
+                                    title={<>Designer1 - Web App</>}
                                     description={<>Website-ul este destinat portofoliului unui designer care dorești să-și promoveze
                                     serviciile prin intermediul unei platform online.</>}
                                     technology={<>React, JavaScript, HTML, Bootstrap, CSS</>}
-                                    git="https://github.com/AntonioCC147/Designer-Website" adress="https://designer-app.netlify.app/"
+                                    git="https://github.com/AntonioCC147/Designer-Website" adress="https://designer1-app.netlify.app/"
                                 />
                             )}
                             {language === "UK" && (
                                 <PortofoliuCard
                                     language="UK" linkToProject="yes" linkToGitHub="yes"
                                     img={ProiectFreelancer} img1={Freelancer1} img2={Freelancer2} img3={Freelancer3}
-                                    title={<>Designer - Web App</>}
+                                    title={<>Designer1 - Web App</>}
                                     description={<>The website is intended for the portfolio of a designer you want to promote services
                                     through an online platform.</>}
                                     technology={<>React, JavaScript, HTML, Bootstrap, CSS</>}
-                                    git="https://github.com/AntonioCC147/Designer-Website" adress="https://designer-app.netlify.app/"
+                                    git="https://github.com/AntonioCC147/Designer-Website" adress="https://designer1-app.netlify.app/"
                                 />
                             )}
                         </Col>
+                        <Col>
+                            {language === "RO" && (
+                                <PortofoliuCard
+                                    language="RO" linkToProject="yes" linkToGitHub="yes"
+                                    img={ProiectFreelancer2} img1={Freelancer21} img2={Freelancer22} img3={Freelancer23}
+                                    title={<>Designer2 - Web App</>}
+                                    description={<>Acest proiect reprezintă un Landing Page creat în scop educativ, în cadrul cursului
+                                    de Tehnologii Web unde predau React.</>}
+                                    technology={<>React, JavaScript, HTML, Bootstrap, CSS</>}
+                                    git="https://github.com/AntonioCC147/Designer-Website-2" adress="https://designer2-app.netlify.app/"
+                                />
+                            )}
+                            {language === "UK" && (
+                                <PortofoliuCard
+                                    language="UK" linkToProject="yes" linkToGitHub="yes"
+                                    img={ProiectFreelancer2} img1={Freelancer21} img2={Freelancer22} img3={Freelancer23}
+                                    title={<>Designer2 - Web App</>}
+                                    description={<>This project represents a Landing Page created for educational purposes, within the
+                                    course of Web Technologies where I teach React.</>}
+                                    technology={<>React, JavaScript, HTML, Bootstrap, CSS</>}
+                                    git="https://github.com/AntonioCC147/Designer-Website-2" adress="https://designer2-app.netlify.app/"
+                                />
+                            )}
+                        </Col>
+                    </Row>
+                    <Row>
                         <Col>
                             {language === "RO" && (
                                 <PortofoliuCard
@@ -267,8 +297,6 @@ export default function Portofoliu({language}) {
                                 />
                             )}
                         </Col>
-                    </Row>
-                    <Row>
                         <Col>
                             {language === "RO" && (
                                 <PortofoliuCard
