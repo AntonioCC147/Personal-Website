@@ -141,7 +141,7 @@ export default function Profesor({language}) {
                                 <p className="teacherTitle">Informatică</p>
                                 <p className="teacherLanguage">Limbajele C / C++</p>
                                 <p className="teacherData">August 2021 - Prezent</p>
-                                <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}100+ elevi ajutați</p>
+                                <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}200+ elevi ajutați</p>
                                 <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}Suport la școală (aprofundare, teme, teste)</p>
                                 <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}Suport la examenul de bacalaureat</p>
                                 <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}Suport la examenul de admitere (UPB, UniBuc)</p>
@@ -152,7 +152,7 @@ export default function Profesor({language}) {
                                 <p className="teacherTitle">Computer Science</p>
                                 <p className="teacherLanguage">C / C++ Languages</p>
                                 <p className="teacherData">August 2021 - Present</p>
-                                <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}100+ students helped</p>
+                                <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}200+ students helped</p>
                                 <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}School support (study, homework, tests)</p>
                                 <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}Support for the baccalaureate exam</p>
                                 <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}Support for the entrance exam (UPB, UniBuc)</p>
@@ -168,7 +168,7 @@ export default function Profesor({language}) {
                                 <p className="teacherTitle">Matematică</p>
                                 <p className="teacherLanguage">Algebră, Geometrie, Analiză</p>
                                 <p className="teacherData">Septembrie 2022 - Prezent</p>
-                                <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}10+ elevi ajutați</p>
+                                <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}50+ elevi ajutați</p>
                                 <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}Suport la școală (aprofundare, teme, teste)</p>
                                 <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}Suport la examenul de bacalaureat</p>
                             </>
@@ -178,7 +178,7 @@ export default function Profesor({language}) {
                                 <p className="teacherTitle">Mathematics</p>
                                 <p className="teacherLanguage">Algebra, Geometry, Analysis</p>
                                 <p className="teacherData">September 2022 - Present</p>
-                                <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}10+ students helped</p>
+                                <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}50+ students helped</p>
                                 <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}School support (study, homework, tests)</p>
                                 <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}Support for the baccalaureate exam</p>
                             </>
@@ -197,7 +197,7 @@ export default function Profesor({language}) {
                                 <p className="teacherTitle">Tehnologii Web</p>
                                 <p className="teacherLanguage">React, BootStrap, HTML, CSS, JavaScript</p>
                                 <p className="teacherData">Iulie 2023 - Prezent</p>
-                                <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}10+ elevi ajutați</p>
+                                <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}15+ elevi ajutați</p>
                                 <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}Suport la proiecte</p>
                             </>
                         )}
@@ -206,7 +206,7 @@ export default function Profesor({language}) {
                                 <p className="teacherTitle">Web Technologies</p>
                                 <p className="teacherLanguage">React, BootStrap, HTML, CSS, JavaScript</p>
                                 <p className="teacherData">July 2023 - Present</p>
-                                <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}10+ students helped</p>
+                                <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}15+ students helped</p>
                                 <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}Project support</p>
                             </>
                         )}
