@@ -195,7 +195,7 @@ export default function Profesor({language}) {
                         {language === "RO" && (
                             <>
                                 <p className="teacherTitle">Tehnologii Web</p>
-                                <p className="teacherLanguage">React, HTML, CSS, BootStrap</p>
+                                <p className="teacherLanguage">React, BootStrap, HTML, CSS, JavaScript</p>
                                 <p className="teacherData">Iulie 2023 - Prezent</p>
                                 <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}10+ elevi ajutați</p>
                                 <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}Suport la proiecte</p>
@@ -204,7 +204,7 @@ export default function Profesor({language}) {
                         {language === "UK" && (
                             <>
                                 <p className="teacherTitle">Web Technologies</p>
-                                <p className="teacherLanguage">React, HTML, CSS, BootStrap</p>
+                                <p className="teacherLanguage">React, BootStrap, HTML, CSS, JavaScript</p>
                                 <p className="teacherData">July 2023 - Present</p>
                                 <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}10+ students helped</p>
                                 <p className="teacherDescription"><img src={Verify} style={{width: "25px"}} alt="Verify"/>{' '}Project support</p>
